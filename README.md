@@ -3,7 +3,7 @@
 A living banlist of the words, phrases, and structural tics that signal AI-generated
 writing - the ones to flag and scrub from a draft before it goes out.
 
-Published at **[claudisms.ai](https://claudisms.ai/)**. Released into the public domain
+Published at **[claudisms.ai](https://claudisms.ai/)**, deployed automatically from this repository. Released into the public domain
 under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) - copy it, fork it,
 wire it into your own tooling, no attribution required.
 
