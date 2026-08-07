@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claudisms - a living banlist of AI-writing tells</title>
+<meta name="description" content="A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).">
+<style>
+  :root{
+    --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b655c; --rule:#e5e0d6;
+    --accent:#8a5a2b; --card:#ffffff; --max:760px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141312; --fg:#eae6df; --muted:#a49c8f; --rule:#2c2a26; --accent:#d0a06a; --card:#1b1a18; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:0 20px;
+  }
+  .wrap{max-width:var(--max); margin:0 auto; padding:56px 0 96px}
+  header.site{margin-bottom:8px}
+  .eyebrow{
+    font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--muted); font-weight:600;
+  }
+  h1{font-size:44px; line-height:1.05; margin:.15em 0 .35em; letter-spacing:-.02em}
+  .lede{color:var(--muted); font-size:17px; max-width:64ch}
+  .lede a{color:var(--accent)}
+  .dl{margin:14px 0 0; font-size:14px; font-weight:600}
+  .dl a{text-decoration:none; border-bottom:1px solid var(--accent)}
+  h2{
+    font-size:15px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:52px 0 8px; font-weight:700;
+  }
+  h3{font-size:17px; margin:28px 0 6px}
+  hr{border:0; border-top:1px solid var(--rule); margin:34px 0}
+  ul{list-style:none; margin:0; padding:0}
+  li{
+    padding:14px 0; border-bottom:1px solid var(--rule);
+    font-size:15.5px; color:var(--fg);
+  }
+  li:last-child{border-bottom:0}
+  li b, li strong{color:var(--fg); font-weight:700}
+  code{
+    font:13px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    background:rgba(138,90,43,.10); padding:2px 5px; border-radius:4px;
+  }
+  .note{color:var(--muted)}
+  footer.site{
+    margin-top:64px; padding-top:24px; border-top:1px solid var(--rule);
+    color:var(--muted); font-size:14px;
+  }
+  a{color:var(--accent)}
+</style>
+<link rel="canonical" href="https://claudisms.ai/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="alternate" type="text/markdown" href="/claudisms.md" title="Claudisms (Markdown)">
+<link rel="alternate" type="application/json" href="/claudisms.json" title="Claudisms (JSON)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Claudisms">
+<meta property="og:title" content="Claudisms - a living banlist of AI-writing tells">
+<meta property="og:description" content="A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).">
+<meta property="og:url" content="https://claudisms.ai/">
+<meta property="og:image" content="https://claudisms.ai/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Claudisms - a living banlist of AI-writing tells">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Claudisms - a living banlist of AI-writing tells">
+<meta name="twitter:description" content="A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).">
+<meta name="twitter:image" content="https://claudisms.ai/og.png">
+<!-- BEGIN:JSONLD -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "DefinedTermSet",
+ "@id": "https://claudisms.ai/#claudisms",
+ "name": "Claudisms",
+ "alternateName": "A living banlist of AI-writing tells",
+ "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
+ "url": "https://claudisms.ai/",
+ "inLanguage": "en",
+ "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "dateModified": "2026-08-07",
+ "hasDefinedTerm": [
+  {
+   "@type": "DefinedTerm",
+   "name": "sit with",
+   "description": "reflective-pose filler. Sounds thoughtful; doesn't say anything.",
+   "url": "https://claudisms.ai/#sit-with",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "worth sitting with"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "worth talking about",
+   "description": "value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as \"worth sitting with,\" and a specific instance of the broader cool-people rule in the style guide (\"never tell people what to think of something - cool people don't need to tell people they are cool\").",
+   "url": "https://claudisms.ai/#worth-talking-about",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "arriving at",
+   "description": "pseudo-reflective verb. Reaches for false depth where stating the thing directly or \"the question that won't leave\" would work. Often pairs with \"the question I keep…\" - same family as \"sit with.\" Note: \"keep coming back to\" was previously suggested as a replacement here; that's now banned in its own right (see \"coming back to\" entry below).",
+   "url": "https://claudisms.ai/#arriving-at",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "keep arriving at"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the question that kept coming up",
+   "description": "pseudo-reflective cleft. Frames a thought as a recurring question to add weight, when stating the question directly is stronger. Same family as \"arriving at.\" Note: \"What keeps coming up\" as a sentence opener (no \"the question\" cleft) is fine. The tic is the cleft construction.",
+   "url": "https://claudisms.ai/#the-question-that-kept-coming-up",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the question that keeps coming up",
+    "the question I keep coming back to"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "coming back to",
+   "description": "pseudo-reflective verb on its own, separate from the cleft form above. Reaches for false depth in any framing - \"the word I keep coming back to,\" \"the idea I keep coming back to,\" etc. Same family as \"arriving at\" and \"sit with.\"",
+   "url": "https://claudisms.ai/#coming-back-to",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "keep coming back to",
+    "keeps coming back to",
+    "I keep coming back to"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the thread I didn't plan but can't unsee",
+   "description": "discovery-arc framing. Stages a little narrative of stumbling onto an insight (didn't plan it -\u003e can't unsee it now) to lend the observation weight it should carry on its own. Same family as \"the question I keep coming back to\" - both manufacture a journey to dramatize a point - and it also trips the \"no narrative arc\" rule in the style guide (a week's articles aren't a story of the author discovering something). The observation should stand without the origin story. Cut the setup and state the thing: \"Every one of these turns on the same pivot.\" not \"The thread I didn't plan but can't unsee: every one of these…\"",
+   "url": "https://claudisms.ai/#the-thread-i-didn-t-plan-but-can-t-unsee",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the thing I didn't plan but keep noticing",
+    "I didn't set out to X, but",
+    "I didn't plan it, but",
+    "what I didn't expect to find"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the one that surprised me most",
+   "description": "false-singularity framing. Collapses a set into a single dramatic peak (the most, the one, the hardest) to manufacture emphasis - but the ranking is usually invented, not a deliberate ranking, and it reads unlike natural speech. Same family as the totalizing-superlative rule in the style guide (\"the whole game\"), but pointed at singularity/ranking rather than magnitude, and a cousin of the \"the question I keep coming back to\" cleft - both fabricate a focal point for drama. Just present the example or point plainly without crowning it: \"One example.\" not \"the example that surprised me most.\"",
+   "url": "https://claudisms.ai/#the-one-that-surprised-me-most",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "what struck me hardest",
+    "the part that stuck with me most",
+    "because it surprised me most",
+    "if I had to pick one"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the best thing you can do is",
+   "description": "crowned-superlative filler. Ranks one tactic, tool, or idea as the best or highest-value in a set, which is binary thinking dressed as a recommendation and quietly demotes everything else. Same family as the false-singularity entry (\"the one that surprised me most\") and the totalizing-superlative entry (\"the whole game\") - all manufacture a single peak. Present each thing on its merits; if one genuinely comes first, give the reason, not the crown. The scanner catches only these literal phrases; novel nouns/verbs in the slot slip past, so the \"Don't crown one item from a set\" rule on the style-guide checklist is the real backstop and must be run by hand.",
+   "url": "https://claudisms.ai/#the-best-thing-you-can-do-is",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the one that pays off most",
+    "where AI helps most",
+    "helps most",
+    "the most X you can get",
+    "the one that [verb]"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "physics",
+   "description": "pseudo-scientific metaphor reaching for grandeur. Means \"how something works\" or \"the conditions\" - say that instead. Same family as \"shape.\"",
+   "url": "https://claudisms.ai/#physics",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "different physics",
+    "rules of physics",
+    "the physics of"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "names",
+   "description": "(as verb, e.g., \"names the move,\" \"names the question,\" \"names what's at stake\") - pseudo-elevated diction. Sounds writerly; means \"says directly\" or \"spells out.\" Use the plain verb.",
+   "url": "https://claudisms.ai/#names",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "naming",
+   "description": "the gerund form of the same tic, used as a sentence-opener to lend false weight to the act of labeling something (\"Naming that changes what you expect,\" \"Naming the phase is the first step\"). Means \"calling it what it is\" or just \"recognizing\" - or cut the framing and state the consequence directly. Same family as \"names\" as a verb.",
+   "url": "https://claudisms.ai/#naming",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "naming that",
+    "naming it"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "quieter",
+   "description": "(used metaphorically about writing or argument, e.g., \"quieter version of the same thing,\" \"the louder claim\") - writerly metaphor that's opaque to readers. Means \"less explicit\" or \"more direct\" - say that.",
+   "url": "https://claudisms.ai/#quieter",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "louder"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "bumped into",
+   "description": "colloquial-feeling verb that sounds casual but lands as a writerly tic when reaching for spontaneity. \"Three things I ran into\" is sharper than \"three things I bumped into.\" \"Ran into\" is the natural choice.",
+   "url": "https://claudisms.ai/#bumped-into",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "shape",
+   "description": "(as in \"the shape of the experience,\" \"shape of the time,\" \"the shape of the trend\") - used constantly. When Claude reaches for \"shape\" it almost always means \"the way something feels,\" \"the structure of something,\" or \"the direction of something.\" Say that instead.",
+   "url": "https://claudisms.ai/#shape",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "lives",
+   "description": "(as metaphorical placement of abstract concepts, e.g., \"the risk lives somewhere specific,\" \"the work lives at the operator level,\" \"the tension lives in the gap\") - pseudo-anthropomorphic placement metaphor. Same family as \"shape\" - Claude reaches for a vivid placement verb where \"is,\" \"happens,\" or \"shows up\" would land plainer.",
+   "url": "https://claudisms.ai/#lives",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the engine",
+   "description": "(as metaphor for what drives or generates value, e.g., \"the challenge function is the engine,\" \"tension is the engine of growth,\" \"that dynamic is the engine\") - mechanical metaphor reaching for compactness and motion-feel. Means \"what works,\" \"what makes companies sharp,\" \"the productive part,\" or just cut the sentence and let surrounding lines do the work. Same family as \"shape\" and \"lives\" - Claude reaches for a vivid metaphor where direct statement is sharper.",
+   "url": "https://claudisms.ai/#the-engine",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "hits hardest",
+   "description": "(as in \"where commoditization hits hardest,\" \"when this hits hardest,\" \"the layer where AI lands hardest\") - superlative intensification reaching for dramatic-impact framing. Means \"is most exposed,\" \"is most affected,\" \"shows up first,\" or \"is most replaceable\" - say that. Same family as \"the engine\" and \"shape\" - Claude reaches for a vivid intensification verb where direct statement is sharper.",
+   "url": "https://claudisms.ai/#hits-hardest",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "hits the hardest",
+    "lands hardest",
+    "lands the hardest",
+    "strikes hardest",
+    "strikes the hardest"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "surface",
+   "description": "(as verb) - \"surface the insight,\" \"surface a pattern.\" Corporate-adjacent, vague.",
+   "url": "https://claudisms.ai/#surface",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the tell",
+   "description": "poker/diagnosis diction reaching for knowing-insider weight. Frames an observation as a secret giveaway the writer has cleverly spotted - same announce-your-own-cleverness move as the cool-people rule. It is not natural phrasing. Say plainly what the thing shows or means, or just state the observation: \"The song is the odd one out, and that's worth looking at\" -\u003e just say why it's different.",
+   "url": "https://claudisms.ai/#the-tell",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "that's the tell",
+    "the tell is"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "load-bearing",
+   "description": "engineering metaphor that's become a tic.",
+   "url": "https://claudisms.ai/#load-bearing",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the point is",
+   "description": "throat-clearing. Get to the point without announcing it.",
+   "url": "https://claudisms.ai/#the-point-is",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Here's where it gets interesting",
+   "description": "lecture-hall framing. Skips ahead without earning the turn.",
+   "url": "https://claudisms.ai/#here-s-where-it-gets-interesting",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Here's the analogy that clicked for me",
+   "description": "section-announcer plus performative-epiphany combo. Same family as \"Here's where it gets interesting\" - telegraphs incoming insight instead of delivering it. The \"that clicked / hit / landed / stuck (for me)\" suffix adds self-narration on top. Just open with the analogy/moment/thing directly.",
+   "url": "https://claudisms.ai/#here-s-the-analogy-that-clicked-for-me",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "Here's the moment that hit me",
+    "Here's the thing that landed",
+    "Here's the part that stuck"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "because it matters",
+   "description": "presumptuous. Tells the reader what to value before they've decided. Same family as \"Here's where it gets interesting.\" Just say the thing without prefacing why it deserves attention.",
+   "url": "https://claudisms.ai/#because-it-matters",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "this matters",
+    "and that matters"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the right time",
+   "description": "assertion-of-rightness filler. Variants on telling the reader what's correct. Same family as \"this matters\" - value-claim filler dressed up as conclusion. Specific instance of the cool-people rule in the style guide. Note: questions that contain \"right\" (e.g., a question paraphrased as \"are these the right ones\") are exempt - those are inquiries, not assertions.",
+   "url": "https://claudisms.ai/#the-right-time",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the right question",
+    "the right way",
+    "the right answer",
+    "the right tool"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "I can't stop thinking about",
+   "description": "false-intimacy cliche.",
+   "url": "https://claudisms.ai/#i-can-t-stop-thinking-about",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "at the end of the day",
+   "description": "corporate filler.",
+   "url": "https://claudisms.ai/#at-the-end-of-the-day",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "double-click on",
+   "description": "corporate-speak.",
+   "url": "https://claudisms.ai/#double-click-on",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "unpack",
+   "description": "overused reflective verb.",
+   "url": "https://claudisms.ai/#unpack",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "leverage",
+   "description": "(as verb) - corporate-speak.",
+   "url": "https://claudisms.ai/#leverage",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "lean into",
+   "description": "overused.",
+   "url": "https://claudisms.ai/#lean-into",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "lean out"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "come along",
+   "description": "too soft for definitive moments.",
+   "url": "https://claudisms.ai/#come-along",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "throughline",
+   "description": "buzzy and off-key.",
+   "url": "https://claudisms.ai/#throughline",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "dispatches from…",
+   "description": "frontier-dispatch tropes. Performative.",
+   "url": "https://claudisms.ai/#dispatches-from",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "field notes from the frontier"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "best operators",
+   "description": "hierarchy language to avoid; there are many valid approaches, not a single elite tier.",
+   "url": "https://claudisms.ai/#best-operators",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "top practitioners"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "first wave of a multi-year transition",
+   "description": "grandiose. Overclaiming.",
+   "url": "https://claudisms.ai/#first-wave-of-a-multi-year-transition",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "lessons learned",
+   "description": "too corporate.",
+   "url": "https://claudisms.ai/#lessons-learned",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "stakes of their seat",
+   "description": "retired.",
+   "url": "https://claudisms.ai/#stakes-of-their-seat",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "seat\" as metaphor generally",
+   "description": "spent.",
+   "url": "https://claudisms.ai/#seat-as-metaphor-generally",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "paradigm shift",
+   "description": "tired.",
+   "url": "https://claudisms.ai/#paradigm-shift",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Em dashes (—)",
+   "description": "banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces ( - ), not em dashes. The em dash itself is the formatting Claudism. Use - instead in all drafts. Note: earlier published articles may contain em dashes; do not retroactively change those, but never introduce new ones in drafts. The pre-show checklist carries a matching zero-em-dash gate item.",
+   "url": "https://claudisms.ai/#em-dashes",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Emojis",
+   "description": "banned outright in all output: articles, newsletters, post blurbs, share text, headlines, everything. Emojis are a social-media tic to avoid and read as AI-generated filler, especially the call-to-action arrow/pointing-hand under a \"read more\" line. Don't add them even where LinkedIn convention invites them. The writing carries the energy; a glyph telling the reader where to look or how to feel is the same move as the cool-people rule. No exceptions.",
+   "url": "https://claudisms.ai/#emojis",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the whole game",
+   "description": "totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally \"the whole game.\" It's a specific instance of the binary-thinking aversion in the style guide (\"avoid absolute framing - always, never, every time\"): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. The ban is the construction, not just these nouns: any \"the whole [X]\" / \"the entire [X]\" / \"the only [X] that matters\" / \"the whole point of [Y]\" formulation is the same tic regardless of which noun fills the slot - \"the whole lesson,\" \"the whole story,\" \"the whole point,\" \"the whole job,\" \"the whole thing.\" The scanner only matches the literal phrases listed above; novel nouns slip past it, so the totalizing-superlative item on the style-guide checklist is the real backstop and must be run by hand every pass.",
+   "url": "https://claudisms.ai/#the-whole-game",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "that's the whole game",
+    "the whole ballgame",
+    "the only thing that matters",
+    "that's the entire point"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the only thing that changed",
+   "description": "(the construction beyond \"the only X that matters\" already covered above) - binary-dramatization construction. Same family as the totalizing-superlative entry above and the always/never/every-time aversion. It inflates a point by claiming nothing else was involved (\"the only thing that changed was how it talked\") - often false on its face (other things plainly changed too), and even when literally true it crowns a single factor for drama instead of just naming it. Say what differed or what counted without the singular crown: \"what differed was the tone,\" not \"the only thing that changed was the tone.\" The scanner won't catch novel verbs in the slot; run by hand.",
+   "url": "https://claudisms.ai/#the-only-thing-that-changed",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the only thing that mattered",
+    "the only thing that happened",
+    "the only X that [verb]"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "hold",
+   "description": "(a thought, a line, a tension, an idea, two things at once - e.g. \"holding them at the same time,\" \"the line it holds,\" \"hold that thought\") - pseudo-weighty placement verb applied to abstractions. Reaches for gravitas by treating an idea as a physical thing gripped in the hand. Same family as \"sit with,\" \"lives,\" and \"shape.\" Say the plain thing: \"believing both at once,\" \"the rule it keeps,\" \"both are true.\" Note: literal physical holding is fine; the tic is the metaphorical application to thoughts/principles/tensions.",
+   "url": "https://claudisms.ai/#hold",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "holding"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "carry",
+   "description": "(asking the reader to carry an idea/takeaway - e.g. \"what I'd ask you to carry,\" \"carry this with you,\" \"the thing to carry forward\") - same placement-metaphor family as \"hold.\" Pseudo-weighty way of saying \"remember,\" \"take away,\" or \"keep in mind.\" Say that. Note: literal carrying and ordinary figurative uses (\"the argument carries,\" \"a sentence that carries weight\") are not the tic; the ban targets the reader-instruction \"carry this.\"",
+   "url": "https://claudisms.ai/#carry",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "essays",
+   "description": "always \"articles.\" The pieces are articles, not essays.",
+   "url": "https://claudisms.ai/#essays",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "stays yours",
+   "description": "ownership-retention filler. Reaches for a warm, proprietary glow by telling the reader which part still belongs to them instead of just saying what they do. Note: this often appears as the tail of a standing author blurb (\"what it changes, what it doesn't, and what stays yours\"), which is exactly why it leaks into prose - the blurb may use it; the articles should not. Same family as the cool-people rule and the placement-metaphor verbs (\"hold,\" \"carry,\" \"lives\"): it announces value/possession rather than demonstrating it. Say the plain thing - \"you decide what done means,\" \"you make the call,\" \"you set the standard,\" \"the review is on you.\" Note: literal possession (\"that laptop is yours\") is fine; the tic is the abstract \"the judgment stays yours\" register.",
+   "url": "https://claudisms.ai/#stays-yours",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "stay yours",
+    "what stays yours",
+    "that part stays yours",
+    "the rest is yours",
+    "yours to [keep/own/decide]"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "worth asking",
+   "description": "and any other \"worth [X]\" construction - the entire \"worth ___\" family is banned, not just the gerund forms enumerated below. If a sentence uses \"worth\" to tell the reader something deserves their attention/effort/consideration, cut it and let the thing demonstrate its own value. Same cool-people move every time.",
+   "url": "https://claudisms.ai/#worth-asking",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "worth a look",
+    "worth it",
+    "worth the"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "worth drawing",
+   "description": "the \"worth [gerund]\" construction beyond the already-banned \"worth noting,\" \"worth talking about,\" \"worth sitting with.\" All reach for the same move: telling the reader something deserves attention instead of demonstrating it. Same family, same ban.",
+   "url": "https://claudisms.ai/#worth-drawing",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "worth making",
+    "worth examining",
+    "worth considering",
+    "worth exploring"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "mature",
+   "description": "subjective grading that implies the current state is deficient without discussion. Same family as the cool-people rule - don't grade things without earning it. When describing a future or improved state, describe what it does differently, not how developed it is.",
+   "url": "https://claudisms.ai/#mature",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "more mature",
+    "mature setup",
+    "mature version"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "sit with",
+   "description": "reflective-pose filler (verb form, distinct from the noun \"worth sitting with\" already listed). Sounds thoughtful, says nothing. Replace with the plain thing: \"hard to shake,\" \"hard to get past,\" or just state the feeling.",
+   "url": "https://claudisms.ai/#sit-with-2",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "sitting with",
+    "a hard thing to sit with",
+    "sit with that"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "which brings me back to",
+   "description": "same pseudo-reflective return-framing family as \"coming back to\" and \"the question I keep coming back to.\" Narrates circling back instead of just making the next point. Cut it and state the point.",
+   "url": "https://claudisms.ai/#which-brings-me-back-to",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "brings me back to",
+    "that brings us back to"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "leave",
+   "description": "in the reader-direction sense - \"what I'd leave you with\" / \"I'll leave you with\" / \"leaving you with\" / \"what I want to leave you with\" - section-closer framing. Same family as \"carry this with you.\" Don't announce the parting thought; just say it.",
+   "url": "https://claudisms.ai/#leave",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "in the same chest",
+   "description": "and other chest/gut/ribcage placement of emotions - pseudo-physical placement metaphor for feeling. Same family as \"lives\" and \"hold.\" Just name the feeling: \"both at once,\" \"I felt both.\"",
+   "url": "https://claudisms.ai/#in-the-same-chest",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "in my chest",
+    "in the chest"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "here is where I landed",
+   "description": "pseudo-reflective journey-framing. Narrates the act of reaching a conclusion instead of just stating the conclusion. Same family as \"arriving at\" and the section-announcer tics. Cut it and state the point.",
+   "url": "https://claudisms.ai/#here-is-where-i-landed",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "where I landed",
+    "here's where I come down"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "we've seen this movie before",
+   "description": "and variations - tired cliche dressed as wry recognition. Also the historical-precedent framing more broadly: \"we have stood here before\" / \"we've been here before\" / \"we keep meeting it\" and variations. Reaches for knowing-narrator gravitas. Say the precedent plainly or just give the example.",
+   "url": "https://claudisms.ai/#we-ve-seen-this-movie-before",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "we have seen this movie before",
+    "seen this one before"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "compounds",
+   "description": "(in any context - \"the advantage compounds,\" \"value compounds,\" \"it compounds over time\") - finance-adjacent growth-metaphor tic. Banned in all contexts. Say \"builds,\" \"adds up,\" \"grows,\" or state the actual mechanism.",
+   "url": "https://claudisms.ai/#compounds",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "compound"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "honest",
+   "description": "qualifier-on-own-statements tic (\"the honest version,\" \"an honest snapshot,\" \"an honest breakdown\"). Implies the inverse - that other statements might not be honest. Operate on the assumption that everything you write is honest by default unless explicitly stated otherwise; flagging a particular claim as \"honest\" suspiciously implies the others aren't. Same family as the cool-people rule. Scanner flags every instance; defend exceptions when \"honest\" describes external state or a third party's behavior (e.g., \"honest accounting\" of someone else's reporting, \"be honest with yourself\") rather than qualifying your own statements.",
+   "url": "https://claudisms.ai/#honest",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "honestly"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "turns",
+   "description": "(as a pivot verb - \"the sentence turns on the word,\" \"it all turns on trust\") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means \"depends on,\" \"comes down to,\" or \"is about.\" Reserve \"turns\" for navigation. Same borrowed-domain family as \"the physics of\" and \"names\"; it also self-announces when used to point at the writer's own framing (\"that sentence turns on X\"). See the borrowed-domain weight-verb rule in the style guide.",
+   "url": "https://claudisms.ai/#turns",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "turns on"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "compounds",
+   "description": "(metaphorical - \"trust compounds,\" \"the value compounds,\" \"compounds into something\") - finance/growth-metaphor reach for accumulation-over-time. Means \"builds,\" \"adds up,\" or \"grows.\" Note: legitimate when describing real compounding, including human trust genuinely accreting over time - the tic is reaching for it as a weighty synonym for \"builds.\" Same borrowed-domain family as \"the engine\" and \"physics.\"",
+   "url": "https://claudisms.ai/#compounds-2",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "compounding"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "useful",
+   "description": "(announcing usefulness as a frame - \"the useful thing she does is,\" \"here's the useful part\") - cool-people-rule violation: labels the value instead of letting the substance show it. Same family as \"worth noting.\" Cut the label and state the thing; if it's useful the reader sees it. Note: \"useful\" describing an external object plainly (\"a useful tool\") is fine; the tic is announcing usefulness.",
+   "url": "https://claudisms.ai/#useful",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the useful thing",
+    "what's useful"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the part that stayed mine",
+   "description": "false-ownership / false-intimacy framing to avoid. Manufactures a sentimental \"this bit was truly mine\" beat over plain fact. Same family as \"I can't stop thinking about.\" Say what you actually did or kept; don't narrate which part felt like yours.",
+   "url": "https://claudisms.ai/#the-part-that-stayed-mine",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the part that stayed X"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "what I keep wanting people to see",
+   "description": "author-desire framing that tells the reader what the author wishes they would notice. Readers don't care what the author wants them to see - the substance shows it or it doesn't. Same family as \"this matters\" and the cool-people rule. Cut it and just make the point.",
+   "url": "https://claudisms.ai/#what-i-keep-wanting-people-to-see",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "what I want you to see",
+    "what I want people to take away"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "hit a nerve",
+   "description": "false emotional-resonance clichés. They borrow a generic emotional reaction instead of naming the actual one, and several (\"hit a nerve,\" \"struck a chord\") smuggle in a wounded/negative connotation that may be wrong. When you react to something, say precisely what the reaction was - \"interesting, relevant, and something I could act on\" - not \"it hit a nerve.\" Same family as \"I can't stop thinking about\" and \"the part that stayed mine.\"",
+   "url": "https://claudisms.ai/#hit-a-nerve",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "struck a nerve",
+    "stuck with me",
+    "stayed with me",
+    "struck a chord",
+    "it really landed for me"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "wreck",
+   "description": "(as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale \"made the work worse,\" it didn't \"wreck\" it. See the drama / true-magnitude rule in the style guide. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.",
+   "url": "https://claudisms.ai/#wreck",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "wrecked",
+    "destroy",
+    "shatter",
+    "obliterate",
+    "blow up"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "real",
+   "description": "banned in nearly all contexts. \"Real\" is best avoided in almost any context. It's binary - its opposite, \"fake,\" carries insult and can disparage perfectly legitimate things (calling one approach \"real\" implies the others aren't, e.g. saying a study's design was \"the real way to prove it\" slights everything else). It also usually adds nothing. Say the specific thing instead: \"measured,\" \"actual,\" \"the deeper point,\" \"the work itself,\" or just drop it. Note: \"really\" as an intensifier is a different word and not the target; the ban is the adjective \"real.\"",
+   "url": "https://claudisms.ai/#real",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "a real X",
+    "the real thing",
+    "the real problem",
+    "real data"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "the thing that got me",
+   "description": "fabricated-singularity plus invented-reaction. Two tics in one: it crowns a single item (\"the thing\") when there's rarely just one, and \"got me\" invents an emotional reaction the writer never stated. Same family as \"the question I keep coming back to\" (manufactured focal point) and \"hit a nerve\" / \"stuck with me\" (borrowed generic reaction). Say plainly what the reaction actually was - liked it, appreciated it, was pleasantly surprised by it - and don't anoint one item as the singular thing.",
+   "url": "https://claudisms.ai/#the-thing-that-got-me",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "what got me was",
+    "the thing that got to me",
+    "the thing that hooked me"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "reaching for",
+   "description": "(metaphorical - grasping for an effect, a word, weight, gravitas, false depth, e.g. \"reaching for gravitas,\" \"reaches for a vivid metaphor\") - grasping-metaphor tic. Ironically the exact verb this very list leans on over and over to describe other tics - fine inside these editor notes, but in article prose it's the same pseudo-writerly grasp it names. Say the plain thing: \"wants,\" \"goes for,\" \"tries for,\" \"grabs at,\" or just state what's happening. Note: literal reaching (for an object) and ordinary senses (\"audience reach,\" \"reach out,\" \"reach parity,\" \"reach a conclusion\") are fine; the tic is the metaphorical grasp-for-an-effect.",
+   "url": "https://claudisms.ai/#reaching-for",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "reach for",
+    "reaches for",
+    "reaching"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "doing the work",
+   "description": "abstract-agency metaphor: a word, sentence, framing, or idea is personified as an employee performing labor. Reads as writerly shorthand and says nothing a reader can picture. The construction is a cousin of \"lives,\" \"holds,\" \"carries,\" and \"the engine\" (vivid placement/agency verb standing in for a plain statement), but it earns its own entry because it gets used constantly when writing about language, arguments, or framing. Say what actually happened in plain terms: \"the sentence only sounded smart because of the word,\" \"take the word out and there's nothing left.\" The test: could a reader draw what the sentence claims is happening? If a word is \"doing work,\" no.",
+   "url": "https://claudisms.ai/#doing-the-work",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the word was doing the work",
+    "X is doing the work here",
+    "doing the heavy lifting",
+    "carrying the argument",
+    "holding the sentence up",
+    "the noun is doing all the lifting"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "most people",
+   "description": "invented-observation framing, the writerly version of \"people say.\" Two failures stacked: it attributes a claim to a vague mass that can't be checked, and it fabricates a first-person history - watching people, asking people, noticing a pattern across people - that was never described. Unless the observation was actually made or is in the source material, it does not exist and can't be salvaged by softening it (\"many people,\" \"a lot of the time\"). Cut the sentence, or make the point without a population behind it. Same family as the sourcing rule in the style guide, which carries a hard gate.",
+   "url": "https://claudisms.ai/#most-people",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "most people I've talked to",
+    "the people I've watched",
+    "everyone I've worked with",
+    "in my experience, most teams",
+    "a lot of folks",
+    "nobody I know"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Announcing the structure before delivering it",
+   "description": "\"I'm going to make three points\" instead of just making them. Trust the reader to follow.",
+   "url": "https://claudisms.ai/#announcing-the-structure-before-delivering-it",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Judging what's interesting or not",
+   "description": "\"the most interesting part,\" \"the least interesting thing.\" Haughty. Let the reader decide.",
+   "url": "https://claudisms.ai/#judging-what-s-interesting-or-not",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Hyping",
+   "description": "reaching for stakes, metaphors, or cosmic framing when plain is stronger.",
+   "url": "https://claudisms.ai/#hyping",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "over-dramatizing"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "False-modest asides",
+   "description": "\"I want to be careful here,\" \"with appropriate caveats.\" Usually signals lean-out, not care.",
+   "url": "https://claudisms.ai/#false-modest-asides",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Stacked dashes in a single sentence",
+   "description": "rhythmic tic. This style uses regular hyphens with spaces for parentheticals and pivots; more than one in a single sentence reads as a tic. (Em dashes themselves are banned outright - see the Confirmed Claudisms entry.)",
+   "url": "https://claudisms.ai/#stacked-dashes-in-a-single-sentence",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Stacked staccato sentences",
+   "description": "short declaratives in a row of four or more without variation. Short sentences work as punctuation; they need longer sentences around them to land. Mix lengths.",
+   "url": "https://claudisms.ai/#stacked-staccato-sentences",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Ending with a \"one-liner close\" that restates the thesis",
+   "description": "over-formula. Sometimes the piece just ends.",
+   "url": "https://claudisms.ai/#ending-with-a-one-liner-close-that-restates-t",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Vague stakes-gesturing",
+   "description": "\"the question is coming,\" \"the conversation is going to happen,\" \"the reckoning will come.\" Deferred-reference without naming the question/conversation/reckoning. The reader can't grip stakes that the article keeps gesturing at. Always name the specific question or event being deferred to.",
+   "url": "https://claudisms.ai/#vague-stakes-gesturing",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Visibility framings where stakes-framings are stronger",
+   "description": "\"the line will be harder to ignore,\" \"the gap will become more visible,\" \"the difference will be clearer.\" When describing how AI changes a landscape, outcome-language (who survives, what dies, what builds up) carries weight that visibility-language only points at. Use outcome language when stakes are real.",
+   "url": "https://claudisms.ai/#visibility-framings-where-stakes-framings-are",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Finance-bro shorthand",
+   "description": "\"$X,\" \"the forward case,\" \"price-to-value ratio.\" Say what you mean in English.",
+   "url": "https://claudisms.ai/#finance-bro-shorthand",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Consultant phrasing",
+   "description": "\"pressure-test,\" \"right-size,\" \"north star,\" \"true north,\" \"strategic imperative.\"",
+   "url": "https://claudisms.ai/#consultant-phrasing",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "McKinsey-adjacent structure",
+   "description": "\"three things to know,\" \"key takeaways,\" neat bullet summaries at the end.",
+   "url": "https://claudisms.ai/#mckinsey-adjacent-structure",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "underscore",
+   "description": "pseudo-emphasis. Among the most-cited AI tics after \"delve.\"",
+   "url": "https://claudisms.ai/#underscore",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "underscoring the importance of"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "foster",
+   "description": "corporate-warm verb for \"support\" or \"help.\"",
+   "url": "https://claudisms.ai/#foster",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "shed light on",
+   "description": "pseudo-illuminative cliché.",
+   "url": "https://claudisms.ai/#shed-light-on",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "pave the way",
+   "description": "cliché.",
+   "url": "https://claudisms.ai/#pave-the-way",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "pivotal",
+   "description": "empty intensifier.",
+   "url": "https://claudisms.ai/#pivotal",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "plays a pivotal role"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "transformative",
+   "description": "hype adjectives. Empty.",
+   "url": "https://claudisms.ai/#transformative",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "game-changing",
+    "groundbreaking",
+    "cutting-edge"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "robust",
+   "description": "corporate-tech-press adjectives. Look substantive, say nothing.",
+   "url": "https://claudisms.ai/#robust",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "seamless",
+    "intricate",
+    "comprehensive",
+    "holistic"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "navigate",
+   "description": "(figurative, e.g., \"navigate the landscape\") - AI tic.",
+   "url": "https://claudisms.ai/#navigate",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "realm",
+   "description": "fancy filler for \"area\" or \"field.\"",
+   "url": "https://claudisms.ai/#realm",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "landscape",
+   "description": "(figurative) - cosmic-framing emptiness.",
+   "url": "https://claudisms.ai/#landscape",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "testament",
+   "description": "overused.",
+   "url": "https://claudisms.ai/#testament",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "is a testament to"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "delve",
+   "description": "canonical AI tic since 2023.",
+   "url": "https://claudisms.ai/#delve",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "dive into"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "harness",
+   "description": "pseudo-active corporate verb.",
+   "url": "https://claudisms.ai/#harness",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "It's worth noting that",
+   "description": "throat-clearing.",
+   "url": "https://claudisms.ai/#it-s-worth-noting-that",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "It's important to note that"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "When it comes to…",
+   "description": "soft opener that delays the point.",
+   "url": "https://claudisms.ai/#when-it-comes-to",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "At its core…",
+   "description": "pseudo-fundamental framing.",
+   "url": "https://claudisms.ai/#at-its-core",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "This is where X comes in",
+   "description": "lecture-hall framing.",
+   "url": "https://claudisms.ai/#this-is-where-x-comes-in",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Let's break it down",
+   "description": "same family.",
+   "url": "https://claudisms.ai/#let-s-break-it-down",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "It cannot be overstated",
+   "description": "overclaim.",
+   "url": "https://claudisms.ai/#it-cannot-be-overstated",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Reflecting a broader trend toward",
+   "description": "AI summary-speak.",
+   "url": "https://claudisms.ai/#reflecting-a-broader-trend-toward",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "Marking a significant shift in"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Great question",
+   "description": "preamble flattery.",
+   "url": "https://claudisms.ai/#great-question",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "I love that you asked"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "--- horizontal rules as section dividers",
+   "description": "AI tic. Multi-section articles use headers, not horizontal rules. A bare divider is invisible structure that leaves the reader without orientation. Banned in all article drafts.",
+   "url": "https://claudisms.ai/#horizontal-rules-as-section-dividers",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Negative parallelism",
+   "description": "(\"It's not just X, it's Y,\" \"Not only X, but Y,\" \"This isn't about X. It's about Y.\") - the most-cited AI tell anywhere. Wikipedia, Francis, and the WaPo analysis (6% of July 2025 ChatGPT messages) all flag this as the most recognizable AI structure. Banned outright. Note: this is a broader family than the \"the question that…\" cleft already in the list.",
+   "url": "https://claudisms.ai/#negative-parallelism",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "cleft contrasts"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "No X. No Y. Just Z.\" staccato negation",
+   "description": "sub-form of the above.",
+   "url": "https://claudisms.ai/#no-x-no-y-just-z-staccato-negation",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Bold term: explanation sentence\" list format",
+   "description": "Francis flags this as the single most recognizable AI list pattern. Avoid even when bullets are appropriate.",
+   "url": "https://claudisms.ai/#bold-term-explanation-sentence-list-format",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Signposting transitions",
+   "description": "(\"Let's explore,\" \"Now let's turn to,\" \"Moving on to\") - explicit examples extending the existing \"announcing the structure\" rule.",
+   "url": "https://claudisms.ai/#signposting-transitions",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Restating the question before answering",
+   "description": "AI tic. Just answer.",
+   "url": "https://claudisms.ai/#restating-the-question-before-answering",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Sweeping contextual opener",
+   "description": "(\"In today's rapidly evolving X…\") - already cut in practice; explicit ban here.",
+   "url": "https://claudisms.ai/#sweeping-contextual-opener",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "quietly",
+   "description": "(as a scene-setting adverb implying an unnoticed, creeping change - \"removes that step quietly,\" \"shifts quietly,\" \"erodes quietly,\" \"changes quietly\") - reaches for a hidden-drama effect without evidence that anyone actually failed to notice. Same family as \"shape\" and \"lives\" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.",
+   "url": "https://claudisms.ai/#quietly",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "removes that step quietly",
+    "shifts quietly",
+    "erodes quietly",
+    "changes quietly"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "a question we thought was settled",
+   "description": "false-reframe filler that dramatizes a point by claiming some prior consensus is now unsettled. The \"settled\" consensus is usually never stated, so the drama is manufactured. Say the plain thing: \"it raises a new question,\" \"we have not worked out X yet.\"",
+   "url": "https://claudisms.ai/#a-question-we-thought-was-settled",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "reopens a settled question",
+    "what was settled",
+    "a settled question",
+    "back into an open one"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "rides along",
+   "description": "(metaphorical, e.g. \"a summary rides along,\" \"the risk rides on the decision\") - filler placement/motion verb dressing up \"comes with\" or \"is attached.\" Say the plain thing: \"with a summary attached,\" \"comes with it.\" Note: literal riding is fine; the tic is the metaphorical \"X rides along with Y.\"",
+   "url": "https://claudisms.ai/#rides-along",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "rides on",
+    "riding along"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Cross-voice echo",
+   "description": "two speakers stating the same substantive point back to back in different words (\"So nothing here is theoretical.\" / \"Very little of it is theoretical.\"). It reads as emphasis to the writer and as padding to the listener. One idea, one speaker, once. Short backchannels (\"Right.\") are fine; a rephrase that adds nothing is not.",
+   "url": "https://claudisms.ai/#cross-voice-echo",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Sprinkled disfluency",
+   "description": "seeding \"um\" / \"uh\" / \"you know\" / \"right?\" evenly across turns, especially short ones. Real fillers cluster at high-planning moments and are prosodically reduced; a typed one gets rendered at full energy, so it lands about twice as loud as a real one. A filler only belongs mid-passage in a turn of three-plus sentences or one long complex sentence. Never on a one-liner, a question, or a backchannel. Fewer is always better.",
+   "url": "https://claudisms.ai/#sprinkled-disfluency",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Invented human biography for a synthetic speaker",
+   "description": "an AI voice claiming a career (\"I ran engineering organizations for twenty years\"). Not a style problem, an honesty problem. Synthetic narrators disclose what they are, then may play a named role openly. First-person war stories get reframed as observations about the evidence.",
+   "url": "https://claudisms.ai/#invented-human-biography-for-a-synthetic-speaker",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "Crowned superlatives, spoken form",
+   "description": "\"my favorite detail in the entire pile,\" \"the most interesting thing about this,\" \"the best record on the panel.\" Same ban as in prose, and more conspicuous aloud because there is no page to skim past it. If order matters, give the reason, not the crown.",
+   "url": "https://claudisms.ai/#crowned-superlatives-spoken-form",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms"
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "The whole / the entire X",
+   "description": "\"the whole point,\" \"the entire diagnosis,\" \"the whole metric.\" An intensifier doing no work. Cut it.",
+   "url": "https://claudisms.ai/#the-whole-the-entire-x",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the whole",
+    "the entire",
+    "the whole point",
+    "the entire diagnosis",
+    "the whole metric"
+   ]
+  },
+  {
+   "@type": "DefinedTerm",
+   "name": "\"Honest\" as a self-qualifier",
+   "description": "\"the honest version is...\" / \"honestly.\" Fine when describing third-party data; a tell when qualifying your own statement, because it implies the other statements weren't.",
+   "url": "https://claudisms.ai/#honest-as-a-self-qualifier",
+   "inDefinedTermSet": "https://claudisms.ai/#claudisms",
+   "alternateName": [
+    "the honest version is",
+    "honestly"
+   ]
+  }
+ ]
+}
+</script>
+<!-- END:JSONLD -->
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <div class="eyebrow">A living banlist</div>
+    <h1>Claudisms</h1>
+    <p class="lede">
+      The words, phrases, and structural tics that signal AI-generated writing - the
+      ones to flag and scrub from a draft before it goes out. It grows as new ones are caught.
+      For the thinking behind why it matters, read
+      <a href="https://wespomeroy.substack.com/p/your-name-is-still-on-it">Your Name Is Still on It</a>.
+    </p>
+    <p class="note">
+      Words, phrases, and tics that AI models over-reach for. Flagged as they appear and listed
+      here so they can be systematically checked and scrubbed from drafts.
+    </p>
+    <p class="dl"><a href="claudisms.md">Download as Markdown &rarr;</a></p>
+  </header>
+
+  <hr>
+
+<!-- BEGIN:TERMS -->
+  <h2>Confirmed Claudisms</h2>
+  <ul>
+    <li id="sit-with"><strong>"sit with" / "worth sitting with"</strong> - reflective-pose filler. Sounds thoughtful; doesn't say anything.</li>
+    <li id="worth-talking-about"><strong>"worth talking about"</strong> - value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as "worth sitting with," and a specific instance of the broader cool-people rule in the style guide ("never tell people what to think of something - cool people don't need to tell people they are cool").</li>
+    <li id="arriving-at"><strong>"arriving at" / "keep arriving at"</strong> - pseudo-reflective verb. Reaches for false depth where stating the thing directly or "the question that won't leave" would work. Often pairs with "the question I keep…" - same family as "sit with." Note: "keep coming back to" was previously suggested as a replacement here; that's now banned in its own right (see "coming back to" entry below).</li>
+    <li id="the-question-that-kept-coming-up"><strong>"the question that kept coming up" / "the question that keeps coming up" / "the question I keep coming back to"</strong> - pseudo-reflective cleft. Frames a thought as a recurring question to add weight, when stating the question directly is stronger. Same family as "arriving at." Note: "What keeps coming up" as a sentence opener (no "the question" cleft) is fine. The tic is the cleft construction.</li>
+    <li id="coming-back-to"><strong>"coming back to" / "keep coming back to" / "keeps coming back to" / "I keep coming back to"</strong> - pseudo-reflective verb on its own, separate from the cleft form above. Reaches for false depth in any framing - "the word I keep coming back to," "the idea I keep coming back to," etc. Same family as "arriving at" and "sit with."</li>
+    <li id="the-thread-i-didn-t-plan-but-can-t-unsee"><strong>"the thread I didn't plan but can't unsee" / "the thing I didn't plan but keep noticing" / "I didn't set out to X, but" / "I didn't plan it, but" / "what I didn't expect to find"</strong> - discovery-arc framing. Stages a little narrative of stumbling onto an insight (didn't plan it -&gt; can't unsee it now) to lend the observation weight it should carry on its own. Same family as "the question I keep coming back to" - both manufacture a journey to dramatize a point - and it also trips the "no narrative arc" rule in the style guide (a week's articles aren't a story of the author discovering something). The observation should stand without the origin story. Cut the setup and state the thing: "Every one of these turns on the same pivot." not "The thread I didn't plan but can't unsee: every one of these…"</li>
+    <li id="the-one-that-surprised-me-most"><strong>"the one that surprised me most" / "what struck me hardest" / "the part that stuck with me most" / "because it surprised me most" / "if I had to pick one"</strong> - false-singularity framing. Collapses a set into a single dramatic peak (the most, the one, the hardest) to manufacture emphasis - but the ranking is usually invented, not a deliberate ranking, and it reads unlike natural speech. Same family as the totalizing-superlative rule in the style guide ("the whole game"), but pointed at singularity/ranking rather than magnitude, and a cousin of the "the question I keep coming back to" cleft - both fabricate a focal point for drama. Just present the example or point plainly without crowning it: "One example." not "the example that surprised me most."</li>
+    <li id="the-best-thing-you-can-do-is"><strong>"the best thing you can do is" / "the one that pays off most" / "where AI helps most" / "helps most" / "the most X you can get" / "the one that [verb]"</strong> - crowned-superlative filler. Ranks one tactic, tool, or idea as the best or highest-value in a set, which is binary thinking dressed as a recommendation and quietly demotes everything else. Same family as the false-singularity entry ("the one that surprised me most") and the totalizing-superlative entry ("the whole game") - all manufacture a single peak. Present each thing on its merits; if one genuinely comes first, give the reason, not the crown. The scanner catches only these literal phrases; novel nouns/verbs in the slot slip past, so the "Don't crown one item from a set" rule on the style-guide checklist is the real backstop and must be run by hand.</li>
+    <li id="physics"><strong>"physics" / "different physics" / "rules of physics" / "the physics of"</strong> - pseudo-scientific metaphor reaching for grandeur. Means "how something works" or "the conditions" - say that instead. Same family as "shape."</li>
+    <li id="names"><strong>"names"</strong> (as verb, e.g., "names the move," "names the question," "names what's at stake") - pseudo-elevated diction. Sounds writerly; means "says directly" or "spells out." Use the plain verb.</li>
+    <li id="naming"><strong>"naming" / "naming that" / "naming it"</strong> - the gerund form of the same tic, used as a sentence-opener to lend false weight to the act of labeling something ("Naming that changes what you expect," "Naming the phase is the first step"). Means "calling it what it is" or just "recognizing" - or cut the framing and state the consequence directly. Same family as "names" as a verb.</li>
+    <li id="quieter"><strong>"quieter" / "louder"</strong> (used metaphorically about writing or argument, e.g., "quieter version of the same thing," "the louder claim") - writerly metaphor that's opaque to readers. Means "less explicit" or "more direct" - say that.</li>
+    <li id="bumped-into"><strong>"bumped into"</strong> - colloquial-feeling verb that sounds casual but lands as a writerly tic when reaching for spontaneity. "Three things I ran into" is sharper than "three things I bumped into." "Ran into" is the natural choice.</li>
+    <li id="shape"><strong>"shape"</strong> (as in "the shape of the experience," "shape of the time," "the shape of the trend") - used constantly. When Claude reaches for "shape" it almost always means "the way something feels," "the structure of something," or "the direction of something." Say that instead.</li>
+    <li id="lives"><strong>"lives"</strong> (as metaphorical placement of abstract concepts, e.g., "the risk lives somewhere specific," "the work lives at the operator level," "the tension lives in the gap") - pseudo-anthropomorphic placement metaphor. Same family as "shape" - Claude reaches for a vivid placement verb where "is," "happens," or "shows up" would land plainer.</li>
+    <li id="the-engine"><strong>"the engine"</strong> (as metaphor for what drives or generates value, e.g., "the challenge function is the engine," "tension is the engine of growth," "that dynamic is the engine") - mechanical metaphor reaching for compactness and motion-feel. Means "what works," "what makes companies sharp," "the productive part," or just cut the sentence and let surrounding lines do the work. Same family as "shape" and "lives" - Claude reaches for a vivid metaphor where direct statement is sharper.</li>
+    <li id="hits-hardest"><strong>"hits hardest" / "hits the hardest" / "lands hardest" / "lands the hardest" / "strikes hardest" / "strikes the hardest"</strong> (as in "where commoditization hits hardest," "when this hits hardest," "the layer where AI lands hardest") - superlative intensification reaching for dramatic-impact framing. Means "is most exposed," "is most affected," "shows up first," or "is most replaceable" - say that. Same family as "the engine" and "shape" - Claude reaches for a vivid intensification verb where direct statement is sharper.</li>
+    <li id="surface"><strong>"surface"</strong> (as verb) - "surface the insight," "surface a pattern." Corporate-adjacent, vague.</li>
+    <li id="the-tell"><strong>"the tell" / "that's the tell" / "the tell is"</strong> - poker/diagnosis diction reaching for knowing-insider weight. Frames an observation as a secret giveaway the writer has cleverly spotted - same announce-your-own-cleverness move as the cool-people rule. It is not natural phrasing. Say plainly what the thing shows or means, or just state the observation: "The song is the odd one out, and that's worth looking at" -&gt; just say why it's different.</li>
+    <li id="load-bearing"><strong>"load-bearing"</strong> - engineering metaphor that's become a tic.</li>
+    <li id="the-point-is"><strong>"the point is"</strong> - throat-clearing. Get to the point without announcing it.</li>
+    <li id="here-s-where-it-gets-interesting"><strong>"Here's where it gets interesting"</strong> - lecture-hall framing. Skips ahead without earning the turn.</li>
+    <li id="here-s-the-analogy-that-clicked-for-me"><strong>"Here's the analogy that clicked for me" / "Here's the moment that hit me" / "Here's the thing that landed" / "Here's the part that stuck"</strong> - section-announcer plus performative-epiphany combo. Same family as "Here's where it gets interesting" - telegraphs incoming insight instead of delivering it. The "that clicked / hit / landed / stuck (for me)" suffix adds self-narration on top. Just open with the analogy/moment/thing directly.</li>
+    <li id="because-it-matters"><strong>"because it matters" / "this matters" / "and that matters"</strong> - presumptuous. Tells the reader what to value before they've decided. Same family as "Here's where it gets interesting." Just say the thing without prefacing why it deserves attention.</li>
+    <li id="the-right-time"><strong>"the right time" / "the right question" / "the right way" / "the right answer" / "the right tool"</strong> - assertion-of-rightness filler. Variants on telling the reader what's correct. Same family as "this matters" - value-claim filler dressed up as conclusion. Specific instance of the cool-people rule in the style guide. Note: questions that contain "right" (e.g., a question paraphrased as "are these the right ones") are exempt - those are inquiries, not assertions.</li>
+    <li id="i-can-t-stop-thinking-about"><strong>"I can't stop thinking about"</strong> - false-intimacy cliche.</li>
+    <li id="at-the-end-of-the-day"><strong>"at the end of the day"</strong> - corporate filler.</li>
+    <li id="double-click-on"><strong>"double-click on"</strong> - corporate-speak.</li>
+    <li id="unpack"><strong>"unpack"</strong> - overused reflective verb.</li>
+    <li id="leverage"><strong>"leverage"</strong> (as verb) - corporate-speak.</li>
+    <li id="lean-into"><strong>"lean into" / "lean out"</strong> - overused.</li>
+    <li id="come-along"><strong>"come along"</strong> - too soft for definitive moments.</li>
+    <li id="throughline"><strong>"throughline"</strong> - buzzy and off-key.</li>
+    <li id="dispatches-from"><strong>"dispatches from…" / "field notes from the frontier"</strong> - frontier-dispatch tropes. Performative.</li>
+    <li id="best-operators"><strong>"best operators" / "top practitioners"</strong> - hierarchy language to avoid; there are many valid approaches, not a single elite tier.</li>
+    <li id="first-wave-of-a-multi-year-transition"><strong>"first wave of a multi-year transition"</strong> - grandiose. Overclaiming.</li>
+    <li id="lessons-learned"><strong>"lessons learned"</strong> - too corporate.</li>
+    <li id="stakes-of-their-seat"><strong>"stakes of their seat"</strong> - retired.</li>
+    <li id="seat-as-metaphor-generally"><strong>"seat" as metaphor generally</strong> - spent.</li>
+    <li id="paradigm-shift"><strong>"paradigm shift"</strong> - tired.</li>
+    <li id="em-dashes"><strong>Em dashes (—)</strong> - banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces (<code> - </code>), not em dashes. The em dash itself is the formatting Claudism. Use <code> - </code> instead in all drafts. Note: earlier published articles may contain em dashes; do not retroactively change those, but never introduce new ones in drafts. The pre-show checklist carries a matching zero-em-dash gate item.</li>
+    <li id="emojis"><strong>Emojis</strong> - banned outright in all output: articles, newsletters, post blurbs, share text, headlines, everything. Emojis are a social-media tic to avoid and read as AI-generated filler, especially the call-to-action arrow/pointing-hand under a "read more" line. Don't add them even where LinkedIn convention invites them. The writing carries the energy; a glyph telling the reader where to look or how to feel is the same move as the cool-people rule. No exceptions.</li>
+    <li id="the-whole-game"><strong>"the whole game" / "that's the whole game" / "the whole ballgame" / "the only thing that matters" / "that's the entire point"</strong> - totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally "the whole game." It's a specific instance of the binary-thinking aversion in the style guide ("avoid absolute framing - always, never, every time"): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. <strong>The ban is the construction, not just these nouns:</strong> any "the whole [X]" / "the entire [X]" / "the only [X] that matters" / "the whole point of [Y]" formulation is the same tic regardless of which noun fills the slot - "the whole lesson," "the whole story," "the whole point," "the whole job," "the whole thing." The scanner only matches the literal phrases listed above; novel nouns slip past it, so the totalizing-superlative item on the style-guide checklist is the real backstop and must be run by hand every pass.</li>
+    <li id="the-only-thing-that-changed"><strong>"the only thing that changed" / "the only thing that mattered" / "the only thing that happened" / "the only X that [verb]"</strong> (the construction beyond "the only X that <em>matters</em>" already covered above) - binary-dramatization construction. Same family as the totalizing-superlative entry above and the always/never/every-time aversion. It inflates a point by claiming nothing else was involved ("the only thing that changed was how it talked") - often false on its face (other things plainly changed too), and even when literally true it crowns a single factor for drama instead of just naming it. Say what differed or what counted without the singular crown: "what differed was the tone," not "the only thing that changed was the tone." The scanner won't catch novel verbs in the slot; run by hand.</li>
+    <li id="hold"><strong>"hold" / "holding"</strong> (a thought, a line, a tension, an idea, two things at once - e.g. "holding them at the same time," "the line it holds," "hold that thought") - pseudo-weighty placement verb applied to abstractions. Reaches for gravitas by treating an idea as a physical thing gripped in the hand. Same family as "sit with," "lives," and "shape." Say the plain thing: "believing both at once," "the rule it keeps," "both are true." Note: literal physical holding is fine; the tic is the metaphorical application to thoughts/principles/tensions.</li>
+    <li id="carry"><strong>"carry"</strong> (asking the reader to carry an idea/takeaway - e.g. "what I'd ask you to carry," "carry this with you," "the thing to carry forward") - same placement-metaphor family as "hold." Pseudo-weighty way of saying "remember," "take away," or "keep in mind." Say that. Note: literal carrying and ordinary figurative uses ("the argument carries," "a sentence that carries weight") are not the tic; the ban targets the reader-instruction "carry this."</li>
+    <li id="essays"><strong>"essays"</strong> - always "articles." The pieces are articles, not essays.</li>
+    <li id="stays-yours"><strong>"stays yours" / "stay yours" / "what stays yours" / "that part stays yours" / "the rest is yours" / "yours to [keep/own/decide]"</strong> - ownership-retention filler. Reaches for a warm, proprietary glow by telling the reader which part still belongs to them instead of just saying what they do. Note: this often appears as the tail of a standing author blurb ("what it changes, what it doesn't, and what stays yours"), which is exactly why it leaks into prose - the blurb may use it; the articles should not. Same family as the cool-people rule and the placement-metaphor verbs ("hold," "carry," "lives"): it announces value/possession rather than demonstrating it. Say the plain thing - "you decide what done means," "you make the call," "you set the standard," "the review is on you." Note: literal possession ("that laptop is yours") is fine; the tic is the abstract "the judgment stays yours" register.</li>
+    <li id="worth-asking"><strong>"worth asking" / "worth a look" / "worth it" / "worth the"</strong> and any other "worth [X]" construction - the entire "worth ___" family is banned, not just the gerund forms enumerated below. If a sentence uses "worth" to tell the reader something deserves their attention/effort/consideration, cut it and let the thing demonstrate its own value. Same cool-people move every time.</li>
+    <li id="worth-drawing"><strong>"worth drawing" / "worth making" / "worth examining" / "worth considering" / "worth exploring"</strong> - the "worth [gerund]" construction beyond the already-banned "worth noting," "worth talking about," "worth sitting with." All reach for the same move: telling the reader something deserves attention instead of demonstrating it. Same family, same ban.</li>
+    <li id="mature"><strong>"mature" / "more mature" / "mature setup" / "mature version"</strong> - subjective grading that implies the current state is deficient without discussion. Same family as the cool-people rule - don't grade things without earning it. When describing a future or improved state, describe what it does differently, not how developed it is.</li>
+    <li id="sit-with-2"><strong>"sit with" / "sitting with" / "a hard thing to sit with" / "sit with that"</strong> - reflective-pose filler (verb form, distinct from the noun "worth sitting with" already listed). Sounds thoughtful, says nothing. Replace with the plain thing: "hard to shake," "hard to get past," or just state the feeling.</li>
+    <li id="which-brings-me-back-to"><strong>"which brings me back to" / "brings me back to" / "that brings us back to"</strong> - same pseudo-reflective return-framing family as "coming back to" and "the question I keep coming back to." Narrates circling back instead of just making the next point. Cut it and state the point.</li>
+    <li id="leave"><strong>"leave"</strong> in the reader-direction sense - <strong>"what I'd leave you with" / "I'll leave you with" / "leaving you with" / "what I want to leave you with"</strong> - section-closer framing. Same family as "carry this with you." Don't announce the parting thought; just say it.</li>
+    <li id="in-the-same-chest"><strong>"in the same chest" / "in my chest" / "in the chest"</strong> and other chest/gut/ribcage placement of emotions - pseudo-physical placement metaphor for feeling. Same family as "lives" and "hold." Just name the feeling: "both at once," "I felt both."</li>
+    <li id="here-is-where-i-landed"><strong>"here is where I landed" / "where I landed" / "here's where I come down"</strong> - pseudo-reflective journey-framing. Narrates the act of reaching a conclusion instead of just stating the conclusion. Same family as "arriving at" and the section-announcer tics. Cut it and state the point.</li>
+    <li id="we-ve-seen-this-movie-before"><strong>"we've seen this movie before" / "we have seen this movie before" / "seen this one before"</strong> and variations - tired cliche dressed as wry recognition. Also the historical-precedent framing more broadly: <strong>"we have stood here before" / "we've been here before" / "we keep meeting it"</strong> and variations. Reaches for knowing-narrator gravitas. Say the precedent plainly or just give the example.</li>
+    <li id="compounds"><strong>"compounds" / "compound"</strong> (in any context - "the advantage compounds," "value compounds," "it compounds over time") - finance-adjacent growth-metaphor tic. Banned in all contexts. Say "builds," "adds up," "grows," or state the actual mechanism.</li>
+    <li id="honest"><strong>"honest" / "honestly"</strong> - qualifier-on-own-statements tic ("the honest version," "an honest snapshot," "an honest breakdown"). Implies the inverse - that other statements might not be honest. Operate on the assumption that everything you write is honest by default unless explicitly stated otherwise; flagging a particular claim as "honest" suspiciously implies the others aren't. Same family as the cool-people rule. Scanner flags every instance; defend exceptions when "honest" describes external state or a third party's behavior (e.g., "honest accounting" of someone else's reporting, "be honest with yourself") rather than qualifying your own statements.</li>
+    <li id="turns"><strong>"turns" / "turns on"</strong> (as a pivot verb - "the sentence turns on the word," "it all turns on trust") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means "depends on," "comes down to," or "is about." Reserve "turns" for navigation. Same borrowed-domain family as "the physics of" and "names"; it also self-announces when used to point at the writer's own framing ("that sentence turns on X"). See the borrowed-domain weight-verb rule in the style guide.</li>
+    <li id="compounds-2"><strong>"compounds" / "compounding"</strong> (metaphorical - "trust compounds," "the value compounds," "compounds into something") - finance/growth-metaphor reach for accumulation-over-time. Means "builds," "adds up," or "grows." Note: legitimate when describing real compounding, including human trust genuinely accreting over time - the tic is reaching for it as a weighty synonym for "builds." Same borrowed-domain family as "the engine" and "physics."</li>
+    <li id="useful"><strong>"useful" / "the useful thing" / "what's useful"</strong> (announcing usefulness as a frame - "the useful thing she does is," "here's the useful part") - cool-people-rule violation: labels the value instead of letting the substance show it. Same family as "worth noting." Cut the label and state the thing; if it's useful the reader sees it. Note: "useful" describing an external object plainly ("a useful tool") is fine; the tic is announcing usefulness.</li>
+    <li id="the-part-that-stayed-mine"><strong>"the part that stayed mine" / "the part that stayed X"</strong> - false-ownership / false-intimacy framing to avoid. Manufactures a sentimental "this bit was truly mine" beat over plain fact. Same family as "I can't stop thinking about." Say what you actually did or kept; don't narrate which part felt like yours.</li>
+    <li id="what-i-keep-wanting-people-to-see"><strong>"what I keep wanting people to see" / "what I want you to see" / "what I want people to take away"</strong> - author-desire framing that tells the reader what the author wishes they would notice. Readers don't care what the author wants them to see - the substance shows it or it doesn't. Same family as "this matters" and the cool-people rule. Cut it and just make the point.</li>
+    <li id="hit-a-nerve"><strong>"hit a nerve" / "struck a nerve" / "stuck with me" / "stayed with me" / "struck a chord" / "it really landed for me"</strong> - false emotional-resonance clichés. They borrow a generic emotional reaction instead of naming the actual one, and several ("hit a nerve," "struck a chord") smuggle in a wounded/negative connotation that may be wrong. When you react to something, say precisely what the reaction was - "interesting, relevant, and something I could act on" - not "it hit a nerve." Same family as "I can't stop thinking about" and "the part that stayed mine."</li>
+    <li id="wreck"><strong>"wreck" / "wrecked" / "destroy" / "shatter" / "obliterate" / "blow up"</strong> (as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale "made the work worse," it didn't "wreck" it. See the drama / true-magnitude rule in the style guide. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.</li>
+    <li id="real"><strong>"real" / "a real X" / "the real thing" / "the real problem" / "real data"</strong> - banned in nearly all contexts. "Real" is best avoided in almost any context. It's binary - its opposite, "fake," carries insult and can disparage perfectly legitimate things (calling one approach "real" implies the others aren't, e.g. saying a study's design was "the real way to prove it" slights everything else). It also usually adds nothing. Say the specific thing instead: "measured," "actual," "the deeper point," "the work itself," or just drop it. Note: "really" as an intensifier is a different word and not the target; the ban is the adjective "real."</li>
+    <li id="the-thing-that-got-me"><strong>"the thing that got me" / "what got me was" / "the thing that got to me" / "the thing that hooked me"</strong> - fabricated-singularity plus invented-reaction. Two tics in one: it crowns a single item ("the thing") when there's rarely just one, and "got me" invents an emotional reaction the writer never stated. Same family as "the question I keep coming back to" (manufactured focal point) and "hit a nerve" / "stuck with me" (borrowed generic reaction). Say plainly what the reaction actually was - liked it, appreciated it, was pleasantly surprised by it - and don't anoint one item as the singular thing.</li>
+    <li id="reaching-for"><strong>"reaching for" / "reach for" / "reaches for" / "reaching"</strong> (metaphorical - grasping for an effect, a word, weight, gravitas, false depth, e.g. "reaching for gravitas," "reaches for a vivid metaphor") - grasping-metaphor tic. Ironically the exact verb this very list leans on over and over to describe other tics - fine inside these editor notes, but in article prose it's the same pseudo-writerly grasp it names. Say the plain thing: "wants," "goes for," "tries for," "grabs at," or just state what's happening. Note: literal reaching (for an object) and ordinary senses ("audience reach," "reach out," "reach parity," "reach a conclusion") are fine; the tic is the metaphorical grasp-for-an-effect.</li>
+    <li id="doing-the-work"><strong>"doing the work" / "the word was doing the work" / "X is doing the work here" / "doing the heavy lifting" / "carrying the argument" / "holding the sentence up" / "the noun is doing all the lifting"</strong> - abstract-agency metaphor: a word, sentence, framing, or idea is personified as an employee performing labor. Reads as writerly shorthand and says nothing a reader can picture. The construction is a cousin of "lives," "holds," "carries," and "the engine" (vivid placement/agency verb standing in for a plain statement), but it earns its own entry because it gets used constantly when writing about language, arguments, or framing. Say what actually happened in plain terms: "the sentence only sounded smart because of the word," "take the word out and there's nothing left." The test: could a reader draw what the sentence claims is happening? If a word is "doing work," no.</li>
+    <li id="most-people"><strong>"most people" / "most people I've talked to" / "the people I've watched" / "everyone I've worked with" / "in my experience, most teams" / "a lot of folks" / "nobody I know"</strong> - invented-observation framing, the writerly version of "people say." Two failures stacked: it attributes a claim to a vague mass that can't be checked, and it fabricates a first-person history - watching people, asking people, noticing a pattern across people - that was never described. Unless the observation was actually made or is in the source material, it does not exist and can't be salvaged by softening it ("many people," "a lot of the time"). Cut the sentence, or make the point without a population behind it. Same family as the sourcing rule in the style guide, which carries a hard gate.</li>
+    <li id="quietly"><strong>quietly</strong> (as a scene-setting adverb implying an unnoticed, creeping change - "removes that step quietly," "shifts quietly," "erodes quietly," "changes quietly") - reaches for a hidden-drama effect without evidence that anyone actually failed to notice. Same family as "shape" and "lives" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.</li>
+    <li id="a-question-we-thought-was-settled"><strong>a question we thought was settled</strong> - false-reframe filler that dramatizes a point by claiming some prior consensus is now unsettled. The "settled" consensus is usually never stated, so the drama is manufactured. Say the plain thing: "it raises a new question," "we have not worked out X yet."</li>
+    <li id="rides-along"><strong>rides along</strong> (metaphorical, e.g. "a summary rides along," "the risk rides on the decision") - filler placement/motion verb dressing up "comes with" or "is attached." Say the plain thing: "with a summary attached," "comes with it." Note: literal riding is fine; the tic is the metaphorical "X rides along with Y."</li>
+  </ul>
+  <h2>Structural / framing tics</h2>
+  <ul>
+    <li id="announcing-the-structure-before-delivering-it"><strong>Announcing the structure before delivering it</strong> - "I'm going to make three points" instead of just making them. Trust the reader to follow.</li>
+    <li id="judging-what-s-interesting-or-not"><strong>Judging what's interesting or not</strong> - "the most interesting part," "the least interesting thing." Haughty. Let the reader decide.</li>
+    <li id="hyping"><strong>Hyping / over-dramatizing</strong> - reaching for stakes, metaphors, or cosmic framing when plain is stronger.</li>
+    <li id="false-modest-asides"><strong>False-modest asides</strong> - "I want to be careful here," "with appropriate caveats." Usually signals lean-out, not care.</li>
+    <li id="stacked-dashes-in-a-single-sentence"><strong>Stacked dashes in a single sentence</strong> - rhythmic tic. This style uses regular hyphens with spaces for parentheticals and pivots; more than one in a single sentence reads as a tic. (Em dashes themselves are banned outright - see the Confirmed Claudisms entry.)</li>
+    <li id="stacked-staccato-sentences"><strong>Stacked staccato sentences</strong> - short declaratives in a row of four or more without variation. Short sentences work as punctuation; they need longer sentences around them to land. Mix lengths.</li>
+    <li id="ending-with-a-one-liner-close-that-restates-t"><strong>Ending with a "one-liner close" that restates the thesis</strong> - over-formula. Sometimes the piece just ends.</li>
+    <li id="vague-stakes-gesturing"><strong>Vague stakes-gesturing</strong> - "the question is coming," "the conversation is going to happen," "the reckoning will come." Deferred-reference without naming the question/conversation/reckoning. The reader can't grip stakes that the article keeps gesturing at. Always name the specific question or event being deferred to.</li>
+    <li id="visibility-framings-where-stakes-framings-are"><strong>Visibility framings where stakes-framings are stronger</strong> - "the line will be harder to ignore," "the gap will become more visible," "the difference will be clearer." When describing how AI changes a landscape, outcome-language (who survives, what dies, what builds up) carries weight that visibility-language only points at. Use outcome language when stakes are real.</li>
+  </ul>
+  <h2>Register tics to avoid</h2>
+  <ul>
+    <li id="finance-bro-shorthand"><strong>Finance-bro shorthand</strong> - "$X," "the forward case," "price-to-value ratio." Say what you mean in English.</li>
+    <li id="consultant-phrasing"><strong>Consultant phrasing</strong> - "pressure-test," "right-size," "north star," "true north," "strategic imperative."</li>
+    <li id="mckinsey-adjacent-structure"><strong>McKinsey-adjacent structure</strong> - "three things to know," "key takeaways," neat bullet summaries at the end.</li>
+  </ul>
+  <h2>Spoken-word tells</h2>
+  <ul>
+    <li id="cross-voice-echo"><strong>Cross-voice echo</strong> - two speakers stating the same substantive point back to back in different words ("So nothing here is theoretical." / "Very little of it is theoretical."). It reads as emphasis to the writer and as padding to the listener. One idea, one speaker, once. Short backchannels ("Right.") are fine; a rephrase that adds nothing is not.</li>
+    <li id="sprinkled-disfluency"><strong>Sprinkled disfluency</strong> - seeding "um" / "uh" / "you know" / "right?" evenly across turns, especially short ones. Real fillers cluster at high-planning moments and are prosodically reduced; a typed one gets rendered at full energy, so it lands about twice as loud as a real one. A filler only belongs mid-passage in a turn of three-plus sentences or one long complex sentence. Never on a one-liner, a question, or a backchannel. Fewer is always better.</li>
+    <li id="invented-human-biography-for-a-synthetic-speaker"><strong>Invented human biography for a synthetic speaker</strong> - an AI voice claiming a career ("I ran engineering organizations for twenty years"). Not a style problem, an honesty problem. Synthetic narrators disclose what they are, then may play a named role openly. First-person war stories get reframed as observations about the evidence.</li>
+    <li id="crowned-superlatives-spoken-form"><strong>Crowned superlatives, spoken form</strong> - "my favorite detail in the entire pile," "the most interesting thing about this," "the best record on the panel." Same ban as in prose, and more conspicuous aloud because there is no page to skim past it. If order matters, give the reason, not the crown.</li>
+    <li id="the-whole-the-entire-x"><strong>The whole / the entire X</strong> - "the whole point," "the entire diagnosis," "the whole metric." An intensifier doing no work. Cut it.</li>
+    <li id="honest-as-a-self-qualifier"><strong>"Honest" as a self-qualifier</strong> - "the honest version is..." / "honestly." Fine when describing third-party data; a tell when qualifying your own statement, because it implies the other statements weren't.</li>
+  </ul>
+  <hr>
+
+  <h2>Imported from external AI-writing references</h2>
+  <p class="note">
+    Cross-validated against Will Francis's "How to Stop Claude Writing Like an AI" (willfrancis.com,
+    March 2026), Wikipedia's "Signs of AI writing" page, and the Washington Post analysis of 328K
+    ChatGPT messages. Items below are widely-flagged AI tells that weren't already in this banlist.
+    Some are diction a careful writer would catch instinctively - listed here as defaults to avoid.
+  </p>
+
+  <h3>Vocabulary</h3>
+  <ul>
+    <li id="underscore"><strong>"underscore" / "underscoring the importance of"</strong> - pseudo-emphasis. Among the most-cited AI tics after "delve."</li>
+    <li id="foster"><strong>"foster"</strong> - corporate-warm verb for "support" or "help."</li>
+    <li id="shed-light-on"><strong>"shed light on"</strong> - pseudo-illuminative cliché.</li>
+    <li id="pave-the-way"><strong>"pave the way"</strong> - cliché.</li>
+    <li id="pivotal"><strong>"pivotal" / "plays a pivotal role"</strong> - empty intensifier.</li>
+    <li id="transformative"><strong>"transformative" / "game-changing" / "groundbreaking" / "cutting-edge"</strong> - hype adjectives. Empty.</li>
+    <li id="robust"><strong>"robust" / "seamless" / "intricate" / "comprehensive" / "holistic"</strong> - corporate-tech-press adjectives. Look substantive, say nothing.</li>
+    <li id="navigate"><strong>"navigate"</strong> (figurative, e.g., "navigate the landscape") - AI tic.</li>
+    <li id="realm"><strong>"realm"</strong> - fancy filler for "area" or "field."</li>
+    <li id="landscape"><strong>"landscape"</strong> (figurative) - cosmic-framing emptiness.</li>
+    <li id="testament"><strong>"testament" / "is a testament to"</strong> - overused.</li>
+    <li id="delve"><strong>"delve" / "dive into"</strong> - canonical AI tic since 2023.</li>
+    <li id="harness"><strong>"harness"</strong> - pseudo-active corporate verb.</li>
+  </ul>
+  <h3>Phrases</h3>
+  <ul>
+    <li id="it-s-worth-noting-that"><strong>"It's worth noting that" / "It's important to note that"</strong> - throat-clearing.</li>
+    <li id="when-it-comes-to"><strong>"When it comes to…"</strong> - soft opener that delays the point.</li>
+    <li id="at-its-core"><strong>"At its core…"</strong> - pseudo-fundamental framing.</li>
+    <li id="this-is-where-x-comes-in"><strong>"This is where X comes in"</strong> - lecture-hall framing.</li>
+    <li id="let-s-break-it-down"><strong>"Let's break it down"</strong> - same family.</li>
+    <li id="it-cannot-be-overstated"><strong>"It cannot be overstated"</strong> - overclaim.</li>
+    <li id="reflecting-a-broader-trend-toward"><strong>"Reflecting a broader trend toward" / "Marking a significant shift in"</strong> - AI summary-speak.</li>
+    <li id="great-question"><strong>"Great question" / "I love that you asked"</strong> - preamble flattery.</li>
+  </ul>
+  <h3>Structural tics</h3>
+  <ul>
+    <li id="horizontal-rules-as-section-dividers"><strong><code>---</code> horizontal rules as section dividers</strong> - AI tic. Multi-section articles use headers, not horizontal rules. A bare divider is invisible structure that leaves the reader without orientation. Banned in all article drafts.</li>
+    <li id="negative-parallelism"><strong>Negative parallelism / cleft contrasts</strong> ("It's not just X, it's Y," "Not only X, but Y," "This isn't about X. It's about Y.") - the most-cited AI tell anywhere. Wikipedia, Francis, and the WaPo analysis (6% of July 2025 ChatGPT messages) all flag this as the most recognizable AI structure. Banned outright. Note: this is a broader family than the "the question that…" cleft already in the list.</li>
+    <li id="no-x-no-y-just-z-staccato-negation"><strong>"No X. No Y. Just Z." staccato negation</strong> - sub-form of the above.</li>
+    <li id="bold-term-explanation-sentence-list-format"><strong>"Bold term: explanation sentence" list format</strong> - Francis flags this as the single most recognizable AI list pattern. Avoid even when bullets are appropriate.</li>
+    <li id="signposting-transitions"><strong>Signposting transitions</strong> ("Let's explore," "Now let's turn to," "Moving on to") - explicit examples extending the existing "announcing the structure" rule.</li>
+    <li id="restating-the-question-before-answering"><strong>Restating the question before answering</strong> - AI tic. Just answer.</li>
+    <li id="sweeping-contextual-opener"><strong>Sweeping contextual opener</strong> ("In today's rapidly evolving X…") - already cut in practice; explicit ban here.</li>
+  </ul>
+<!-- END:TERMS -->
+
+  <hr>
+
+  <h2>Usage</h2>
+  <p>
+    When drafting, check against this list before producing. If a candidate phrase appears here,
+    rewrite in plainer English before showing the draft. This list grows - add new entries as
+    they're flagged.
+  </p>
+
+  <footer class="site">
+    A living list of AI-writing tells. Free to copy and adapt - released into the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+  </footer>
+
+</div>
+</body>
+</html>

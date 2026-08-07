@@ -1,0 +1,1601 @@
+{
+ "name": "Claudisms",
+ "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
+ "url": "https://claudisms.ai/",
+ "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+ "updated": "2026-08-07",
+ "count": 120,
+ "terms": [
+  {
+   "id": "sit-with",
+   "term": "sit with",
+   "aliases": [
+    "sit with",
+    "worth sitting with"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- reflective-pose filler. Sounds thoughtful; doesn't say anything.",
+   "url": "https://claudisms.ai/#sit-with",
+   "display": "\"sit with\" / \"worth sitting with\"",
+   "level": 2
+  },
+  {
+   "id": "worth-talking-about",
+   "term": "worth talking about",
+   "aliases": [
+    "worth talking about"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as \"worth sitting with,\" and a specific instance of the broader cool-people rule in the style guide (\"never tell people what to think of something - cool people don't need to tell people they are cool\").",
+   "url": "https://claudisms.ai/#worth-talking-about",
+   "display": "\"worth talking about\"",
+   "level": 2
+  },
+  {
+   "id": "arriving-at",
+   "term": "arriving at",
+   "aliases": [
+    "arriving at",
+    "keep arriving at"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- pseudo-reflective verb. Reaches for false depth where stating the thing directly or \"the question that won't leave\" would work. Often pairs with \"the question I keep…\" - same family as \"sit with.\" Note: \"keep coming back to\" was previously suggested as a replacement here; that's now banned in its own right (see \"coming back to\" entry below).",
+   "url": "https://claudisms.ai/#arriving-at",
+   "display": "\"arriving at\" / \"keep arriving at\"",
+   "level": 2
+  },
+  {
+   "id": "the-question-that-kept-coming-up",
+   "term": "the question that kept coming up",
+   "aliases": [
+    "the question that kept coming up",
+    "the question that keeps coming up",
+    "the question I keep coming back to"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- pseudo-reflective cleft. Frames a thought as a recurring question to add weight, when stating the question directly is stronger. Same family as \"arriving at.\" Note: \"What keeps coming up\" as a sentence opener (no \"the question\" cleft) is fine. The tic is the cleft construction.",
+   "url": "https://claudisms.ai/#the-question-that-kept-coming-up",
+   "display": "\"the question that kept coming up\" / \"the question that keeps coming up\" / \"the question I keep coming back to\"",
+   "level": 2
+  },
+  {
+   "id": "coming-back-to",
+   "term": "coming back to",
+   "aliases": [
+    "coming back to",
+    "keep coming back to",
+    "keeps coming back to",
+    "I keep coming back to"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- pseudo-reflective verb on its own, separate from the cleft form above. Reaches for false depth in any framing - \"the word I keep coming back to,\" \"the idea I keep coming back to,\" etc. Same family as \"arriving at\" and \"sit with.\"",
+   "url": "https://claudisms.ai/#coming-back-to",
+   "display": "\"coming back to\" / \"keep coming back to\" / \"keeps coming back to\" / \"I keep coming back to\"",
+   "level": 2
+  },
+  {
+   "id": "the-thread-i-didn-t-plan-but-can-t-unsee",
+   "term": "the thread I didn't plan but can't unsee",
+   "aliases": [
+    "the thread I didn't plan but can't unsee",
+    "the thing I didn't plan but keep noticing",
+    "I didn't set out to X, but",
+    "I didn't plan it, but",
+    "what I didn't expect to find"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- discovery-arc framing. Stages a little narrative of stumbling onto an insight (didn't plan it -> can't unsee it now) to lend the observation weight it should carry on its own. Same family as \"the question I keep coming back to\" - both manufacture a journey to dramatize a point - and it also trips the \"no narrative arc\" rule in the style guide (a week's articles aren't a story of the author discovering something). The observation should stand without the origin story. Cut the setup and state the thing: \"Every one of these turns on the same pivot.\" not \"The thread I didn't plan but can't unsee: every one of these…\"",
+   "url": "https://claudisms.ai/#the-thread-i-didn-t-plan-but-can-t-unsee",
+   "display": "\"the thread I didn't plan but can't unsee\" / \"the thing I didn't plan but keep noticing\" / \"I didn't set out to X, but\" / \"I didn't plan it, but\" / \"what I didn't expect to find\"",
+   "level": 2
+  },
+  {
+   "id": "the-one-that-surprised-me-most",
+   "term": "the one that surprised me most",
+   "aliases": [
+    "the one that surprised me most",
+    "what struck me hardest",
+    "the part that stuck with me most",
+    "because it surprised me most",
+    "if I had to pick one"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- false-singularity framing. Collapses a set into a single dramatic peak (the most, the one, the hardest) to manufacture emphasis - but the ranking is usually invented, not a deliberate ranking, and it reads unlike natural speech. Same family as the totalizing-superlative rule in the style guide (\"the whole game\"), but pointed at singularity/ranking rather than magnitude, and a cousin of the \"the question I keep coming back to\" cleft - both fabricate a focal point for drama. Just present the example or point plainly without crowning it: \"One example.\" not \"the example that surprised me most.\"",
+   "url": "https://claudisms.ai/#the-one-that-surprised-me-most",
+   "display": "\"the one that surprised me most\" / \"what struck me hardest\" / \"the part that stuck with me most\" / \"because it surprised me most\" / \"if I had to pick one\"",
+   "level": 2
+  },
+  {
+   "id": "the-best-thing-you-can-do-is",
+   "term": "the best thing you can do is",
+   "aliases": [
+    "the best thing you can do is",
+    "the one that pays off most",
+    "where AI helps most",
+    "helps most",
+    "the most X you can get",
+    "the one that [verb]"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- crowned-superlative filler. Ranks one tactic, tool, or idea as the best or highest-value in a set, which is binary thinking dressed as a recommendation and quietly demotes everything else. Same family as the false-singularity entry (\"the one that surprised me most\") and the totalizing-superlative entry (\"the whole game\") - all manufacture a single peak. Present each thing on its merits; if one genuinely comes first, give the reason, not the crown. The scanner catches only these literal phrases; novel nouns/verbs in the slot slip past, so the \"Don't crown one item from a set\" rule on the style-guide checklist is the real backstop and must be run by hand.",
+   "url": "https://claudisms.ai/#the-best-thing-you-can-do-is",
+   "display": "\"the best thing you can do is\" / \"the one that pays off most\" / \"where AI helps most\" / \"helps most\" / \"the most X you can get\" / \"the one that [verb]\"",
+   "level": 2
+  },
+  {
+   "id": "physics",
+   "term": "physics",
+   "aliases": [
+    "physics",
+    "different physics",
+    "rules of physics",
+    "the physics of"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- pseudo-scientific metaphor reaching for grandeur. Means \"how something works\" or \"the conditions\" - say that instead. Same family as \"shape.\"",
+   "url": "https://claudisms.ai/#physics",
+   "display": "\"physics\" / \"different physics\" / \"rules of physics\" / \"the physics of\"",
+   "level": 2
+  },
+  {
+   "id": "names",
+   "term": "names",
+   "aliases": [
+    "names"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as verb, e.g., \"names the move,\" \"names the question,\" \"names what's at stake\") - pseudo-elevated diction. Sounds writerly; means \"says directly\" or \"spells out.\" Use the plain verb.",
+   "url": "https://claudisms.ai/#names",
+   "display": "\"names\"",
+   "level": 2
+  },
+  {
+   "id": "naming",
+   "term": "naming",
+   "aliases": [
+    "naming",
+    "naming that",
+    "naming it"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- the gerund form of the same tic, used as a sentence-opener to lend false weight to the act of labeling something (\"Naming that changes what you expect,\" \"Naming the phase is the first step\"). Means \"calling it what it is\" or just \"recognizing\" - or cut the framing and state the consequence directly. Same family as \"names\" as a verb.",
+   "url": "https://claudisms.ai/#naming",
+   "display": "\"naming\" / \"naming that\" / \"naming it\"",
+   "level": 2
+  },
+  {
+   "id": "quieter",
+   "term": "quieter",
+   "aliases": [
+    "quieter",
+    "louder"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(used metaphorically about writing or argument, e.g., \"quieter version of the same thing,\" \"the louder claim\") - writerly metaphor that's opaque to readers. Means \"less explicit\" or \"more direct\" - say that.",
+   "url": "https://claudisms.ai/#quieter",
+   "display": "\"quieter\" / \"louder\"",
+   "level": 2
+  },
+  {
+   "id": "bumped-into",
+   "term": "bumped into",
+   "aliases": [
+    "bumped into"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- colloquial-feeling verb that sounds casual but lands as a writerly tic when reaching for spontaneity. \"Three things I ran into\" is sharper than \"three things I bumped into.\" \"Ran into\" is the natural choice.",
+   "url": "https://claudisms.ai/#bumped-into",
+   "display": "\"bumped into\"",
+   "level": 2
+  },
+  {
+   "id": "shape",
+   "term": "shape",
+   "aliases": [
+    "shape"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as in \"the shape of the experience,\" \"shape of the time,\" \"the shape of the trend\") - used constantly. When Claude reaches for \"shape\" it almost always means \"the way something feels,\" \"the structure of something,\" or \"the direction of something.\" Say that instead.",
+   "url": "https://claudisms.ai/#shape",
+   "display": "\"shape\"",
+   "level": 2
+  },
+  {
+   "id": "lives",
+   "term": "lives",
+   "aliases": [
+    "lives"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as metaphorical placement of abstract concepts, e.g., \"the risk lives somewhere specific,\" \"the work lives at the operator level,\" \"the tension lives in the gap\") - pseudo-anthropomorphic placement metaphor. Same family as \"shape\" - Claude reaches for a vivid placement verb where \"is,\" \"happens,\" or \"shows up\" would land plainer.",
+   "url": "https://claudisms.ai/#lives",
+   "display": "\"lives\"",
+   "level": 2
+  },
+  {
+   "id": "the-engine",
+   "term": "the engine",
+   "aliases": [
+    "the engine"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as metaphor for what drives or generates value, e.g., \"the challenge function is the engine,\" \"tension is the engine of growth,\" \"that dynamic is the engine\") - mechanical metaphor reaching for compactness and motion-feel. Means \"what works,\" \"what makes companies sharp,\" \"the productive part,\" or just cut the sentence and let surrounding lines do the work. Same family as \"shape\" and \"lives\" - Claude reaches for a vivid metaphor where direct statement is sharper.",
+   "url": "https://claudisms.ai/#the-engine",
+   "display": "\"the engine\"",
+   "level": 2
+  },
+  {
+   "id": "hits-hardest",
+   "term": "hits hardest",
+   "aliases": [
+    "hits hardest",
+    "hits the hardest",
+    "lands hardest",
+    "lands the hardest",
+    "strikes hardest",
+    "strikes the hardest"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as in \"where commoditization hits hardest,\" \"when this hits hardest,\" \"the layer where AI lands hardest\") - superlative intensification reaching for dramatic-impact framing. Means \"is most exposed,\" \"is most affected,\" \"shows up first,\" or \"is most replaceable\" - say that. Same family as \"the engine\" and \"shape\" - Claude reaches for a vivid intensification verb where direct statement is sharper.",
+   "url": "https://claudisms.ai/#hits-hardest",
+   "display": "\"hits hardest\" / \"hits the hardest\" / \"lands hardest\" / \"lands the hardest\" / \"strikes hardest\" / \"strikes the hardest\"",
+   "level": 2
+  },
+  {
+   "id": "surface",
+   "term": "surface",
+   "aliases": [
+    "surface"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as verb) - \"surface the insight,\" \"surface a pattern.\" Corporate-adjacent, vague.",
+   "url": "https://claudisms.ai/#surface",
+   "display": "\"surface\"",
+   "level": 2
+  },
+  {
+   "id": "the-tell",
+   "term": "the tell",
+   "aliases": [
+    "the tell",
+    "that's the tell",
+    "the tell is"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- poker/diagnosis diction reaching for knowing-insider weight. Frames an observation as a secret giveaway the writer has cleverly spotted - same announce-your-own-cleverness move as the cool-people rule. It is not natural phrasing. Say plainly what the thing shows or means, or just state the observation: \"The song is the odd one out, and that's worth looking at\" -> just say why it's different.",
+   "url": "https://claudisms.ai/#the-tell",
+   "display": "\"the tell\" / \"that's the tell\" / \"the tell is\"",
+   "level": 2
+  },
+  {
+   "id": "load-bearing",
+   "term": "load-bearing",
+   "aliases": [
+    "load-bearing"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- engineering metaphor that's become a tic.",
+   "url": "https://claudisms.ai/#load-bearing",
+   "display": "\"load-bearing\"",
+   "level": 2
+  },
+  {
+   "id": "the-point-is",
+   "term": "the point is",
+   "aliases": [
+    "the point is"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- throat-clearing. Get to the point without announcing it.",
+   "url": "https://claudisms.ai/#the-point-is",
+   "display": "\"the point is\"",
+   "level": 2
+  },
+  {
+   "id": "here-s-where-it-gets-interesting",
+   "term": "Here's where it gets interesting",
+   "aliases": [
+    "Here's where it gets interesting"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- lecture-hall framing. Skips ahead without earning the turn.",
+   "url": "https://claudisms.ai/#here-s-where-it-gets-interesting",
+   "display": "\"Here's where it gets interesting\"",
+   "level": 2
+  },
+  {
+   "id": "here-s-the-analogy-that-clicked-for-me",
+   "term": "Here's the analogy that clicked for me",
+   "aliases": [
+    "Here's the analogy that clicked for me",
+    "Here's the moment that hit me",
+    "Here's the thing that landed",
+    "Here's the part that stuck"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- section-announcer plus performative-epiphany combo. Same family as \"Here's where it gets interesting\" - telegraphs incoming insight instead of delivering it. The \"that clicked / hit / landed / stuck (for me)\" suffix adds self-narration on top. Just open with the analogy/moment/thing directly.",
+   "url": "https://claudisms.ai/#here-s-the-analogy-that-clicked-for-me",
+   "display": "\"Here's the analogy that clicked for me\" / \"Here's the moment that hit me\" / \"Here's the thing that landed\" / \"Here's the part that stuck\"",
+   "level": 2
+  },
+  {
+   "id": "because-it-matters",
+   "term": "because it matters",
+   "aliases": [
+    "because it matters",
+    "this matters",
+    "and that matters"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- presumptuous. Tells the reader what to value before they've decided. Same family as \"Here's where it gets interesting.\" Just say the thing without prefacing why it deserves attention.",
+   "url": "https://claudisms.ai/#because-it-matters",
+   "display": "\"because it matters\" / \"this matters\" / \"and that matters\"",
+   "level": 2
+  },
+  {
+   "id": "the-right-time",
+   "term": "the right time",
+   "aliases": [
+    "the right time",
+    "the right question",
+    "the right way",
+    "the right answer",
+    "the right tool"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- assertion-of-rightness filler. Variants on telling the reader what's correct. Same family as \"this matters\" - value-claim filler dressed up as conclusion. Specific instance of the cool-people rule in the style guide. Note: questions that contain \"right\" (e.g., a question paraphrased as \"are these the right ones\") are exempt - those are inquiries, not assertions.",
+   "url": "https://claudisms.ai/#the-right-time",
+   "display": "\"the right time\" / \"the right question\" / \"the right way\" / \"the right answer\" / \"the right tool\"",
+   "level": 2
+  },
+  {
+   "id": "i-can-t-stop-thinking-about",
+   "term": "I can't stop thinking about",
+   "aliases": [
+    "I can't stop thinking about"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- false-intimacy cliche.",
+   "url": "https://claudisms.ai/#i-can-t-stop-thinking-about",
+   "display": "\"I can't stop thinking about\"",
+   "level": 2
+  },
+  {
+   "id": "at-the-end-of-the-day",
+   "term": "at the end of the day",
+   "aliases": [
+    "at the end of the day"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- corporate filler.",
+   "url": "https://claudisms.ai/#at-the-end-of-the-day",
+   "display": "\"at the end of the day\"",
+   "level": 2
+  },
+  {
+   "id": "double-click-on",
+   "term": "double-click on",
+   "aliases": [
+    "double-click on"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- corporate-speak.",
+   "url": "https://claudisms.ai/#double-click-on",
+   "display": "\"double-click on\"",
+   "level": 2
+  },
+  {
+   "id": "unpack",
+   "term": "unpack",
+   "aliases": [
+    "unpack"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- overused reflective verb.",
+   "url": "https://claudisms.ai/#unpack",
+   "display": "\"unpack\"",
+   "level": 2
+  },
+  {
+   "id": "leverage",
+   "term": "leverage",
+   "aliases": [
+    "leverage"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as verb) - corporate-speak.",
+   "url": "https://claudisms.ai/#leverage",
+   "display": "\"leverage\"",
+   "level": 2
+  },
+  {
+   "id": "lean-into",
+   "term": "lean into",
+   "aliases": [
+    "lean into",
+    "lean out"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- overused.",
+   "url": "https://claudisms.ai/#lean-into",
+   "display": "\"lean into\" / \"lean out\"",
+   "level": 2
+  },
+  {
+   "id": "come-along",
+   "term": "come along",
+   "aliases": [
+    "come along"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- too soft for definitive moments.",
+   "url": "https://claudisms.ai/#come-along",
+   "display": "\"come along\"",
+   "level": 2
+  },
+  {
+   "id": "throughline",
+   "term": "throughline",
+   "aliases": [
+    "throughline"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- buzzy and off-key.",
+   "url": "https://claudisms.ai/#throughline",
+   "display": "\"throughline\"",
+   "level": 2
+  },
+  {
+   "id": "dispatches-from",
+   "term": "dispatches from…",
+   "aliases": [
+    "dispatches from…",
+    "field notes from the frontier"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- frontier-dispatch tropes. Performative.",
+   "url": "https://claudisms.ai/#dispatches-from",
+   "display": "\"dispatches from…\" / \"field notes from the frontier\"",
+   "level": 2
+  },
+  {
+   "id": "best-operators",
+   "term": "best operators",
+   "aliases": [
+    "best operators",
+    "top practitioners"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- hierarchy language to avoid; there are many valid approaches, not a single elite tier.",
+   "url": "https://claudisms.ai/#best-operators",
+   "display": "\"best operators\" / \"top practitioners\"",
+   "level": 2
+  },
+  {
+   "id": "first-wave-of-a-multi-year-transition",
+   "term": "first wave of a multi-year transition",
+   "aliases": [
+    "first wave of a multi-year transition"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- grandiose. Overclaiming.",
+   "url": "https://claudisms.ai/#first-wave-of-a-multi-year-transition",
+   "display": "\"first wave of a multi-year transition\"",
+   "level": 2
+  },
+  {
+   "id": "lessons-learned",
+   "term": "lessons learned",
+   "aliases": [
+    "lessons learned"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- too corporate.",
+   "url": "https://claudisms.ai/#lessons-learned",
+   "display": "\"lessons learned\"",
+   "level": 2
+  },
+  {
+   "id": "stakes-of-their-seat",
+   "term": "stakes of their seat",
+   "aliases": [
+    "stakes of their seat"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- retired.",
+   "url": "https://claudisms.ai/#stakes-of-their-seat",
+   "display": "\"stakes of their seat\"",
+   "level": 2
+  },
+  {
+   "id": "seat-as-metaphor-generally",
+   "term": "seat\" as metaphor generally",
+   "aliases": [
+    "seat\" as metaphor generally"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- spent.",
+   "url": "https://claudisms.ai/#seat-as-metaphor-generally",
+   "display": "\"seat\" as metaphor generally",
+   "level": 2
+  },
+  {
+   "id": "paradigm-shift",
+   "term": "paradigm shift",
+   "aliases": [
+    "paradigm shift"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- tired.",
+   "url": "https://claudisms.ai/#paradigm-shift",
+   "display": "\"paradigm shift\"",
+   "level": 2
+  },
+  {
+   "id": "em-dashes",
+   "term": "Em dashes (—)",
+   "aliases": [
+    "Em dashes (—)"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces (<code> - </code>), not em dashes. The em dash itself is the formatting Claudism. Use <code> - </code> instead in all drafts. Note: earlier published articles may contain em dashes; do not retroactively change those, but never introduce new ones in drafts. The pre-show checklist carries a matching zero-em-dash gate item.",
+   "url": "https://claudisms.ai/#em-dashes",
+   "display": "Em dashes (—)",
+   "level": 2
+  },
+  {
+   "id": "emojis",
+   "term": "Emojis",
+   "aliases": [
+    "Emojis"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- banned outright in all output: articles, newsletters, post blurbs, share text, headlines, everything. Emojis are a social-media tic to avoid and read as AI-generated filler, especially the call-to-action arrow/pointing-hand under a \"read more\" line. Don't add them even where LinkedIn convention invites them. The writing carries the energy; a glyph telling the reader where to look or how to feel is the same move as the cool-people rule. No exceptions.",
+   "url": "https://claudisms.ai/#emojis",
+   "display": "Emojis",
+   "level": 2
+  },
+  {
+   "id": "the-whole-game",
+   "term": "the whole game",
+   "aliases": [
+    "the whole game",
+    "that's the whole game",
+    "the whole ballgame",
+    "the only thing that matters",
+    "that's the entire point"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally \"the whole game.\" It's a specific instance of the binary-thinking aversion in the style guide (\"avoid absolute framing - always, never, every time\"): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. <strong>The ban is the construction, not just these nouns:</strong> any \"the whole [X]\" / \"the entire [X]\" / \"the only [X] that matters\" / \"the whole point of [Y]\" formulation is the same tic regardless of which noun fills the slot - \"the whole lesson,\" \"the whole story,\" \"the whole point,\" \"the whole job,\" \"the whole thing.\" The scanner only matches the literal phrases listed above; novel nouns slip past it, so the totalizing-superlative item on the style-guide checklist is the real backstop and must be run by hand every pass.",
+   "url": "https://claudisms.ai/#the-whole-game",
+   "display": "\"the whole game\" / \"that's the whole game\" / \"the whole ballgame\" / \"the only thing that matters\" / \"that's the entire point\"",
+   "level": 2
+  },
+  {
+   "id": "the-only-thing-that-changed",
+   "term": "the only thing that changed",
+   "aliases": [
+    "the only thing that changed",
+    "the only thing that mattered",
+    "the only thing that happened",
+    "the only X that [verb]"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(the construction beyond \"the only X that <em>matters</em>\" already covered above) - binary-dramatization construction. Same family as the totalizing-superlative entry above and the always/never/every-time aversion. It inflates a point by claiming nothing else was involved (\"the only thing that changed was how it talked\") - often false on its face (other things plainly changed too), and even when literally true it crowns a single factor for drama instead of just naming it. Say what differed or what counted without the singular crown: \"what differed was the tone,\" not \"the only thing that changed was the tone.\" The scanner won't catch novel verbs in the slot; run by hand.",
+   "url": "https://claudisms.ai/#the-only-thing-that-changed",
+   "display": "\"the only thing that changed\" / \"the only thing that mattered\" / \"the only thing that happened\" / \"the only X that [verb]\"",
+   "level": 2
+  },
+  {
+   "id": "hold",
+   "term": "hold",
+   "aliases": [
+    "hold",
+    "holding"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(a thought, a line, a tension, an idea, two things at once - e.g. \"holding them at the same time,\" \"the line it holds,\" \"hold that thought\") - pseudo-weighty placement verb applied to abstractions. Reaches for gravitas by treating an idea as a physical thing gripped in the hand. Same family as \"sit with,\" \"lives,\" and \"shape.\" Say the plain thing: \"believing both at once,\" \"the rule it keeps,\" \"both are true.\" Note: literal physical holding is fine; the tic is the metaphorical application to thoughts/principles/tensions.",
+   "url": "https://claudisms.ai/#hold",
+   "display": "\"hold\" / \"holding\"",
+   "level": 2
+  },
+  {
+   "id": "carry",
+   "term": "carry",
+   "aliases": [
+    "carry"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(asking the reader to carry an idea/takeaway - e.g. \"what I'd ask you to carry,\" \"carry this with you,\" \"the thing to carry forward\") - same placement-metaphor family as \"hold.\" Pseudo-weighty way of saying \"remember,\" \"take away,\" or \"keep in mind.\" Say that. Note: literal carrying and ordinary figurative uses (\"the argument carries,\" \"a sentence that carries weight\") are not the tic; the ban targets the reader-instruction \"carry this.\"",
+   "url": "https://claudisms.ai/#carry",
+   "display": "\"carry\"",
+   "level": 2
+  },
+  {
+   "id": "essays",
+   "term": "essays",
+   "aliases": [
+    "essays"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- always \"articles.\" The pieces are articles, not essays.",
+   "url": "https://claudisms.ai/#essays",
+   "display": "\"essays\"",
+   "level": 2
+  },
+  {
+   "id": "stays-yours",
+   "term": "stays yours",
+   "aliases": [
+    "stays yours",
+    "stay yours",
+    "what stays yours",
+    "that part stays yours",
+    "the rest is yours",
+    "yours to [keep/own/decide]"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- ownership-retention filler. Reaches for a warm, proprietary glow by telling the reader which part still belongs to them instead of just saying what they do. Note: this often appears as the tail of a standing author blurb (\"what it changes, what it doesn't, and what stays yours\"), which is exactly why it leaks into prose - the blurb may use it; the articles should not. Same family as the cool-people rule and the placement-metaphor verbs (\"hold,\" \"carry,\" \"lives\"): it announces value/possession rather than demonstrating it. Say the plain thing - \"you decide what done means,\" \"you make the call,\" \"you set the standard,\" \"the review is on you.\" Note: literal possession (\"that laptop is yours\") is fine; the tic is the abstract \"the judgment stays yours\" register.",
+   "url": "https://claudisms.ai/#stays-yours",
+   "display": "\"stays yours\" / \"stay yours\" / \"what stays yours\" / \"that part stays yours\" / \"the rest is yours\" / \"yours to [keep/own/decide]\"",
+   "level": 2
+  },
+  {
+   "id": "worth-asking",
+   "term": "worth asking",
+   "aliases": [
+    "worth asking",
+    "worth a look",
+    "worth it",
+    "worth the"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "and any other \"worth [X]\" construction - the entire \"worth ___\" family is banned, not just the gerund forms enumerated below. If a sentence uses \"worth\" to tell the reader something deserves their attention/effort/consideration, cut it and let the thing demonstrate its own value. Same cool-people move every time.",
+   "url": "https://claudisms.ai/#worth-asking",
+   "display": "\"worth asking\" / \"worth a look\" / \"worth it\" / \"worth the\"",
+   "level": 2
+  },
+  {
+   "id": "worth-drawing",
+   "term": "worth drawing",
+   "aliases": [
+    "worth drawing",
+    "worth making",
+    "worth examining",
+    "worth considering",
+    "worth exploring"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- the \"worth [gerund]\" construction beyond the already-banned \"worth noting,\" \"worth talking about,\" \"worth sitting with.\" All reach for the same move: telling the reader something deserves attention instead of demonstrating it. Same family, same ban.",
+   "url": "https://claudisms.ai/#worth-drawing",
+   "display": "\"worth drawing\" / \"worth making\" / \"worth examining\" / \"worth considering\" / \"worth exploring\"",
+   "level": 2
+  },
+  {
+   "id": "mature",
+   "term": "mature",
+   "aliases": [
+    "mature",
+    "more mature",
+    "mature setup",
+    "mature version"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- subjective grading that implies the current state is deficient without discussion. Same family as the cool-people rule - don't grade things without earning it. When describing a future or improved state, describe what it does differently, not how developed it is.",
+   "url": "https://claudisms.ai/#mature",
+   "display": "\"mature\" / \"more mature\" / \"mature setup\" / \"mature version\"",
+   "level": 2
+  },
+  {
+   "id": "sit-with-2",
+   "term": "sit with",
+   "aliases": [
+    "sit with",
+    "sitting with",
+    "a hard thing to sit with",
+    "sit with that"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- reflective-pose filler (verb form, distinct from the noun \"worth sitting with\" already listed). Sounds thoughtful, says nothing. Replace with the plain thing: \"hard to shake,\" \"hard to get past,\" or just state the feeling.",
+   "url": "https://claudisms.ai/#sit-with-2",
+   "display": "\"sit with\" / \"sitting with\" / \"a hard thing to sit with\" / \"sit with that\"",
+   "level": 2
+  },
+  {
+   "id": "which-brings-me-back-to",
+   "term": "which brings me back to",
+   "aliases": [
+    "which brings me back to",
+    "brings me back to",
+    "that brings us back to"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- same pseudo-reflective return-framing family as \"coming back to\" and \"the question I keep coming back to.\" Narrates circling back instead of just making the next point. Cut it and state the point.",
+   "url": "https://claudisms.ai/#which-brings-me-back-to",
+   "display": "\"which brings me back to\" / \"brings me back to\" / \"that brings us back to\"",
+   "level": 2
+  },
+  {
+   "id": "leave",
+   "term": "leave",
+   "aliases": [
+    "leave"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "in the reader-direction sense - <strong>\"what I'd leave you with\" / \"I'll leave you with\" / \"leaving you with\" / \"what I want to leave you with\"</strong> - section-closer framing. Same family as \"carry this with you.\" Don't announce the parting thought; just say it.",
+   "url": "https://claudisms.ai/#leave",
+   "display": "\"leave\"",
+   "level": 2
+  },
+  {
+   "id": "in-the-same-chest",
+   "term": "in the same chest",
+   "aliases": [
+    "in the same chest",
+    "in my chest",
+    "in the chest"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "and other chest/gut/ribcage placement of emotions - pseudo-physical placement metaphor for feeling. Same family as \"lives\" and \"hold.\" Just name the feeling: \"both at once,\" \"I felt both.\"",
+   "url": "https://claudisms.ai/#in-the-same-chest",
+   "display": "\"in the same chest\" / \"in my chest\" / \"in the chest\"",
+   "level": 2
+  },
+  {
+   "id": "here-is-where-i-landed",
+   "term": "here is where I landed",
+   "aliases": [
+    "here is where I landed",
+    "where I landed",
+    "here's where I come down"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- pseudo-reflective journey-framing. Narrates the act of reaching a conclusion instead of just stating the conclusion. Same family as \"arriving at\" and the section-announcer tics. Cut it and state the point.",
+   "url": "https://claudisms.ai/#here-is-where-i-landed",
+   "display": "\"here is where I landed\" / \"where I landed\" / \"here's where I come down\"",
+   "level": 2
+  },
+  {
+   "id": "we-ve-seen-this-movie-before",
+   "term": "we've seen this movie before",
+   "aliases": [
+    "we've seen this movie before",
+    "we have seen this movie before",
+    "seen this one before"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "and variations - tired cliche dressed as wry recognition. Also the historical-precedent framing more broadly: <strong>\"we have stood here before\" / \"we've been here before\" / \"we keep meeting it\"</strong> and variations. Reaches for knowing-narrator gravitas. Say the precedent plainly or just give the example.",
+   "url": "https://claudisms.ai/#we-ve-seen-this-movie-before",
+   "display": "\"we've seen this movie before\" / \"we have seen this movie before\" / \"seen this one before\"",
+   "level": 2
+  },
+  {
+   "id": "compounds",
+   "term": "compounds",
+   "aliases": [
+    "compounds",
+    "compound"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(in any context - \"the advantage compounds,\" \"value compounds,\" \"it compounds over time\") - finance-adjacent growth-metaphor tic. Banned in all contexts. Say \"builds,\" \"adds up,\" \"grows,\" or state the actual mechanism.",
+   "url": "https://claudisms.ai/#compounds",
+   "display": "\"compounds\" / \"compound\"",
+   "level": 2
+  },
+  {
+   "id": "honest",
+   "term": "honest",
+   "aliases": [
+    "honest",
+    "honestly"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- qualifier-on-own-statements tic (\"the honest version,\" \"an honest snapshot,\" \"an honest breakdown\"). Implies the inverse - that other statements might not be honest. Operate on the assumption that everything you write is honest by default unless explicitly stated otherwise; flagging a particular claim as \"honest\" suspiciously implies the others aren't. Same family as the cool-people rule. Scanner flags every instance; defend exceptions when \"honest\" describes external state or a third party's behavior (e.g., \"honest accounting\" of someone else's reporting, \"be honest with yourself\") rather than qualifying your own statements.",
+   "url": "https://claudisms.ai/#honest",
+   "display": "\"honest\" / \"honestly\"",
+   "level": 2
+  },
+  {
+   "id": "turns",
+   "term": "turns",
+   "aliases": [
+    "turns",
+    "turns on"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as a pivot verb - \"the sentence turns on the word,\" \"it all turns on trust\") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means \"depends on,\" \"comes down to,\" or \"is about.\" Reserve \"turns\" for navigation. Same borrowed-domain family as \"the physics of\" and \"names\"; it also self-announces when used to point at the writer's own framing (\"that sentence turns on X\"). See the borrowed-domain weight-verb rule in the style guide.",
+   "url": "https://claudisms.ai/#turns",
+   "display": "\"turns\" / \"turns on\"",
+   "level": 2
+  },
+  {
+   "id": "compounds-2",
+   "term": "compounds",
+   "aliases": [
+    "compounds",
+    "compounding"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(metaphorical - \"trust compounds,\" \"the value compounds,\" \"compounds into something\") - finance/growth-metaphor reach for accumulation-over-time. Means \"builds,\" \"adds up,\" or \"grows.\" Note: legitimate when describing real compounding, including human trust genuinely accreting over time - the tic is reaching for it as a weighty synonym for \"builds.\" Same borrowed-domain family as \"the engine\" and \"physics.\"",
+   "url": "https://claudisms.ai/#compounds-2",
+   "display": "\"compounds\" / \"compounding\"",
+   "level": 2
+  },
+  {
+   "id": "useful",
+   "term": "useful",
+   "aliases": [
+    "useful",
+    "the useful thing",
+    "what's useful"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(announcing usefulness as a frame - \"the useful thing she does is,\" \"here's the useful part\") - cool-people-rule violation: labels the value instead of letting the substance show it. Same family as \"worth noting.\" Cut the label and state the thing; if it's useful the reader sees it. Note: \"useful\" describing an external object plainly (\"a useful tool\") is fine; the tic is announcing usefulness.",
+   "url": "https://claudisms.ai/#useful",
+   "display": "\"useful\" / \"the useful thing\" / \"what's useful\"",
+   "level": 2
+  },
+  {
+   "id": "the-part-that-stayed-mine",
+   "term": "the part that stayed mine",
+   "aliases": [
+    "the part that stayed mine",
+    "the part that stayed X"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- false-ownership / false-intimacy framing to avoid. Manufactures a sentimental \"this bit was truly mine\" beat over plain fact. Same family as \"I can't stop thinking about.\" Say what you actually did or kept; don't narrate which part felt like yours.",
+   "url": "https://claudisms.ai/#the-part-that-stayed-mine",
+   "display": "\"the part that stayed mine\" / \"the part that stayed X\"",
+   "level": 2
+  },
+  {
+   "id": "what-i-keep-wanting-people-to-see",
+   "term": "what I keep wanting people to see",
+   "aliases": [
+    "what I keep wanting people to see",
+    "what I want you to see",
+    "what I want people to take away"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- author-desire framing that tells the reader what the author wishes they would notice. Readers don't care what the author wants them to see - the substance shows it or it doesn't. Same family as \"this matters\" and the cool-people rule. Cut it and just make the point.",
+   "url": "https://claudisms.ai/#what-i-keep-wanting-people-to-see",
+   "display": "\"what I keep wanting people to see\" / \"what I want you to see\" / \"what I want people to take away\"",
+   "level": 2
+  },
+  {
+   "id": "hit-a-nerve",
+   "term": "hit a nerve",
+   "aliases": [
+    "hit a nerve",
+    "struck a nerve",
+    "stuck with me",
+    "stayed with me",
+    "struck a chord",
+    "it really landed for me"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- false emotional-resonance clichés. They borrow a generic emotional reaction instead of naming the actual one, and several (\"hit a nerve,\" \"struck a chord\") smuggle in a wounded/negative connotation that may be wrong. When you react to something, say precisely what the reaction was - \"interesting, relevant, and something I could act on\" - not \"it hit a nerve.\" Same family as \"I can't stop thinking about\" and \"the part that stayed mine.\"",
+   "url": "https://claudisms.ai/#hit-a-nerve",
+   "display": "\"hit a nerve\" / \"struck a nerve\" / \"stuck with me\" / \"stayed with me\" / \"struck a chord\" / \"it really landed for me\"",
+   "level": 2
+  },
+  {
+   "id": "wreck",
+   "term": "wreck",
+   "aliases": [
+    "wreck",
+    "wrecked",
+    "destroy",
+    "shatter",
+    "obliterate",
+    "blow up"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale \"made the work worse,\" it didn't \"wreck\" it. See the drama / true-magnitude rule in the style guide. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.",
+   "url": "https://claudisms.ai/#wreck",
+   "display": "\"wreck\" / \"wrecked\" / \"destroy\" / \"shatter\" / \"obliterate\" / \"blow up\"",
+   "level": 2
+  },
+  {
+   "id": "real",
+   "term": "real",
+   "aliases": [
+    "real",
+    "a real X",
+    "the real thing",
+    "the real problem",
+    "real data"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- banned in nearly all contexts. \"Real\" is best avoided in almost any context. It's binary - its opposite, \"fake,\" carries insult and can disparage perfectly legitimate things (calling one approach \"real\" implies the others aren't, e.g. saying a study's design was \"the real way to prove it\" slights everything else). It also usually adds nothing. Say the specific thing instead: \"measured,\" \"actual,\" \"the deeper point,\" \"the work itself,\" or just drop it. Note: \"really\" as an intensifier is a different word and not the target; the ban is the adjective \"real.\"",
+   "url": "https://claudisms.ai/#real",
+   "display": "\"real\" / \"a real X\" / \"the real thing\" / \"the real problem\" / \"real data\"",
+   "level": 2
+  },
+  {
+   "id": "the-thing-that-got-me",
+   "term": "the thing that got me",
+   "aliases": [
+    "the thing that got me",
+    "what got me was",
+    "the thing that got to me",
+    "the thing that hooked me"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- fabricated-singularity plus invented-reaction. Two tics in one: it crowns a single item (\"the thing\") when there's rarely just one, and \"got me\" invents an emotional reaction the writer never stated. Same family as \"the question I keep coming back to\" (manufactured focal point) and \"hit a nerve\" / \"stuck with me\" (borrowed generic reaction). Say plainly what the reaction actually was - liked it, appreciated it, was pleasantly surprised by it - and don't anoint one item as the singular thing.",
+   "url": "https://claudisms.ai/#the-thing-that-got-me",
+   "display": "\"the thing that got me\" / \"what got me was\" / \"the thing that got to me\" / \"the thing that hooked me\"",
+   "level": 2
+  },
+  {
+   "id": "reaching-for",
+   "term": "reaching for",
+   "aliases": [
+    "reaching for",
+    "reach for",
+    "reaches for",
+    "reaching"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(metaphorical - grasping for an effect, a word, weight, gravitas, false depth, e.g. \"reaching for gravitas,\" \"reaches for a vivid metaphor\") - grasping-metaphor tic. Ironically the exact verb this very list leans on over and over to describe other tics - fine inside these editor notes, but in article prose it's the same pseudo-writerly grasp it names. Say the plain thing: \"wants,\" \"goes for,\" \"tries for,\" \"grabs at,\" or just state what's happening. Note: literal reaching (for an object) and ordinary senses (\"audience reach,\" \"reach out,\" \"reach parity,\" \"reach a conclusion\") are fine; the tic is the metaphorical grasp-for-an-effect.",
+   "url": "https://claudisms.ai/#reaching-for",
+   "display": "\"reaching for\" / \"reach for\" / \"reaches for\" / \"reaching\"",
+   "level": 2
+  },
+  {
+   "id": "doing-the-work",
+   "term": "doing the work",
+   "aliases": [
+    "doing the work",
+    "the word was doing the work",
+    "X is doing the work here",
+    "doing the heavy lifting",
+    "carrying the argument",
+    "holding the sentence up",
+    "the noun is doing all the lifting"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- abstract-agency metaphor: a word, sentence, framing, or idea is personified as an employee performing labor. Reads as writerly shorthand and says nothing a reader can picture. The construction is a cousin of \"lives,\" \"holds,\" \"carries,\" and \"the engine\" (vivid placement/agency verb standing in for a plain statement), but it earns its own entry because it gets used constantly when writing about language, arguments, or framing. Say what actually happened in plain terms: \"the sentence only sounded smart because of the word,\" \"take the word out and there's nothing left.\" The test: could a reader draw what the sentence claims is happening? If a word is \"doing work,\" no.",
+   "url": "https://claudisms.ai/#doing-the-work",
+   "display": "\"doing the work\" / \"the word was doing the work\" / \"X is doing the work here\" / \"doing the heavy lifting\" / \"carrying the argument\" / \"holding the sentence up\" / \"the noun is doing all the lifting\"",
+   "level": 2
+  },
+  {
+   "id": "most-people",
+   "term": "most people",
+   "aliases": [
+    "most people",
+    "most people I've talked to",
+    "the people I've watched",
+    "everyone I've worked with",
+    "in my experience, most teams",
+    "a lot of folks",
+    "nobody I know"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- invented-observation framing, the writerly version of \"people say.\" Two failures stacked: it attributes a claim to a vague mass that can't be checked, and it fabricates a first-person history - watching people, asking people, noticing a pattern across people - that was never described. Unless the observation was actually made or is in the source material, it does not exist and can't be salvaged by softening it (\"many people,\" \"a lot of the time\"). Cut the sentence, or make the point without a population behind it. Same family as the sourcing rule in the style guide, which carries a hard gate.",
+   "url": "https://claudisms.ai/#most-people",
+   "display": "\"most people\" / \"most people I've talked to\" / \"the people I've watched\" / \"everyone I've worked with\" / \"in my experience, most teams\" / \"a lot of folks\" / \"nobody I know\"",
+   "level": 2
+  },
+  {
+   "id": "announcing-the-structure-before-delivering-it",
+   "term": "Announcing the structure before delivering it",
+   "aliases": [
+    "Announcing the structure before delivering it"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- \"I'm going to make three points\" instead of just making them. Trust the reader to follow.",
+   "url": "https://claudisms.ai/#announcing-the-structure-before-delivering-it",
+   "display": "Announcing the structure before delivering it",
+   "level": 2
+  },
+  {
+   "id": "judging-what-s-interesting-or-not",
+   "term": "Judging what's interesting or not",
+   "aliases": [
+    "Judging what's interesting or not"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- \"the most interesting part,\" \"the least interesting thing.\" Haughty. Let the reader decide.",
+   "url": "https://claudisms.ai/#judging-what-s-interesting-or-not",
+   "display": "Judging what's interesting or not",
+   "level": 2
+  },
+  {
+   "id": "hyping",
+   "term": "Hyping",
+   "aliases": [
+    "Hyping",
+    "over-dramatizing"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- reaching for stakes, metaphors, or cosmic framing when plain is stronger.",
+   "url": "https://claudisms.ai/#hyping",
+   "display": "Hyping / over-dramatizing",
+   "level": 2
+  },
+  {
+   "id": "false-modest-asides",
+   "term": "False-modest asides",
+   "aliases": [
+    "False-modest asides"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- \"I want to be careful here,\" \"with appropriate caveats.\" Usually signals lean-out, not care.",
+   "url": "https://claudisms.ai/#false-modest-asides",
+   "display": "False-modest asides",
+   "level": 2
+  },
+  {
+   "id": "stacked-dashes-in-a-single-sentence",
+   "term": "Stacked dashes in a single sentence",
+   "aliases": [
+    "Stacked dashes in a single sentence"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- rhythmic tic. This style uses regular hyphens with spaces for parentheticals and pivots; more than one in a single sentence reads as a tic. (Em dashes themselves are banned outright - see the Confirmed Claudisms entry.)",
+   "url": "https://claudisms.ai/#stacked-dashes-in-a-single-sentence",
+   "display": "Stacked dashes in a single sentence",
+   "level": 2
+  },
+  {
+   "id": "stacked-staccato-sentences",
+   "term": "Stacked staccato sentences",
+   "aliases": [
+    "Stacked staccato sentences"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- short declaratives in a row of four or more without variation. Short sentences work as punctuation; they need longer sentences around them to land. Mix lengths.",
+   "url": "https://claudisms.ai/#stacked-staccato-sentences",
+   "display": "Stacked staccato sentences",
+   "level": 2
+  },
+  {
+   "id": "ending-with-a-one-liner-close-that-restates-t",
+   "term": "Ending with a \"one-liner close\" that restates the thesis",
+   "aliases": [
+    "Ending with a \"one-liner close\" that restates the thesis"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- over-formula. Sometimes the piece just ends.",
+   "url": "https://claudisms.ai/#ending-with-a-one-liner-close-that-restates-t",
+   "display": "Ending with a \"one-liner close\" that restates the thesis",
+   "level": 2
+  },
+  {
+   "id": "vague-stakes-gesturing",
+   "term": "Vague stakes-gesturing",
+   "aliases": [
+    "Vague stakes-gesturing"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- \"the question is coming,\" \"the conversation is going to happen,\" \"the reckoning will come.\" Deferred-reference without naming the question/conversation/reckoning. The reader can't grip stakes that the article keeps gesturing at. Always name the specific question or event being deferred to.",
+   "url": "https://claudisms.ai/#vague-stakes-gesturing",
+   "display": "Vague stakes-gesturing",
+   "level": 2
+  },
+  {
+   "id": "visibility-framings-where-stakes-framings-are",
+   "term": "Visibility framings where stakes-framings are stronger",
+   "aliases": [
+    "Visibility framings where stakes-framings are stronger"
+   ],
+   "category": "Structural / framing tics",
+   "definition": "- \"the line will be harder to ignore,\" \"the gap will become more visible,\" \"the difference will be clearer.\" When describing how AI changes a landscape, outcome-language (who survives, what dies, what builds up) carries weight that visibility-language only points at. Use outcome language when stakes are real.",
+   "url": "https://claudisms.ai/#visibility-framings-where-stakes-framings-are",
+   "display": "Visibility framings where stakes-framings are stronger",
+   "level": 2
+  },
+  {
+   "id": "finance-bro-shorthand",
+   "term": "Finance-bro shorthand",
+   "aliases": [
+    "Finance-bro shorthand"
+   ],
+   "category": "Register tics to avoid",
+   "definition": "- \"$X,\" \"the forward case,\" \"price-to-value ratio.\" Say what you mean in English.",
+   "url": "https://claudisms.ai/#finance-bro-shorthand",
+   "display": "Finance-bro shorthand",
+   "level": 2
+  },
+  {
+   "id": "consultant-phrasing",
+   "term": "Consultant phrasing",
+   "aliases": [
+    "Consultant phrasing"
+   ],
+   "category": "Register tics to avoid",
+   "definition": "- \"pressure-test,\" \"right-size,\" \"north star,\" \"true north,\" \"strategic imperative.\"",
+   "url": "https://claudisms.ai/#consultant-phrasing",
+   "display": "Consultant phrasing",
+   "level": 2
+  },
+  {
+   "id": "mckinsey-adjacent-structure",
+   "term": "McKinsey-adjacent structure",
+   "aliases": [
+    "McKinsey-adjacent structure"
+   ],
+   "category": "Register tics to avoid",
+   "definition": "- \"three things to know,\" \"key takeaways,\" neat bullet summaries at the end.",
+   "url": "https://claudisms.ai/#mckinsey-adjacent-structure",
+   "display": "McKinsey-adjacent structure",
+   "level": 2
+  },
+  {
+   "id": "underscore",
+   "term": "underscore",
+   "aliases": [
+    "underscore",
+    "underscoring the importance of"
+   ],
+   "category": "Vocabulary",
+   "definition": "- pseudo-emphasis. Among the most-cited AI tics after \"delve.\"",
+   "url": "https://claudisms.ai/#underscore",
+   "display": "\"underscore\" / \"underscoring the importance of\"",
+   "level": 3
+  },
+  {
+   "id": "foster",
+   "term": "foster",
+   "aliases": [
+    "foster"
+   ],
+   "category": "Vocabulary",
+   "definition": "- corporate-warm verb for \"support\" or \"help.\"",
+   "url": "https://claudisms.ai/#foster",
+   "display": "\"foster\"",
+   "level": 3
+  },
+  {
+   "id": "shed-light-on",
+   "term": "shed light on",
+   "aliases": [
+    "shed light on"
+   ],
+   "category": "Vocabulary",
+   "definition": "- pseudo-illuminative cliché.",
+   "url": "https://claudisms.ai/#shed-light-on",
+   "display": "\"shed light on\"",
+   "level": 3
+  },
+  {
+   "id": "pave-the-way",
+   "term": "pave the way",
+   "aliases": [
+    "pave the way"
+   ],
+   "category": "Vocabulary",
+   "definition": "- cliché.",
+   "url": "https://claudisms.ai/#pave-the-way",
+   "display": "\"pave the way\"",
+   "level": 3
+  },
+  {
+   "id": "pivotal",
+   "term": "pivotal",
+   "aliases": [
+    "pivotal",
+    "plays a pivotal role"
+   ],
+   "category": "Vocabulary",
+   "definition": "- empty intensifier.",
+   "url": "https://claudisms.ai/#pivotal",
+   "display": "\"pivotal\" / \"plays a pivotal role\"",
+   "level": 3
+  },
+  {
+   "id": "transformative",
+   "term": "transformative",
+   "aliases": [
+    "transformative",
+    "game-changing",
+    "groundbreaking",
+    "cutting-edge"
+   ],
+   "category": "Vocabulary",
+   "definition": "- hype adjectives. Empty.",
+   "url": "https://claudisms.ai/#transformative",
+   "display": "\"transformative\" / \"game-changing\" / \"groundbreaking\" / \"cutting-edge\"",
+   "level": 3
+  },
+  {
+   "id": "robust",
+   "term": "robust",
+   "aliases": [
+    "robust",
+    "seamless",
+    "intricate",
+    "comprehensive",
+    "holistic"
+   ],
+   "category": "Vocabulary",
+   "definition": "- corporate-tech-press adjectives. Look substantive, say nothing.",
+   "url": "https://claudisms.ai/#robust",
+   "display": "\"robust\" / \"seamless\" / \"intricate\" / \"comprehensive\" / \"holistic\"",
+   "level": 3
+  },
+  {
+   "id": "navigate",
+   "term": "navigate",
+   "aliases": [
+    "navigate"
+   ],
+   "category": "Vocabulary",
+   "definition": "(figurative, e.g., \"navigate the landscape\") - AI tic.",
+   "url": "https://claudisms.ai/#navigate",
+   "display": "\"navigate\"",
+   "level": 3
+  },
+  {
+   "id": "realm",
+   "term": "realm",
+   "aliases": [
+    "realm"
+   ],
+   "category": "Vocabulary",
+   "definition": "- fancy filler for \"area\" or \"field.\"",
+   "url": "https://claudisms.ai/#realm",
+   "display": "\"realm\"",
+   "level": 3
+  },
+  {
+   "id": "landscape",
+   "term": "landscape",
+   "aliases": [
+    "landscape"
+   ],
+   "category": "Vocabulary",
+   "definition": "(figurative) - cosmic-framing emptiness.",
+   "url": "https://claudisms.ai/#landscape",
+   "display": "\"landscape\"",
+   "level": 3
+  },
+  {
+   "id": "testament",
+   "term": "testament",
+   "aliases": [
+    "testament",
+    "is a testament to"
+   ],
+   "category": "Vocabulary",
+   "definition": "- overused.",
+   "url": "https://claudisms.ai/#testament",
+   "display": "\"testament\" / \"is a testament to\"",
+   "level": 3
+  },
+  {
+   "id": "delve",
+   "term": "delve",
+   "aliases": [
+    "delve",
+    "dive into"
+   ],
+   "category": "Vocabulary",
+   "definition": "- canonical AI tic since 2023.",
+   "url": "https://claudisms.ai/#delve",
+   "display": "\"delve\" / \"dive into\"",
+   "level": 3
+  },
+  {
+   "id": "harness",
+   "term": "harness",
+   "aliases": [
+    "harness"
+   ],
+   "category": "Vocabulary",
+   "definition": "- pseudo-active corporate verb.",
+   "url": "https://claudisms.ai/#harness",
+   "display": "\"harness\"",
+   "level": 3
+  },
+  {
+   "id": "it-s-worth-noting-that",
+   "term": "It's worth noting that",
+   "aliases": [
+    "It's worth noting that",
+    "It's important to note that"
+   ],
+   "category": "Phrases",
+   "definition": "- throat-clearing.",
+   "url": "https://claudisms.ai/#it-s-worth-noting-that",
+   "display": "\"It's worth noting that\" / \"It's important to note that\"",
+   "level": 3
+  },
+  {
+   "id": "when-it-comes-to",
+   "term": "When it comes to…",
+   "aliases": [
+    "When it comes to…"
+   ],
+   "category": "Phrases",
+   "definition": "- soft opener that delays the point.",
+   "url": "https://claudisms.ai/#when-it-comes-to",
+   "display": "\"When it comes to…\"",
+   "level": 3
+  },
+  {
+   "id": "at-its-core",
+   "term": "At its core…",
+   "aliases": [
+    "At its core…"
+   ],
+   "category": "Phrases",
+   "definition": "- pseudo-fundamental framing.",
+   "url": "https://claudisms.ai/#at-its-core",
+   "display": "\"At its core…\"",
+   "level": 3
+  },
+  {
+   "id": "this-is-where-x-comes-in",
+   "term": "This is where X comes in",
+   "aliases": [
+    "This is where X comes in"
+   ],
+   "category": "Phrases",
+   "definition": "- lecture-hall framing.",
+   "url": "https://claudisms.ai/#this-is-where-x-comes-in",
+   "display": "\"This is where X comes in\"",
+   "level": 3
+  },
+  {
+   "id": "let-s-break-it-down",
+   "term": "Let's break it down",
+   "aliases": [
+    "Let's break it down"
+   ],
+   "category": "Phrases",
+   "definition": "- same family.",
+   "url": "https://claudisms.ai/#let-s-break-it-down",
+   "display": "\"Let's break it down\"",
+   "level": 3
+  },
+  {
+   "id": "it-cannot-be-overstated",
+   "term": "It cannot be overstated",
+   "aliases": [
+    "It cannot be overstated"
+   ],
+   "category": "Phrases",
+   "definition": "- overclaim.",
+   "url": "https://claudisms.ai/#it-cannot-be-overstated",
+   "display": "\"It cannot be overstated\"",
+   "level": 3
+  },
+  {
+   "id": "reflecting-a-broader-trend-toward",
+   "term": "Reflecting a broader trend toward",
+   "aliases": [
+    "Reflecting a broader trend toward",
+    "Marking a significant shift in"
+   ],
+   "category": "Phrases",
+   "definition": "- AI summary-speak.",
+   "url": "https://claudisms.ai/#reflecting-a-broader-trend-toward",
+   "display": "\"Reflecting a broader trend toward\" / \"Marking a significant shift in\"",
+   "level": 3
+  },
+  {
+   "id": "great-question",
+   "term": "Great question",
+   "aliases": [
+    "Great question",
+    "I love that you asked"
+   ],
+   "category": "Phrases",
+   "definition": "- preamble flattery.",
+   "url": "https://claudisms.ai/#great-question",
+   "display": "\"Great question\" / \"I love that you asked\"",
+   "level": 3
+  },
+  {
+   "id": "horizontal-rules-as-section-dividers",
+   "term": "--- horizontal rules as section dividers",
+   "aliases": [
+    "--- horizontal rules as section dividers"
+   ],
+   "category": "Structural tics",
+   "definition": "- AI tic. Multi-section articles use headers, not horizontal rules. A bare divider is invisible structure that leaves the reader without orientation. Banned in all article drafts.",
+   "url": "https://claudisms.ai/#horizontal-rules-as-section-dividers",
+   "display": "<code>---</code> horizontal rules as section dividers",
+   "level": 3
+  },
+  {
+   "id": "negative-parallelism",
+   "term": "Negative parallelism",
+   "aliases": [
+    "Negative parallelism",
+    "cleft contrasts"
+   ],
+   "category": "Structural tics",
+   "definition": "(\"It's not just X, it's Y,\" \"Not only X, but Y,\" \"This isn't about X. It's about Y.\") - the most-cited AI tell anywhere. Wikipedia, Francis, and the WaPo analysis (6% of July 2025 ChatGPT messages) all flag this as the most recognizable AI structure. Banned outright. Note: this is a broader family than the \"the question that…\" cleft already in the list.",
+   "url": "https://claudisms.ai/#negative-parallelism",
+   "display": "Negative parallelism / cleft contrasts",
+   "level": 3
+  },
+  {
+   "id": "no-x-no-y-just-z-staccato-negation",
+   "term": "No X. No Y. Just Z.\" staccato negation",
+   "aliases": [
+    "No X. No Y. Just Z.\" staccato negation"
+   ],
+   "category": "Structural tics",
+   "definition": "- sub-form of the above.",
+   "url": "https://claudisms.ai/#no-x-no-y-just-z-staccato-negation",
+   "display": "\"No X. No Y. Just Z.\" staccato negation",
+   "level": 3
+  },
+  {
+   "id": "bold-term-explanation-sentence-list-format",
+   "term": "Bold term: explanation sentence\" list format",
+   "aliases": [
+    "Bold term: explanation sentence\" list format"
+   ],
+   "category": "Structural tics",
+   "definition": "- Francis flags this as the single most recognizable AI list pattern. Avoid even when bullets are appropriate.",
+   "url": "https://claudisms.ai/#bold-term-explanation-sentence-list-format",
+   "display": "\"Bold term: explanation sentence\" list format",
+   "level": 3
+  },
+  {
+   "id": "signposting-transitions",
+   "term": "Signposting transitions",
+   "aliases": [
+    "Signposting transitions"
+   ],
+   "category": "Structural tics",
+   "definition": "(\"Let's explore,\" \"Now let's turn to,\" \"Moving on to\") - explicit examples extending the existing \"announcing the structure\" rule.",
+   "url": "https://claudisms.ai/#signposting-transitions",
+   "display": "Signposting transitions",
+   "level": 3
+  },
+  {
+   "id": "restating-the-question-before-answering",
+   "term": "Restating the question before answering",
+   "aliases": [
+    "Restating the question before answering"
+   ],
+   "category": "Structural tics",
+   "definition": "- AI tic. Just answer.",
+   "url": "https://claudisms.ai/#restating-the-question-before-answering",
+   "display": "Restating the question before answering",
+   "level": 3
+  },
+  {
+   "id": "sweeping-contextual-opener",
+   "term": "Sweeping contextual opener",
+   "aliases": [
+    "Sweeping contextual opener"
+   ],
+   "category": "Structural tics",
+   "definition": "(\"In today's rapidly evolving X…\") - already cut in practice; explicit ban here.",
+   "url": "https://claudisms.ai/#sweeping-contextual-opener",
+   "display": "Sweeping contextual opener",
+   "level": 3
+  },
+  {
+   "id": "quietly",
+   "term": "quietly",
+   "aliases": [
+    "quietly",
+    "removes that step quietly",
+    "shifts quietly",
+    "erodes quietly",
+    "changes quietly"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(as a scene-setting adverb implying an unnoticed, creeping change - \"removes that step quietly,\" \"shifts quietly,\" \"erodes quietly,\" \"changes quietly\") - reaches for a hidden-drama effect without evidence that anyone actually failed to notice. Same family as \"shape\" and \"lives\" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.",
+   "url": "https://claudisms.ai/#quietly",
+   "display": "quietly",
+   "level": 2
+  },
+  {
+   "id": "a-question-we-thought-was-settled",
+   "term": "a question we thought was settled",
+   "aliases": [
+    "a question we thought was settled",
+    "reopens a settled question",
+    "what was settled",
+    "a settled question",
+    "back into an open one"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "- false-reframe filler that dramatizes a point by claiming some prior consensus is now unsettled. The \"settled\" consensus is usually never stated, so the drama is manufactured. Say the plain thing: \"it raises a new question,\" \"we have not worked out X yet.\"",
+   "url": "https://claudisms.ai/#a-question-we-thought-was-settled",
+   "display": "a question we thought was settled",
+   "level": 2
+  },
+  {
+   "id": "rides-along",
+   "term": "rides along",
+   "aliases": [
+    "rides along",
+    "rides on",
+    "riding along"
+   ],
+   "category": "Confirmed Claudisms",
+   "definition": "(metaphorical, e.g. \"a summary rides along,\" \"the risk rides on the decision\") - filler placement/motion verb dressing up \"comes with\" or \"is attached.\" Say the plain thing: \"with a summary attached,\" \"comes with it.\" Note: literal riding is fine; the tic is the metaphorical \"X rides along with Y.\"",
+   "url": "https://claudisms.ai/#rides-along",
+   "display": "rides along",
+   "level": 2
+  },
+  {
+   "id": "cross-voice-echo",
+   "term": "Cross-voice echo",
+   "aliases": [
+    "Cross-voice echo"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- two speakers stating the same substantive point back to back in different words (\"So nothing here is theoretical.\" / \"Very little of it is theoretical.\"). It reads as emphasis to the writer and as padding to the listener. One idea, one speaker, once. Short backchannels (\"Right.\") are fine; a rephrase that adds nothing is not.",
+   "url": "https://claudisms.ai/#cross-voice-echo",
+   "display": "Cross-voice echo",
+   "level": 2
+  },
+  {
+   "id": "sprinkled-disfluency",
+   "term": "Sprinkled disfluency",
+   "aliases": [
+    "Sprinkled disfluency"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- seeding \"um\" / \"uh\" / \"you know\" / \"right?\" evenly across turns, especially short ones. Real fillers cluster at high-planning moments and are prosodically reduced; a typed one gets rendered at full energy, so it lands about twice as loud as a real one. A filler only belongs mid-passage in a turn of three-plus sentences or one long complex sentence. Never on a one-liner, a question, or a backchannel. Fewer is always better.",
+   "url": "https://claudisms.ai/#sprinkled-disfluency",
+   "display": "Sprinkled disfluency",
+   "level": 2
+  },
+  {
+   "id": "invented-human-biography-for-a-synthetic-speaker",
+   "term": "Invented human biography for a synthetic speaker",
+   "aliases": [
+    "Invented human biography for a synthetic speaker"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- an AI voice claiming a career (\"I ran engineering organizations for twenty years\"). Not a style problem, an honesty problem. Synthetic narrators disclose what they are, then may play a named role openly. First-person war stories get reframed as observations about the evidence.",
+   "url": "https://claudisms.ai/#invented-human-biography-for-a-synthetic-speaker",
+   "display": "Invented human biography for a synthetic speaker",
+   "level": 2
+  },
+  {
+   "id": "crowned-superlatives-spoken-form",
+   "term": "Crowned superlatives, spoken form",
+   "aliases": [
+    "Crowned superlatives, spoken form"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- \"my favorite detail in the entire pile,\" \"the most interesting thing about this,\" \"the best record on the panel.\" Same ban as in prose, and more conspicuous aloud because there is no page to skim past it. If order matters, give the reason, not the crown.",
+   "url": "https://claudisms.ai/#crowned-superlatives-spoken-form",
+   "display": "Crowned superlatives, spoken form",
+   "level": 2
+  },
+  {
+   "id": "the-whole-the-entire-x",
+   "term": "The whole / the entire X",
+   "aliases": [
+    "the whole",
+    "the entire",
+    "the whole point",
+    "the entire diagnosis",
+    "the whole metric"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- \"the whole point,\" \"the entire diagnosis,\" \"the whole metric.\" An intensifier doing no work. Cut it.",
+   "url": "https://claudisms.ai/#the-whole-the-entire-x",
+   "display": "The whole / the entire X",
+   "level": 2
+  },
+  {
+   "id": "honest-as-a-self-qualifier",
+   "term": "\"Honest\" as a self-qualifier",
+   "aliases": [
+    "the honest version is",
+    "honestly"
+   ],
+   "category": "Spoken-word tells",
+   "definition": "- \"the honest version is...\" / \"honestly.\" Fine when describing third-party data; a tell when qualifying your own statement, because it implies the other statements weren't.",
+   "url": "https://claudisms.ai/#honest-as-a-self-qualifier",
+   "display": "\"Honest\" as a self-qualifier",
+   "level": 2
+  }
+ ]
+}
