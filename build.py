@@ -178,6 +178,19 @@ def t_level(data, cat):
     return next(t.get('level', 2) for t in data['terms'] if t['category'] == cat)
 
 
+MD_INLINE = ((r'<strong>(.*?)</strong>', r'**\1**'),
+             (r'<em>(.*?)</em>', r'*\1*'),
+             (r'<code>(.*?)</code>', r'`\1`'),
+             (r'<abbr>(.*?)</abbr>', r'\1'))
+
+
+def md_inline(text):
+    """Inline HTML in an entry becomes Markdown emphasis in the .md output."""
+    for pat, rep in MD_INLINE:
+        text = re.sub(pat, rep, text)
+    return text
+
+
 def render_md(data):
     parts = [MD_HEADER]
     imported_done = False
@@ -190,7 +203,7 @@ def render_md(data):
         for t in data['terms']:
             if t['category'] != cat:
                 continue
-            parts.append(f"- **{head(t)}**{body(t)}\n")
+            parts.append(f"- **{md_inline(head(t))}**{md_inline(body(t))}\n")
         if t_level(data, cat) == 2:
             parts.append('\n---\n')
     parts.append('\n' + MD_FOOTER)

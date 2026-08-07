@@ -26,7 +26,7 @@
     "worth talking about"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as \"worth sitting with,\" and a specific instance of the broader cool-people rule in the style guide (\"never tell people what to think of something - cool people don't need to tell people they are cool\").",
+   "definition": "- value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as \"worth sitting with.\" The broader rule it breaks: never tell people what to think of something - cool people don't need to tell people they are cool.",
    "url": "https://claudisms.ai/#worth-talking-about",
    "display": "\"worth talking about\"",
    "level": 2
@@ -84,7 +84,7 @@
     "what I didn't expect to find"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- discovery-arc framing. Stages a little narrative of stumbling onto an insight (didn't plan it -> can't unsee it now) to lend the observation weight it should carry on its own. Same family as \"the question I keep coming back to\" - both manufacture a journey to dramatize a point - and it also trips the \"no narrative arc\" rule in the style guide (a week's articles aren't a story of the author discovering something). The observation should stand without the origin story. Cut the setup and state the thing: \"Every one of these turns on the same pivot.\" not \"The thread I didn't plan but can't unsee: every one of these…\"",
+   "definition": "- discovery-arc framing. Stages a little narrative of stumbling onto an insight (didn't plan it -> can't unsee it now) to lend the observation weight it should carry on its own. Same family as \"the question I keep coming back to\" - both manufacture a journey to dramatize a point - and it also breaks the no-narrative-arc rule: a set of pieces isn't a story about the author discovering something. The observation should stand without the origin story. Cut the setup and state the thing: \"Every one of these turns on the same pivot.\" not \"The thread I didn't plan but can't unsee: every one of these…\"",
    "url": "https://claudisms.ai/#the-thread-i-didn-t-plan-but-can-t-unsee",
    "display": "\"the thread I didn't plan but can't unsee\" / \"the thing I didn't plan but keep noticing\" / \"I didn't set out to X, but\" / \"I didn't plan it, but\" / \"what I didn't expect to find\"",
    "level": 2
@@ -100,7 +100,7 @@
     "if I had to pick one"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- false-singularity framing. Collapses a set into a single dramatic peak (the most, the one, the hardest) to manufacture emphasis - but the ranking is usually invented, not a deliberate ranking, and it reads unlike natural speech. Same family as the totalizing-superlative rule in the style guide (\"the whole game\"), but pointed at singularity/ranking rather than magnitude, and a cousin of the \"the question I keep coming back to\" cleft - both fabricate a focal point for drama. Just present the example or point plainly without crowning it: \"One example.\" not \"the example that surprised me most.\"",
+   "definition": "- false-singularity framing. Collapses a set into a single dramatic peak (the most, the one, the hardest) to manufacture emphasis - but the ranking is usually invented, not a deliberate ranking, and it reads unlike natural speech. Same family as the totalizing-superlative entry (\"the whole game\"), but pointed at singularity/ranking rather than magnitude, and a cousin of the \"the question I keep coming back to\" cleft - both fabricate a focal point for drama. Just present the example or point plainly without crowning it: \"One example.\" not \"the example that surprised me most.\"",
    "url": "https://claudisms.ai/#the-one-that-surprised-me-most",
    "display": "\"the one that surprised me most\" / \"what struck me hardest\" / \"the part that stuck with me most\" / \"because it surprised me most\" / \"if I had to pick one\"",
    "level": 2
@@ -117,7 +117,7 @@
     "the one that [verb]"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- crowned-superlative filler. Ranks one tactic, tool, or idea as the best or highest-value in a set, which is binary thinking dressed as a recommendation and quietly demotes everything else. Same family as the false-singularity entry (\"the one that surprised me most\") and the totalizing-superlative entry (\"the whole game\") - all manufacture a single peak. Present each thing on its merits; if one genuinely comes first, give the reason, not the crown. The scanner catches only these literal phrases; novel nouns/verbs in the slot slip past, so the \"Don't crown one item from a set\" rule on the style-guide checklist is the real backstop and must be run by hand.",
+   "definition": "- crowned-superlative filler. Ranks one tactic, tool, or idea as the best or highest-value in a set, which is binary thinking dressed as a recommendation and quietly demotes everything else. Same family as the false-singularity entry (\"the one that surprised me most\") and the totalizing-superlative entry (\"the whole game\") - all manufacture a single peak. Present each thing on its merits; if one genuinely comes first, give the reason, not the crown. Note: a text search only catches the literal phrases listed here - the same move with a novel noun or verb in the slot reads exactly the same and has to be caught by eye.",
    "url": "https://claudisms.ai/#the-best-thing-you-can-do-is",
    "display": "\"the best thing you can do is\" / \"the one that pays off most\" / \"where AI helps most\" / \"helps most\" / \"the most X you can get\" / \"the one that [verb]\"",
    "level": 2
@@ -343,7 +343,7 @@
     "the right tool"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- assertion-of-rightness filler. Variants on telling the reader what's correct. Same family as \"this matters\" - value-claim filler dressed up as conclusion. Specific instance of the cool-people rule in the style guide. Note: questions that contain \"right\" (e.g., a question paraphrased as \"are these the right ones\") are exempt - those are inquiries, not assertions.",
+   "definition": "- assertion-of-rightness filler. Variants on telling the reader what's correct. Same family as \"this matters\" - value-claim filler dressed up as conclusion. Specific instance of the cool-people rule (see \"worth talking about\"). Note: questions that contain \"right\" (e.g., a question paraphrased as \"are these the right ones\") are exempt - those are inquiries, not assertions.",
    "url": "https://claudisms.ai/#the-right-time",
    "display": "\"the right time\" / \"the right question\" / \"the right way\" / \"the right answer\" / \"the right tool\"",
    "level": 2
@@ -538,7 +538,7 @@
     "Em dashes (—)"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces (<code> - </code>), not em dashes. The em dash itself is the formatting Claudism. Use <code> - </code> instead in all drafts. Note: earlier published articles may contain em dashes; do not retroactively change those, but never introduce new ones in drafts. The pre-show checklist carries a matching zero-em-dash gate item.",
+   "definition": "- banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces (<code> - </code>), not em dashes. The em dash itself is the formatting Claudism. Use <code> - </code> instead in all drafts. Note: already-published work may contain em dashes; there's no need to go back and change it, but don't introduce new ones.",
    "url": "https://claudisms.ai/#em-dashes",
    "display": "Em dashes (—)",
    "level": 2
@@ -566,7 +566,7 @@
     "that's the entire point"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally \"the whole game.\" It's a specific instance of the binary-thinking aversion in the style guide (\"avoid absolute framing - always, never, every time\"): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. <strong>The ban is the construction, not just these nouns:</strong> any \"the whole [X]\" / \"the entire [X]\" / \"the only [X] that matters\" / \"the whole point of [Y]\" formulation is the same tic regardless of which noun fills the slot - \"the whole lesson,\" \"the whole story,\" \"the whole point,\" \"the whole job,\" \"the whole thing.\" The scanner only matches the literal phrases listed above; novel nouns slip past it, so the totalizing-superlative item on the style-guide checklist is the real backstop and must be run by hand every pass.",
+   "definition": "- totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally \"the whole game.\" A specific instance of the broader aversion to absolute framing (always, never, every time): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. <strong>The ban is the construction, not just these nouns:</strong> any \"the whole [X]\" / \"the entire [X]\" / \"the only [X] that matters\" / \"the whole point of [Y]\" formulation is the same tic regardless of which noun fills the slot - \"the whole lesson,\" \"the whole story,\" \"the whole point,\" \"the whole job,\" \"the whole thing.\" A text search only matches the literal phrases listed above; novel nouns slip past, so this one has to be caught by eye on every pass.",
    "url": "https://claudisms.ai/#the-whole-game",
    "display": "\"the whole game\" / \"that's the whole game\" / \"the whole ballgame\" / \"the only thing that matters\" / \"that's the entire point\"",
    "level": 2
@@ -581,7 +581,7 @@
     "the only X that [verb]"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "(the construction beyond \"the only X that <em>matters</em>\" already covered above) - binary-dramatization construction. Same family as the totalizing-superlative entry above and the always/never/every-time aversion. It inflates a point by claiming nothing else was involved (\"the only thing that changed was how it talked\") - often false on its face (other things plainly changed too), and even when literally true it crowns a single factor for drama instead of just naming it. Say what differed or what counted without the singular crown: \"what differed was the tone,\" not \"the only thing that changed was the tone.\" The scanner won't catch novel verbs in the slot; run by hand.",
+   "definition": "(the construction beyond \"the only X that <em>matters</em>\" already covered above) - binary-dramatization construction. Same family as the totalizing-superlative entry above and the always/never/every-time aversion. It inflates a point by claiming nothing else was involved (\"the only thing that changed was how it talked\") - often false on its face (other things plainly changed too), and even when literally true it crowns a single factor for drama instead of just naming it. Say what differed or what counted without the singular crown: \"what differed was the tone,\" not \"the only thing that changed was the tone.\" A text search won't catch novel verbs in the slot - this one has to be caught by eye.",
    "url": "https://claudisms.ai/#the-only-thing-that-changed",
    "display": "\"the only thing that changed\" / \"the only thing that mattered\" / \"the only thing that happened\" / \"the only X that [verb]\"",
    "level": 2
@@ -635,7 +635,7 @@
     "yours to [keep/own/decide]"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- ownership-retention filler. Reaches for a warm, proprietary glow by telling the reader which part still belongs to them instead of just saying what they do. Note: this often appears as the tail of a standing author blurb (\"what it changes, what it doesn't, and what stays yours\"), which is exactly why it leaks into prose - the blurb may use it; the articles should not. Same family as the cool-people rule and the placement-metaphor verbs (\"hold,\" \"carry,\" \"lives\"): it announces value/possession rather than demonstrating it. Say the plain thing - \"you decide what done means,\" \"you make the call,\" \"you set the standard,\" \"the review is on you.\" Note: literal possession (\"that laptop is yours\") is fine; the tic is the abstract \"the judgment stays yours\" register.",
+   "definition": "- ownership-retention filler. Reaches for a warm, proprietary glow by telling the reader which part still belongs to them instead of just saying what they do. Note: it turns up often in marketing and bio copy (\"what it changes, what it doesn't, and what stays yours\"), which is exactly why it leaks into prose - that register may use it; an article shouldn't. Same family as the cool-people rule and the placement-metaphor verbs (\"hold,\" \"carry,\" \"lives\"): it announces value/possession rather than demonstrating it. Say the plain thing - \"you decide what done means,\" \"you make the call,\" \"you set the standard,\" \"the review is on you.\" Note: literal possession (\"that laptop is yours\") is fine; the tic is the abstract \"the judgment stays yours\" register.",
    "url": "https://claudisms.ai/#stays-yours",
    "display": "\"stays yours\" / \"stay yours\" / \"what stays yours\" / \"that part stays yours\" / \"the rest is yours\" / \"yours to [keep/own/decide]\"",
    "level": 2
@@ -790,7 +790,7 @@
     "honestly"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- qualifier-on-own-statements tic (\"the honest version,\" \"an honest snapshot,\" \"an honest breakdown\"). Implies the inverse - that other statements might not be honest. Operate on the assumption that everything you write is honest by default unless explicitly stated otherwise; flagging a particular claim as \"honest\" suspiciously implies the others aren't. Same family as the cool-people rule. Scanner flags every instance; defend exceptions when \"honest\" describes external state or a third party's behavior (e.g., \"honest accounting\" of someone else's reporting, \"be honest with yourself\") rather than qualifying your own statements.",
+   "definition": "- qualifier-on-own-statements tic (\"the honest version,\" \"an honest snapshot,\" \"an honest breakdown\"). Implies the inverse - that other statements might not be honest. Operate on the assumption that everything you write is honest by default unless explicitly stated otherwise; flagging a particular claim as \"honest\" suspiciously implies the others aren't. Same family as the cool-people rule. Exceptions worth defending: when \"honest\" describes external state or a third party's behavior (\"honest accounting\" of someone else's reporting, \"be honest with yourself\") rather than qualifying your own statements.",
    "url": "https://claudisms.ai/#honest",
    "display": "\"honest\" / \"honestly\"",
    "level": 2
@@ -803,7 +803,7 @@
     "turns on"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "(as a pivot verb - \"the sentence turns on the word,\" \"it all turns on trust\") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means \"depends on,\" \"comes down to,\" or \"is about.\" Reserve \"turns\" for navigation. Same borrowed-domain family as \"the physics of\" and \"names\"; it also self-announces when used to point at the writer's own framing (\"that sentence turns on X\"). See the borrowed-domain weight-verb rule in the style guide.",
+   "definition": "(as a pivot verb - \"the sentence turns on the word,\" \"it all turns on trust\") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means \"depends on,\" \"comes down to,\" or \"is about.\" Reserve \"turns\" for navigation. Same borrowed-domain family as \"the physics of\" and \"names\" - a verb lifted from another field to make a plain relationship sound weightier; it also self-announces when used to point at the writer's own framing (\"that sentence turns on X\").",
    "url": "https://claudisms.ai/#turns",
    "display": "\"turns\" / \"turns on\"",
    "level": 2
@@ -891,7 +891,7 @@
     "blow up"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "(as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale \"made the work worse,\" it didn't \"wreck\" it. See the drama / true-magnitude rule in the style guide. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.",
+   "definition": "(as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale \"made the work worse,\" it didn't \"wreck\" it. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.",
    "url": "https://claudisms.ai/#wreck",
    "display": "\"wreck\" / \"wrecked\" / \"destroy\" / \"shatter\" / \"obliterate\" / \"blow up\"",
    "level": 2
@@ -973,7 +973,7 @@
     "nobody I know"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "- invented-observation framing, the writerly version of \"people say.\" Two failures stacked: it attributes a claim to a vague mass that can't be checked, and it fabricates a first-person history - watching people, asking people, noticing a pattern across people - that was never described. Unless the observation was actually made or is in the source material, it does not exist and can't be salvaged by softening it (\"many people,\" \"a lot of the time\"). Cut the sentence, or make the point without a population behind it. Same family as the sourcing rule in the style guide, which carries a hard gate.",
+   "definition": "- invented-observation framing, the writerly version of \"people say.\" Two failures stacked: it attributes a claim to a vague mass that can't be checked, and it fabricates a first-person history - watching people, asking people, noticing a pattern across people - that was never described. Unless the observation was actually made or is in the source material, it does not exist and can't be salvaged by softening it (\"many people,\" \"a lot of the time\"). Cut the sentence, or make the point without a population behind it. Same failure as any unsourced first-person specific: if it didn't happen, it can't go in.",
    "url": "https://claudisms.ai/#most-people",
    "display": "\"most people\" / \"most people I've talked to\" / \"the people I've watched\" / \"everyone I've worked with\" / \"in my experience, most teams\" / \"a lot of folks\" / \"nobody I know\"",
    "level": 2
@@ -1487,7 +1487,7 @@
    "category": "Confirmed Claudisms",
    "definition": "(as a scene-setting adverb implying an unnoticed, creeping change - \"removes that step quietly,\" \"shifts quietly,\" \"erodes quietly,\" \"changes quietly\") - reaches for a hidden-drama effect without evidence that anyone actually failed to notice. Same family as \"shape\" and \"lives\" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.",
    "url": "https://claudisms.ai/#quietly",
-   "display": "quietly",
+   "display": "\"quietly\"",
    "level": 2
   },
   {
@@ -1503,7 +1503,7 @@
    "category": "Confirmed Claudisms",
    "definition": "- false-reframe filler that dramatizes a point by claiming some prior consensus is now unsettled. The \"settled\" consensus is usually never stated, so the drama is manufactured. Say the plain thing: \"it raises a new question,\" \"we have not worked out X yet.\"",
    "url": "https://claudisms.ai/#a-question-we-thought-was-settled",
-   "display": "a question we thought was settled",
+   "display": "\"a question we thought was settled\" / \"reopens a settled question\" / \"what was settled\" / \"a settled question\" / \"back into an open one\"",
    "level": 2
   },
   {
@@ -1517,7 +1517,7 @@
    "category": "Confirmed Claudisms",
    "definition": "(metaphorical, e.g. \"a summary rides along,\" \"the risk rides on the decision\") - filler placement/motion verb dressing up \"comes with\" or \"is attached.\" Say the plain thing: \"with a summary attached,\" \"comes with it.\" Note: literal riding is fine; the tic is the metaphorical \"X rides along with Y.\"",
    "url": "https://claudisms.ai/#rides-along",
-   "display": "rides along",
+   "display": "\"rides along\" / \"rides on\" / \"riding along\"",
    "level": 2
   },
   {
@@ -1581,7 +1581,7 @@
    "category": "Spoken-word tells",
    "definition": "- \"the whole point,\" \"the entire diagnosis,\" \"the whole metric.\" An intensifier doing no work. Cut it.",
    "url": "https://claudisms.ai/#the-whole-the-entire-x",
-   "display": "The whole / the entire X",
+   "display": "\"the whole [X]\" / \"the entire [X]\"",
    "level": 2
   },
   {
@@ -1594,7 +1594,7 @@
    "category": "Spoken-word tells",
    "definition": "- \"the honest version is...\" / \"honestly.\" Fine when describing third-party data; a tell when qualifying your own statement, because it implies the other statements weren't.",
    "url": "https://claudisms.ai/#honest-as-a-self-qualifier",
-   "display": "\"Honest\" as a self-qualifier",
+   "display": "\"the honest version is\" / \"honestly\" (as a self-qualifier)",
    "level": 2
   }
  ]
