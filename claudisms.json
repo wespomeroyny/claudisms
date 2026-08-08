@@ -3,7 +3,7 @@
  "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
  "url": "https://claudisms.ai/",
  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
- "updated": "2026-08-07",
+ "updated": "2026-08-08",
  "count": 120,
  "terms": [
   {
@@ -1482,10 +1482,14 @@
     "removes that step quietly",
     "shifts quietly",
     "erodes quietly",
-    "changes quietly"
+    "changes quietly",
+    "quietly refuse",
+    "quietly refuses to",
+    "quietly dropped",
+    "quietly stopped"
    ],
    "category": "Confirmed Claudisms",
-   "definition": "(as a scene-setting adverb implying an unnoticed, creeping change - \"removes that step quietly,\" \"shifts quietly,\" \"erodes quietly,\" \"changes quietly\") - reaches for a hidden-drama effect without evidence that anyone actually failed to notice. Same family as \"shape\" and \"lives\" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.",
+   "definition": "(as an adverb implying either an unnoticed, creeping change - \"removes that step quietly,\" \"shifts quietly,\" \"erodes quietly\" - or an understated deliberate act - \"what they quietly refuse to use,\" \"quietly dropped support\") - reaches for a hidden-drama effect. In the first sense it asserts that nobody noticed, without evidence that anyone failed to. In the second it credits an ordinary decision with a discretion nobody claimed, and flatters the writer for having spotted it. Same family as \"shape\" and \"lives\" - a vivid modifier standing in for a plain statement of what happened. Say what actually happened, or cut the adverb.",
    "url": "https://claudisms.ai/#quietly",
    "display": "\"quietly\"",
    "level": 2
