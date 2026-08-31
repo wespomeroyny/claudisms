@@ -6,6 +6,6 @@ Claudisms is a living, curated banlist of the words, phrases, and structural tic
 
 ## Content
 - [Claudisms (Markdown)](https://claudisms.ai/claudisms.md): The full list in plain markdown - the best source for reading or citing.
-- [Claudisms (JSON)](https://claudisms.ai/claudisms.json): The full list as structured data (125 terms with ids, aliases, categories, and definitions).
+- [Claudisms (JSON)](https://claudisms.ai/claudisms.json): The full list as structured data (126 terms with ids, aliases, categories, and definitions).
 - [Claudisms (HTML)](https://claudisms.ai/): The human-readable page.
 - [Source and contributions](https://github.com/wespomeroyny/claudisms): The canonical repository.

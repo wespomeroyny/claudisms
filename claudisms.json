@@ -4,7 +4,7 @@
   "url": "https://claudisms.ai/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "updated": "2026-08-31",
-  "count": 125,
+  "count": 126,
   "terms": [
     {
       "id": "sit-with",
@@ -1659,6 +1659,24 @@
       "definition": "- (as in \"the moment the AI hands you something,\" \"what the model hands back\") - borrowed physical-transfer verb standing in for a plain one. It stages the output as an object passed across a table, which adds a little scene where \"gives you,\" \"produces,\" \"returns,\" or \"comes back with\" says it flatter and truer. Same family as \"rides along,\" \"lives,\" and \"shape\" - a vivid verb lifted in to make an ordinary relationship feel weightier. Literal handing is fine; the tic is the metaphorical one.",
       "url": "https://claudisms.ai/#hands",
       "display": "\"hands\" / \"hands you\" / \"hands it back\"",
+      "level": 2
+    },
+    {
+      "id": "nobody-handed",
+      "term": "nobody handed",
+      "aliases": [
+        "nobody handed",
+        "nobody handed you that",
+        "nobody handed it to you",
+        "no one handed you",
+        "nobody gave you that",
+        "nobody gave you",
+        "no one gave you"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- false-origin credit framing. Denies help that nobody claimed, so the achievement sounds bigger for having had none. It invents an alternative version of events for the only purpose of knocking it down, and it flatters the person in the same breath. Same family as the discovery-arc framing (\"I didn't set out to X, but\") and \"the part that stayed mine.\" Say what the person actually built and let the work show where it came from.",
+      "url": "https://claudisms.ai/#nobody-handed",
+      "display": "\"nobody handed\" / \"nobody handed you that\" / \"nobody handed it to you\" / \"no one handed you\" / \"nobody gave you that\"",
       "level": 2
     },
     {
