@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About Claudisms - who keeps the list and why</title>
+<meta name="description" content="Claudisms is a free, public-domain banlist of the words and sentence shapes that give AI-generated writing away. Kept by Wes Pomeroy, who works on AI inside a large enterprise and writes about it.">
+<style>
+  :root{
+    --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b655c; --rule:#e5e0d6;
+    --accent:#8a5a2b; --card:#ffffff; --max:760px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#141312; --fg:#eae6df; --muted:#a49c8f; --rule:#2c2a26; --accent:#d0a06a; --card:#1b1a18; }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:0 20px;
+  }
+  .wrap{max-width:var(--max); margin:0 auto; padding:56px 0 96px}
+  header.site{margin-bottom:8px}
+  .topbar{
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:12px 24px; flex-wrap:wrap;
+  }
+  .eyebrow{
+    font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--muted); font-weight:600;
+  }
+  .toplinks{
+    display:flex; gap:20px; margin-left:auto;
+    font-size:12px; letter-spacing:.14em; text-transform:uppercase; font-weight:600;
+  }
+  .toplinks a{color:var(--accent); text-decoration:none; border-bottom:1px solid var(--accent)}
+  .toplinks a:hover{color:var(--fg); border-bottom-color:var(--fg)}
+  h1{font-size:44px; line-height:1.05; margin:.15em 0 .35em; letter-spacing:-.02em}
+  .lede{color:var(--muted); font-size:17px; max-width:64ch}
+  .lede a{color:var(--accent)}
+  h2{
+    font-size:15px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--accent); margin:52px 0 8px; font-weight:700;
+  }
+  p{max-width:64ch}
+  hr{border:0; border-top:1px solid var(--rule); margin:34px 0}
+  ul.links{list-style:none; margin:0; padding:0}
+  ul.links li{
+    padding:14px 0; border-bottom:1px solid var(--rule); font-size:15.5px;
+  }
+  ul.links li:last-child{border-bottom:0}
+  ul.links b{display:block; font-size:16px; margin-bottom:2px}
+  ul.links .what{color:var(--muted)}
+  footer.site{
+    margin-top:64px; padding-top:24px; border-top:1px solid var(--rule);
+    color:var(--muted); font-size:14px;
+  }
+  a{color:var(--accent)}
+</style>
+<link rel="canonical" href="https://claudisms.ai/about/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Claudisms">
+<meta property="og:title" content="About Claudisms - who keeps the list and why">
+<meta property="og:description" content="Claudisms is a free, public-domain banlist of the words and sentence shapes that give AI-generated writing away. Kept by Wes Pomeroy, who works on AI inside a large enterprise and writes about it.">
+<meta property="og:url" content="https://claudisms.ai/about/">
+<meta property="og:image" content="https://claudisms.ai/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Claudisms - a living banlist of AI-writing tells">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Claudisms - who keeps the list and why">
+<meta name="twitter:description" content="Claudisms is a free, public-domain banlist of the words and sentence shapes that give AI-generated writing away. Kept by Wes Pomeroy.">
+<meta name="twitter:image" content="https://claudisms.ai/og.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://claudisms.ai/about/#page",
+      "url": "https://claudisms.ai/about/",
+      "name": "About Claudisms - who keeps the list and why",
+      "description": "Claudisms is a free, public-domain banlist of the words and sentence shapes that give AI-generated writing away.",
+      "isPartOf": { "@id": "https://claudisms.ai/#website" },
+      "about": { "@id": "https://claudisms.ai/#website" },
+      "mainEntity": { "@id": "https://claudisms.ai/#person" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://claudisms.ai/#website",
+      "url": "https://claudisms.ai/",
+      "name": "Claudisms",
+      "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing.",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": { "@id": "https://claudisms.ai/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://claudisms.ai/#person",
+      "name": "Wes Pomeroy",
+      "url": "https://claudisms.ai/about/",
+      "jobTitle": "Technology executive",
+      "description": "Works on AI inside a large enterprise and writes about what it changes and what it doesn't.",
+      "sameAs": [
+        "https://www.linkedin.com/in/wespomeroy",
+        "https://wespomeroy.substack.com",
+        "https://www.youtube.com/@bothhandsonthewheel"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <div class="topbar">
+      <div class="eyebrow">About</div>
+      <nav class="toplinks" aria-label="Site">
+        <a href="/">The list</a>
+        <a href="/claudisms.md">Download MD &rarr;</a>
+      </nav>
+    </div>
+    <h1>About Claudisms</h1>
+    <p class="lede">
+      A catalog of the words, phrases and sentence shapes that AI models overuse, kept because
+      spotting them one at a time in a draft does not scale. Each entry names the tic, says why
+      it fails, and gives a plainer replacement.
+    </p>
+  </header>
+
+  <hr>
+
+  <h2>Where it came from</h2>
+  <p>
+    I'm Wes Pomeroy. I work on AI inside a large enterprise and write about what that actually
+    looks like - what changes, what doesn't, and where to keep your hands on the wheel.
+  </p>
+  <p>
+    This started as a private scrub file. I draft with AI, and the same phrases kept turning up
+    in my own work: "worth noting," "the whole game," a neat contrast built out of "it's not X,
+    it's Y." Once I had a file of them I could check a draft against the list instead of
+    trusting my ear. The file kept growing, so I put it online.
+  </p>
+  <p>
+    It grows the same way now. When a phrase turns up often enough to be a pattern rather than a
+    one-off, it gets an entry, with a note on what to write instead. Some entries widen over
+    time as the same move shows up in a new shape. For the longer argument behind it, read
+    <a href="https://wespomeroy.substack.com/p/your-name-is-still-on-it">Your Name Is Still on It</a>.
+  </p>
+
+  <h2>How to use it</h2>
+  <p>
+    Take it. The list is released into the public domain under
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a> - no attribution
+    required, no permission needed. Paste it into a system prompt, wire it into an editing
+    script, or read it and argue with it. The
+    <a href="/claudisms.md">Markdown</a> and <a href="/claudisms.json">JSON</a> versions exist
+    so a machine can read it as easily as a person can. Corrections and new entries are welcome
+    on <a href="https://github.com/wespomeroyny/claudisms">GitHub</a>.
+  </p>
+
+  <h2>Elsewhere</h2>
+  <ul class="links">
+    <li>
+      <b><a href="https://www.linkedin.com/in/wespomeroy">LinkedIn</a></b>
+      <span class="what">Articles and newsletter issues on working with AI in the enterprise.</span>
+    </li>
+    <li>
+      <b><a href="https://wespomeroy.substack.com">Substack - wespomeroy.substack.com</a></b>
+      <span class="what">The same writing, delivered by email.</span>
+    </li>
+    <li>
+      <b><a href="https://www.youtube.com/@bothhandsonthewheel">YouTube - Both Hands on the Wheel</a></b>
+      <span class="what">Unedited sessions: real work with AI, start to finish, mistakes left in.</span>
+    </li>
+  </ul>
+
+  <footer class="site">
+    A living list of AI-writing tells. Free to copy and adapt - released into the public domain under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>.
+  </footer>
+
+</div>
+</body>
+</html>

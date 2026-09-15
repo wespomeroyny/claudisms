@@ -210,15 +210,25 @@ def render_md(data):
     return ''.join(parts)
 
 
+# The first section's heading is suppressed on the PAGE only: the lede already
+# says what the list is, so "Confirmed Claudisms" sitting between it and the
+# first entry is a label nobody needs - the reader should land on the list. The
+# markdown and JSON keep the category, because there the heading is what gives a
+# reader (or a model) the structure. Later sections keep their headings, since
+# those genuinely change what kind of entry follows.
+HTML_UNLABELLED_FIRST = 'Confirmed Claudisms'
+
+
 def render_terms_html(data):
     out = []
     imported_done = False
-    for cat in categories(data):
+    for i, cat in enumerate(categories(data)):
         lvl = next(t.get('level', 2) for t in data['terms'] if t['category'] == cat)
         if lvl == 3 and not imported_done:
             out.append(IMPORTED_BANNER_HTML)
             imported_done = True
-        out.append(f'  <h{lvl}>{esc(cat)}</h{lvl}>')
+        if not (i == 0 and cat == HTML_UNLABELLED_FIRST):
+            out.append(f'  <h{lvl}>{esc(cat)}</h{lvl}>')
         out.append('  <ul>')
         for t in data['terms']:
             if t['category'] != cat:
@@ -254,6 +264,10 @@ def render_sitemap(data):
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f'  <url><loc>https://claudisms.ai/</loc><lastmod>{d}</lastmod>'
         '<changefreq>weekly</changefreq><priority>1.0</priority></url>\n'
+        # about/index.html is hand-authored, not generated - but it still has to
+        # appear here or search engines only ever see the one page.
+        f'  <url><loc>https://claudisms.ai/about/</loc><lastmod>{d}</lastmod>'
+        '<changefreq>monthly</changefreq><priority>0.8</priority></url>\n'
         f'  <url><loc>https://claudisms.ai/claudisms.md</loc><lastmod>{d}</lastmod>'
         '<priority>0.6</priority></url>\n'
         f'  <url><loc>https://claudisms.ai/claudisms.json</loc><lastmod>{d}</lastmod>'

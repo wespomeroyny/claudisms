@@ -22,15 +22,25 @@
   }
   .wrap{max-width:var(--max); margin:0 auto; padding:56px 0 96px}
   header.site{margin-bottom:8px}
+  /* Eyebrow on the left, the nav links right-aligned on the same baseline.
+     Wraps to two rows on a narrow phone rather than crushing the links. */
+  .topbar{
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:12px 24px; flex-wrap:wrap;
+  }
   .eyebrow{
     font-size:12px; letter-spacing:.18em; text-transform:uppercase;
     color:var(--muted); font-weight:600;
   }
+  .toplinks{
+    display:flex; gap:20px; margin-left:auto;
+    font-size:12px; letter-spacing:.14em; text-transform:uppercase; font-weight:600;
+  }
+  .toplinks a{color:var(--accent); text-decoration:none; border-bottom:1px solid var(--accent)}
+  .toplinks a:hover{color:var(--fg); border-bottom-color:var(--fg)}
   h1{font-size:44px; line-height:1.05; margin:.15em 0 .35em; letter-spacing:-.02em}
   .lede{color:var(--muted); font-size:17px; max-width:64ch}
   .lede a{color:var(--accent)}
-  .dl{margin:14px 0 0; font-size:14px; font-weight:600}
-  .dl a{text-decoration:none; border-bottom:1px solid var(--accent)}
   h2{
     font-size:15px; letter-spacing:.14em; text-transform:uppercase;
     color:var(--accent); margin:52px 0 8px; font-weight:700;
@@ -1336,25 +1346,26 @@
 <div class="wrap">
 
   <header class="site">
-    <div class="eyebrow">A living banlist</div>
+    <div class="topbar">
+      <div class="eyebrow">A living banlist</div>
+      <nav class="toplinks" aria-label="Site">
+        <a href="/about/">About</a>
+        <a href="/claudisms.md">Download MD &rarr;</a>
+      </nav>
+    </div>
     <h1>Claudisms</h1>
     <p class="lede">
-      The words, phrases, and structural tics that signal AI-generated writing - the
-      ones to flag and scrub from a draft before it goes out. It grows as new ones are caught.
-      For the thinking behind why it matters, read
+      AI models overuse the same words. This is a running catalog of them: the phrases, verbs
+      and sentence shapes that give machine-written text away, each with a short note on why it
+      fails and what to write instead. New entries go in as they turn up. For the thinking
+      behind it, read
       <a href="https://wespomeroy.substack.com/p/your-name-is-still-on-it">Your Name Is Still on It</a>.
     </p>
-    <p class="note">
-      Words, phrases, and tics that AI models over-reach for. Flagged as they appear and listed
-      here so they can be systematically checked and scrubbed from drafts.
-    </p>
-    <p class="dl"><a href="claudisms.md">Download as Markdown &rarr;</a></p>
   </header>
 
   <hr>
 
 <!-- BEGIN:TERMS -->
-  <h2>Confirmed Claudisms</h2>
   <ul>
     <li id="sit-with"><strong>"sit with" / "worth sitting with"</strong> - reflective-pose filler. Sounds thoughtful; doesn't say anything.</li>
     <li id="worth-talking-about"><strong>"worth talking about"</strong> - value-claim filler. Tells the reader something deserves attention instead of letting the substance demonstrate it. Same family as "worth sitting with." The broader rule it breaks: never tell people what to think of something - cool people don't need to tell people they are cool.</li>
