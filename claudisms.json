@@ -3,8 +3,8 @@
   "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
   "url": "https://claudisms.ai/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "updated": "2026-08-31",
-  "count": 126,
+  "updated": "2026-09-01",
+  "count": 127,
   "terms": [
     {
       "id": "sit-with",
@@ -1677,6 +1677,30 @@
       "definition": "- false-origin credit framing. Denies help that nobody claimed, so the achievement sounds bigger for having had none. It invents an alternative version of events for the only purpose of knocking it down, and it flatters the person in the same breath. Same family as the discovery-arc framing (\"I didn't set out to X, but\") and \"the part that stayed mine.\" Say what the person actually built and let the work show where it came from.",
       "url": "https://claudisms.ai/#nobody-handed",
       "display": "\"nobody handed\" / \"nobody handed you that\" / \"nobody handed it to you\" / \"no one handed you\" / \"nobody gave you that\"",
+      "level": 2
+    },
+    {
+      "id": "hand-waving",
+      "term": "hand-waving",
+      "aliases": [
+        "hand-waving",
+        "hand waving",
+        "handwaving",
+        "hand-wave",
+        "hand-waves",
+        "hand-waved",
+        "a wave of the hand",
+        "a wave of a hand",
+        "with a wave of the hand",
+        "waves it away",
+        "wave it away",
+        "waves the question away",
+        "waved away"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- dismissal-by-gesture metaphor, and it hides the work. Saying someone hand-waves an objection, or gets past it \"with a wave of the hand,\" borrows a physical gesture instead of saying what was skipped and why skipping it was wrong. Every form is the same tic: \"hand-waving,\" \"hand-waved it,\" \"a wave of the hand,\" \"waves the question away.\" State what went unanswered - \"they never say how,\" \"the strongest argument against it goes unanswered,\" \"the number is asserted and never sourced.\" Same borrowed-gesture family as \"points\" and \"names,\" and it breaks drama-from-facts, since the image stands in for the consequence. Note: a person literally waving is fine.",
+      "url": "https://claudisms.ai/#hand-waving",
+      "display": "\"hand-waving\" / \"hand-wave it\" / \"a wave of the hand\" / \"waves it away\"",
       "level": 2
     },
     {
