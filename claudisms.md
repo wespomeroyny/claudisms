@@ -1,8 +1,6 @@
 # Claudisms
 
-A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub from a draft before it goes out. It grows as new ones are caught. For the thinking behind why it matters, read [Your Name Is Still on It](https://wespomeroy.substack.com/p/your-name-is-still-on-it).
-
-Words, phrases, and tics that AI models over-reach for. Flagged as they appear and listed here so they can be systematically checked and scrubbed from drafts.
+AI models overuse the same words. This is a running catalog of them: the phrases, verbs and sentence shapes that give machine-written text away, each with a short note on why it fails and what to write instead.
 
 ---
 
