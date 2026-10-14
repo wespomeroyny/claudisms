@@ -3,8 +3,8 @@
   "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
   "url": "https://claudisms.ai/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "updated": "2026-09-01",
-  "count": 127,
+  "updated": "2026-09-28",
+  "count": 134,
   "terms": [
     {
       "id": "sit-with",
@@ -271,7 +271,8 @@
       "id": "load-bearing",
       "term": "load-bearing",
       "aliases": [
-        "load-bearing"
+        "load-bearing",
+        "load bearing"
       ],
       "category": "Confirmed Claudisms",
       "definition": "- engineering metaphor that's become a tic.",
@@ -295,7 +296,14 @@
       "id": "here-s-where-it-gets-interesting",
       "term": "Here's where it gets interesting",
       "aliases": [
-        "Here's where it gets interesting"
+        "Here's where it gets interesting",
+        "here's the part that explains",
+        "here's the part that surprises",
+        "here's the part that bites",
+        "here is the thing nobody mentions",
+        "here is the argument in one line",
+        "here's the data that",
+        "here's the structure"
       ],
       "category": "Confirmed Claudisms",
       "definition": "- lecture-hall framing. Skips ahead without earning the turn.",
@@ -324,7 +332,15 @@
       "aliases": [
         "because it matters",
         "this matters",
-        "and that matters"
+        "and that matters",
+        "distinction matters",
+        "detail matters",
+        "interaction matters",
+        "timing matters",
+        "the one that matters most",
+        "the gap that matters",
+        "matter as much as",
+        "the reason to care"
       ],
       "category": "Confirmed Claudisms",
       "definition": "- presumptuous. Tells the reader what to value before they've decided. Same family as \"Here's where it gets interesting.\" Just say the thing without prefacing why it deserves attention.",
@@ -563,7 +579,9 @@
         "that's the whole game",
         "the whole ballgame",
         "the only thing that matters",
-        "that's the entire point"
+        "that's the entire point",
+        "that's the point",
+        "the foundation everything else sits on"
       ],
       "category": "Confirmed Claudisms",
       "definition": "- totalizing-superlative filler. Collapses a real point into a single all-or-nothing claim - nothing is ever literally \"the whole game.\" A specific instance of the broader aversion to absolute framing (always, never, every time): the superlative inflates one true thing into the only thing. Say what the thing actually does or unlocks and let it stand at its real size. Same family as the cool-people rule - it's announcing magnitude instead of demonstrating it. <strong>The ban is the construction, not just these nouns:</strong> any \"the whole [X]\" / \"the entire [X]\" / \"the only [X] that matters\" / \"the whole point of [Y]\" formulation is the same tic regardless of which noun fills the slot - \"the whole lesson,\" \"the whole story,\" \"the whole point,\" \"the whole job,\" \"the whole thing.\" A text search only matches the literal phrases listed above; novel nouns slip past, so this one has to be caught by eye on every pass.",
@@ -683,7 +701,17 @@
         "worth asking",
         "worth a look",
         "worth it",
-        "worth the"
+        "worth the",
+        "worth internalising",
+        "worth internalizing",
+        "worth knowing",
+        "worth taking seriously",
+        "worth treating as",
+        "worth explaining",
+        "worth following",
+        "worth having",
+        "deserves a moment",
+        "deserves a closer look"
       ],
       "category": "Confirmed Claudisms",
       "definition": "and any other \"worth [X]\" construction - the entire \"worth ___\" family is banned, not just the gerund forms enumerated below. If a sentence uses \"worth\" to tell the reader something deserves their attention/effort/consideration, cut it and let the thing demonstrate its own value. Same cool-people move every time.",
@@ -988,7 +1016,9 @@
         "doing the heavy lifting",
         "carrying the argument",
         "holding the sentence up",
-        "the noun is doing all the lifting"
+        "the noun is doing all the lifting",
+        "doing a lot of work",
+        "doing real work"
       ],
       "category": "Confirmed Claudisms",
       "definition": "- abstract-agency metaphor: a word, sentence, framing, or idea is personified as an employee performing labor. Reads as writerly shorthand and says nothing a reader can picture. The construction is a cousin of \"lives,\" \"holds,\" \"carries,\" and \"the engine\" (vivid placement/agency verb standing in for a plain statement), but it earns its own entry because it gets used constantly when writing about language, arguments, or framing. Say what actually happened in plain terms: \"the sentence only sounded smart because of the word,\" \"take the word out and there's nothing left.\" The test: could a reader draw what the sentence claims is happening? If a word is \"doing work,\" no.",
@@ -1018,7 +1048,11 @@
       "id": "announcing-the-structure-before-delivering-it",
       "term": "Announcing the structure before delivering it",
       "aliases": [
-        "Announcing the structure before delivering it"
+        "Announcing the structure before delivering it",
+        "two things to keep in mind",
+        "three terms do most of the work",
+        "two refinements matter",
+        "two things worth"
       ],
       "category": "Structural / framing tics",
       "definition": "- \"I'm going to make three points\" instead of just making them. Trust the reader to follow.",
@@ -1445,7 +1479,7 @@
         "cleft contrasts"
       ],
       "category": "Structural tics",
-      "definition": "(\"It's not just X, it's Y,\" \"Not only X, but Y,\" \"This isn't about X. It's about Y.\") - the most-cited AI tell anywhere. Wikipedia, Francis, and the WaPo analysis (6% of July 2025 ChatGPT messages) all flag this as the most recognizable AI structure. Banned outright. Note: this is a broader family than the \"the question that…\" cleft already in the list.",
+      "definition": "(\"It's not just X, it's Y,\" \"Not only X, but Y,\" \"This isn't about X. It's about Y.\") - the most-cited AI tell anywhere. Wikipedia, Francis, and the WaPo analysis (6% of July 2025 ChatGPT messages) all flag this as the most recognizable AI structure. Banned outright. Note: this is a broader family than the \"the question that…\" cleft already in the list. Two forms that slip past the templates above: the redefinition, where a thing is swapped for a grander noun (\"isn't cowardice, it's arithmetic,\" \"a difference of degree, not of kind\"), and the two-sentence mirror, which drops the \"not\" entirely (\"A demo is one sample from a distribution. Production is the distribution.\" / \"The demo works. That's the problem.\"). Same move, same fix: say the Y and leave the X out.",
       "url": "https://claudisms.ai/#negative-parallelism",
       "display": "Negative parallelism / cleft contrasts",
       "level": 3
@@ -1738,6 +1772,116 @@
       "definition": "- (as in \"what moved is the assembly,\" \"what actually moved is the timeline\") - a cleft that announces a summary verdict on a change, using a physical-motion verb for something that did not physically move. Two faults in one: it borrows weight from a movement image the sentence has not earned, and it compresses a many-part change into a single crowned item, which is almost always narrower than the truth. Name the change plainly and at its real size - \"you no longer start at a blank page, and it keeps you inside the method while you work\" - rather than crowning one part of it as the thing that moved. Same family as \"the shift is,\" \"the unlock is,\" and the crowned-superlative entries.",
       "url": "https://claudisms.ai/#what-moved",
       "display": "\"what moved is\" / \"what actually moved\" / \"what changed is the\"",
+      "level": 2
+    },
+    {
+      "id": "the-trap-is",
+      "term": "the trap is",
+      "aliases": [
+        "the trap is",
+        "the catch is",
+        "migration trap is",
+        "bites everyone",
+        "the uncomfortable part",
+        "the ragged edge"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- gotcha framing. Dresses a plain caveat up as a warning with a drumroll, setting up danger before saying what the problem is. The reader waits for the reveal instead of getting the fact. State the caveat: \"the trap is defaults\" becomes \"the default changed from X to Y, so check it after you upgrade.\"",
+      "url": "https://claudisms.ai/#the-trap-is",
+      "display": "\"the trap is\" / \"the catch is\" / \"migration trap is\" / \"bites everyone\"",
+      "level": 2
+    },
+    {
+      "id": "what-actually-happens",
+      "term": "what actually happens",
+      "aliases": [
+        "what actually happens",
+        "what's actually happening",
+        "what it actually does",
+        "what this actually does",
+        "what the data actually shows",
+        "what the experiments actually show",
+        "actually matters"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- debunking posture. \"Actually\" implies the reader, or everyone else, had it wrong, without saying who believed what. It promises a correction the sentence never delivers. Drop \"actually\" and the sentence usually loses nothing: \"what the knob does,\" \"what happens, step by step.\" If there really is a common misconception, name it. Same family as \"what actually moved.\"",
+      "url": "https://claudisms.ai/#what-actually-happens",
+      "display": "\"what actually happens\" / \"what's actually happening\" / \"what it actually does\" / \"what this actually does\"",
+      "level": 2
+    },
+    {
+      "id": "read-that-again",
+      "term": "read that again",
+      "aliases": [
+        "read that again",
+        "read that the other way round",
+        "think about what that means",
+        "notice what the"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- reader directive. Tells the reader how to react and manufactures a dramatic pause, the same move as \"sit with that.\" If the sentence was surprising, it already landed. Say what the reader should take from it instead: \"that means the cost doubles on every loop.\"",
+      "url": "https://claudisms.ai/#read-that-again",
+      "display": "\"read that again\" / \"read that the other way round\" / \"think about what that means\" / \"notice what the\"",
+      "level": 2
+    },
+    {
+      "id": "the-headline-number",
+      "term": "the headline number",
+      "aliases": [
+        "the headline number",
+        "the headline result",
+        "the headline cost",
+        "the headline finding"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- newsroom crowning. Picks one figure as the lead before the reader has seen the others, borrowing the authority of a news desk. A cousin of the crowned superlatives. Give the number. Putting it first in the paragraph already tells the reader it matters.",
+      "url": "https://claudisms.ai/#the-headline-number",
+      "display": "\"the headline number\" / \"the headline result\" / \"the headline cost\" / \"the headline finding\"",
+      "level": 2
+    },
+    {
+      "id": "it-s-structural",
+      "term": "it's structural",
+      "aliases": [
+        "it's structural",
+        "a structural consequence",
+        "you'd think, structurally",
+        "best structural decision"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- borrowed engineering weight. \"Structural\" makes a claim sound fixed and inevitable without saying what the structure is. It usually stands in for \"built in,\" \"permanent\" or \"caused by.\" Name the cause: \"it's structural\" becomes \"it happens because every generated frame is interpolated.\" Same family as \"load-bearing.\"",
+      "url": "https://claudisms.ai/#it-s-structural",
+      "display": "\"it's structural\" / \"a structural consequence\" / \"you'd think, structurally\" / \"best structural decision\"",
+      "level": 2
+    },
+    {
+      "id": "earns-its-keep",
+      "term": "earns its keep",
+      "aliases": [
+        "earns its keep",
+        "earns its place",
+        "earns its counter space",
+        "earns its spot"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- personifies an object or a sentence as an employee proving its worth. Anthropic's own prompting guide for Claude Fable 5.1 uses \"earns its keep\" as its example of mannered prose, and Opus 5.5 still writes \"earns its place.\" Say what the thing is good for, and for whom: \"the stand mixer pays off if you bake bread every week.\" Same family as \"doing the work.\"",
+      "url": "https://claudisms.ai/#earns-its-keep",
+      "display": "\"earns its keep\" / \"earns its place\" / \"earns its counter space\" / \"earns its spot\"",
+      "level": 2
+    },
+    {
+      "id": "the-numbers-are-stark",
+      "term": "the numbers are stark",
+      "aliases": [
+        "the numbers are stark",
+        "the numbers back it",
+        "that's not accidental",
+        "is itself a signal"
+      ],
+      "category": "Structural / framing tics",
+      "definition": "- verdict before evidence. Tells the reader how to read the data before showing it, so the numbers arrive pre-judged. If the numbers are stark, show them and let the reader be struck. If they need a verdict, put it after the evidence, in specific terms: \"three of the four studios cut staff within a year.\"",
+      "url": "https://claudisms.ai/#the-numbers-are-stark",
+      "display": "\"the numbers are stark\" / \"the numbers back it\" / \"that's not accidental\" / \"is itself a signal\"",
       "level": 2
     }
   ]
