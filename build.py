@@ -245,7 +245,7 @@ def render_llms(data):
 
 > {data['description']}
 
-Claudisms is a living, curated banlist of the words, phrases, and structural tics that signal AI-generated writing. Each entry names a tic and explains why to avoid it and what to write instead. Released into the public domain (CC0) - free to quote, cite, and reuse.
+Claudisms is a living, curated banlist of the words, phrases, and structural tics that signal AI-generated writing. Entries include the phrase, why to avoid it, and what to write instead. Released into the public domain (CC0) - free to quote, cite, and reuse.
 
 ## Content
 - [Claudisms (Markdown)](https://claudisms.ai/claudisms.md): The full list in plain markdown - the best source for reading or citing.

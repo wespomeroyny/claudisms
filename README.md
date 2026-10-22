@@ -19,7 +19,7 @@ wire it into your own tooling, no attribution required.
 
 `claudisms.md`, `index.html`, `llms.txt` and `sitemap.xml` are **generated** - from
 `claudisms.json` and `template.html`. Don't edit them by hand; your changes will be
-overwritten on the next build. CI rebuilds and compares all four, so drift can't ship.
+overwritten on the next build. CI rebuilds them and fails if any is out of sync.
 
 Pull the list straight from the site:
 
@@ -53,7 +53,7 @@ python3 build.py --check   # exit 1 if the generated files are out of date
 ```
 
 No dependencies beyond the Python standard library. CI runs `--check` on every pull
-request, so a change to `claudisms.json` has to ship with its regenerated output.
+request, so a change to `claudisms.json` has to be committed with its regenerated output.
 
 ## Contribute
 
@@ -62,6 +62,6 @@ has to clear and how to open a pull request.
 
 ## Why this exists
 
-Models reach for the same small set of moves, and once you can name them you stop
-shipping them. For the thinking behind it, read
+Models fall back on the same small set of phrases and sentence patterns. Once you can
+spot them, you stop publishing them. For the thinking behind it, read
 [Your Name Is Still on It](https://wespomeroy.substack.com/p/your-name-is-still-on-it).

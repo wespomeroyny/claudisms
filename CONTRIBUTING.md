@@ -4,7 +4,8 @@ Entries are welcome. The list is only useful if it stays sharp, so there's a bar
 
 ## What makes a good entry
 
-An entry needs three things. If you can't supply all three, it isn't ready yet.
+Submit the phrase, why it signals AI writing, and what to write instead. If you can't
+supply all of them, the entry isn't ready yet.
 
 1. **The phrase, and its variants.** Not a vibe - the actual strings a writer would
    produce. "sit with," "worth sitting with." A scanner has to be able to match it.
@@ -54,7 +55,8 @@ An entry needs three things. If you can't supply all three, it isn't ready yet.
    category it doesn't know about, or a `count` that disagrees with the list. If it
    stops with a message, the message is the fix.
 5. Open the pull request. Say in a sentence or two where you've seen the phrase in the
-   wild - real examples are the most persuasive part of a submission.
+   wild. A reviewer is much more likely to accept an entry backed by examples from
+   published text.
 
-Entries are reviewed by hand and merged when they clear the bar. A rejection usually
-means the entry needs a sharper "why," not that the observation was wrong.
+We review entries by hand and merge them when they clear the bar. If we reject one, we
+usually want a sharper "why"; the observation was probably right.
