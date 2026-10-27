@@ -64,6 +64,14 @@
     color:var(--muted); font-size:14px;
   }
   a{color:var(--accent)}
+  /* Entries are clickable: clicking one silently rewrites the URL to its
+     anchor so it can be copied and shared (see script at end of body). */
+  li[id]{cursor:pointer}
+  li[id].flash{animation:flash 1.2s ease-out}
+  @keyframes flash{
+    0%{background:rgba(138,90,43,.22)}
+    100%{background:transparent}
+  }
 </style>
 <link rel="canonical" href="https://claudisms.ai/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -123,5 +131,18 @@
   </footer>
 
 </div>
+<script>
+(function(){
+  document.addEventListener('click', function(e){
+    if (e.target.closest('a')) return;
+    var li = e.target.closest('li[id]');
+    if (!li) return;
+    history.replaceState(null, '', '#' + li.id);
+    li.classList.remove('flash'); // restart the flash even on quick re-clicks
+    void li.offsetWidth;
+    li.classList.add('flash');
+  });
+})();
+</script>
 </body>
 </html>
