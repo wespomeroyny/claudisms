@@ -3,20 +3,23 @@
   "description": "A living banlist of the words, phrases, and structural tics that signal AI-generated writing - the ones to flag and scrub before a draft goes out. Free to reuse (CC0).",
   "url": "https://claudisms.ai/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-  "updated": "2026-09-01",
-  "count": 127,
+  "updated": "2026-11-08",
+  "count": 117,
   "terms": [
     {
       "id": "sit-with",
       "term": "sit with",
       "aliases": [
         "sit with",
-        "worth sitting with"
+        "worth sitting with",
+        "sitting with",
+        "a hard thing to sit with",
+        "sit with that"
       ],
       "category": "Confirmed Claudisms",
-      "definition": "- reflective-pose filler. Sounds thoughtful; doesn't say anything.",
+      "definition": "- reflective-pose filler. Sounds thoughtful; doesn't say anything. Replace with the plain thing: \"hard to shake,\" \"hard to get past,\" or just state the feeling.",
       "url": "https://claudisms.ai/#sit-with",
-      "display": "\"sit with\" / \"worth sitting with\"",
+      "display": "\"sit with\" / \"worth sitting with\" / \"sitting with\" / \"a hard thing to sit with\" / \"sit with that\"",
       "level": 2
     },
     {
@@ -422,18 +425,6 @@
       "level": 2
     },
     {
-      "id": "come-along",
-      "term": "come along",
-      "aliases": [
-        "come along"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- too soft for definitive moments.",
-      "url": "https://claudisms.ai/#come-along",
-      "display": "\"come along\"",
-      "level": 2
-    },
-    {
       "id": "throughline",
       "term": "throughline",
       "aliases": [
@@ -446,44 +437,6 @@
       "level": 2
     },
     {
-      "id": "dispatches-from",
-      "term": "dispatches from…",
-      "aliases": [
-        "dispatches from…",
-        "field notes from the frontier"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- frontier-dispatch tropes. Performative.",
-      "url": "https://claudisms.ai/#dispatches-from",
-      "display": "\"dispatches from…\" / \"field notes from the frontier\"",
-      "level": 2
-    },
-    {
-      "id": "best-operators",
-      "term": "best operators",
-      "aliases": [
-        "best operators",
-        "top practitioners"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- hierarchy language to avoid; there are many valid approaches, not a single elite tier.",
-      "url": "https://claudisms.ai/#best-operators",
-      "display": "\"best operators\" / \"top practitioners\"",
-      "level": 2
-    },
-    {
-      "id": "first-wave-of-a-multi-year-transition",
-      "term": "first wave of a multi-year transition",
-      "aliases": [
-        "first wave of a multi-year transition"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- grandiose. Overclaiming.",
-      "url": "https://claudisms.ai/#first-wave-of-a-multi-year-transition",
-      "display": "\"first wave of a multi-year transition\"",
-      "level": 2
-    },
-    {
       "id": "lessons-learned",
       "term": "lessons learned",
       "aliases": [
@@ -493,30 +446,6 @@
       "definition": "- too corporate.",
       "url": "https://claudisms.ai/#lessons-learned",
       "display": "\"lessons learned\"",
-      "level": 2
-    },
-    {
-      "id": "stakes-of-their-seat",
-      "term": "stakes of their seat",
-      "aliases": [
-        "stakes of their seat"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- retired.",
-      "url": "https://claudisms.ai/#stakes-of-their-seat",
-      "display": "\"stakes of their seat\"",
-      "level": 2
-    },
-    {
-      "id": "seat-as-metaphor-generally",
-      "term": "seat\" as metaphor generally",
-      "aliases": [
-        "seat\" as metaphor generally"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- spent.",
-      "url": "https://claudisms.ai/#seat-as-metaphor-generally",
-      "display": "\"seat\" as metaphor generally",
       "level": 2
     },
     {
@@ -538,7 +467,7 @@
         "Em dashes (—)"
       ],
       "category": "Confirmed Claudisms",
-      "definition": "- banned outright. This style uses dashes heavily (parentheticals, interruptions, asides), but they're regular hyphens with spaces (<code> - </code>), not em dashes. The em dash itself is the formatting Claudism. Use <code> - </code> instead in all drafts. Note: already-published work may contain em dashes; there's no need to go back and change it, but don't introduce new ones.",
+      "definition": "- banned outright. The em dash itself is the formatting Claudism: models use it as an all-purpose connector at a rate few people do. Use a comma, a colon, parentheses, or a new sentence.",
       "url": "https://claudisms.ai/#em-dashes",
       "display": "Em dashes (—)",
       "level": 2
@@ -648,18 +577,6 @@
       "level": 2
     },
     {
-      "id": "essays",
-      "term": "essays",
-      "aliases": [
-        "essays"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- always \"articles.\" The pieces are articles, not essays.",
-      "url": "https://claudisms.ai/#essays",
-      "display": "\"essays\"",
-      "level": 2
-    },
-    {
       "id": "stays-yours",
       "term": "stays yours",
       "aliases": [
@@ -705,36 +622,6 @@
       "definition": "- the \"worth [gerund]\" construction beyond the already-banned \"worth noting,\" \"worth talking about,\" \"worth sitting with.\" All reach for the same move: telling the reader something deserves attention instead of demonstrating it. Same family, same ban.",
       "url": "https://claudisms.ai/#worth-drawing",
       "display": "\"worth drawing\" / \"worth making\" / \"worth examining\" / \"worth considering\" / \"worth exploring\"",
-      "level": 2
-    },
-    {
-      "id": "mature",
-      "term": "mature",
-      "aliases": [
-        "mature",
-        "more mature",
-        "mature setup",
-        "mature version"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- subjective grading that implies the current state is deficient without discussion. Same family as the cool-people rule - don't grade things without earning it. When describing a future or improved state, describe what it does differently, not how developed it is.",
-      "url": "https://claudisms.ai/#mature",
-      "display": "\"mature\" / \"more mature\" / \"mature setup\" / \"mature version\"",
-      "level": 2
-    },
-    {
-      "id": "sit-with-2",
-      "term": "sit with",
-      "aliases": [
-        "sit with",
-        "sitting with",
-        "a hard thing to sit with",
-        "sit with that"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- reflective-pose filler (verb form, distinct from the noun \"worth sitting with\" already listed). Sounds thoughtful, says nothing. Replace with the plain thing: \"hard to shake,\" \"hard to get past,\" or just state the feeling.",
-      "url": "https://claudisms.ai/#sit-with-2",
-      "display": "\"sit with\" / \"sitting with\" / \"a hard thing to sit with\" / \"sit with that\"",
       "level": 2
     },
     {
@@ -810,12 +697,13 @@
       "term": "compounds",
       "aliases": [
         "compounds",
-        "compound"
+        "compound",
+        "compounding"
       ],
       "category": "Confirmed Claudisms",
-      "definition": "(in any context - \"the advantage compounds,\" \"value compounds,\" \"it compounds over time\") - finance-adjacent growth-metaphor tic. Banned in all contexts. Say \"builds,\" \"adds up,\" \"grows,\" or state the actual mechanism.",
+      "definition": "(metaphorical - \"the advantage compounds,\" \"trust compounds,\" \"it compounds over time\") - finance-adjacent growth-metaphor tic, reaching for accumulation-over-time as a weighty synonym for \"builds.\" Say \"builds,\" \"adds up,\" \"grows,\" or state the actual mechanism. Note: legitimate when describing real compounding, like interest. Same borrowed-domain family as \"the engine\" and \"physics.\"",
       "url": "https://claudisms.ai/#compounds",
-      "display": "\"compounds\" / \"compound\"",
+      "display": "\"compounds\" / \"compound\" / \"compounding\"",
       "level": 2
     },
     {
@@ -842,19 +730,6 @@
       "definition": "(as a pivot verb - \"the sentence turns on the word,\" \"it all turns on trust\") - pseudo-elevated pivot verb reaching for weight where a plain verb lands harder. Means \"depends on,\" \"comes down to,\" or \"is about.\" Reserve \"turns\" for navigation. Same borrowed-domain family as \"the physics of\" and \"names\" - a verb lifted from another field to make a plain relationship sound weightier; it also self-announces when used to point at the writer's own framing (\"that sentence turns on X\").",
       "url": "https://claudisms.ai/#turns",
       "display": "\"turns\" / \"turns on\"",
-      "level": 2
-    },
-    {
-      "id": "compounds-2",
-      "term": "compounds",
-      "aliases": [
-        "compounds",
-        "compounding"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "(metaphorical - \"trust compounds,\" \"the value compounds,\" \"compounds into something\") - finance/growth-metaphor reach for accumulation-over-time. Means \"builds,\" \"adds up,\" or \"grows.\" Note: legitimate when describing real compounding, including human trust genuinely accreting over time - the tic is reaching for it as a weighty synonym for \"builds.\" Same borrowed-domain family as \"the engine\" and \"physics.\"",
-      "url": "https://claudisms.ai/#compounds-2",
-      "display": "\"compounds\" / \"compounding\"",
       "level": 2
     },
     {
@@ -930,22 +805,6 @@
       "definition": "(as catastrophizing verbs for a measured effect) - over-dramatization. Match the verb to what actually happened: a one-point drop on a seven-point scale \"made the work worse,\" it didn't \"wreck\" it. Note: literal destruction is fine; the tic is inflating a real-but-bounded effect for impact.",
       "url": "https://claudisms.ai/#wreck",
       "display": "\"wreck\" / \"wrecked\" / \"destroy\" / \"shatter\" / \"obliterate\" / \"blow up\"",
-      "level": 2
-    },
-    {
-      "id": "real",
-      "term": "real",
-      "aliases": [
-        "real",
-        "a real X",
-        "the real thing",
-        "the real problem",
-        "real data"
-      ],
-      "category": "Confirmed Claudisms",
-      "definition": "- banned in nearly all contexts. \"Real\" is best avoided in almost any context. It's binary - its opposite, \"fake,\" carries insult and can disparage perfectly legitimate things (calling one approach \"real\" implies the others aren't, e.g. saying a study's design was \"the real way to prove it\" slights everything else). It also usually adds nothing. Say the specific thing instead: \"measured,\" \"actual,\" \"the deeper point,\" \"the work itself,\" or just drop it. Note: \"really\" as an intensifier is a different word and not the target; the ban is the adjective \"real.\"",
-      "url": "https://claudisms.ai/#real",
-      "display": "\"real\" / \"a real X\" / \"the real thing\" / \"the real problem\" / \"real data\"",
       "level": 2
     },
     {
@@ -1070,7 +929,7 @@
         "Stacked dashes in a single sentence"
       ],
       "category": "Structural / framing tics",
-      "definition": "- rhythmic tic. This style uses regular hyphens with spaces for parentheticals and pivots; more than one in a single sentence reads as a tic. (Em dashes themselves are banned outright - see the Confirmed Claudisms entry.)",
+      "definition": "- rhythmic tic. More than one dashed aside in a single sentence reads as a tic, whatever the dash. (Em dashes themselves are banned outright - see the Confirmed Claudisms entry.)",
       "url": "https://claudisms.ai/#stacked-dashes-in-a-single-sentence",
       "display": "Stacked dashes in a single sentence",
       "level": 2
@@ -1121,18 +980,6 @@
       "definition": "- \"the line will be harder to ignore,\" \"the gap will become more visible,\" \"the difference will be clearer.\" When describing how AI changes a landscape, outcome-language (who survives, what dies, what builds up) carries weight that visibility-language only points at. Use outcome language when stakes are real.",
       "url": "https://claudisms.ai/#visibility-framings-where-stakes-framings-are",
       "display": "Visibility framings where stakes-framings are stronger",
-      "level": 2
-    },
-    {
-      "id": "finance-bro-shorthand",
-      "term": "Finance-bro shorthand",
-      "aliases": [
-        "Finance-bro shorthand"
-      ],
-      "category": "Register tics to avoid",
-      "definition": "- \"$X,\" \"the forward case,\" \"price-to-value ratio.\" Say what you mean in English.",
-      "url": "https://claudisms.ai/#finance-bro-shorthand",
-      "display": "Finance-bro shorthand",
       "level": 2
     },
     {
@@ -1592,18 +1439,6 @@
       "level": 2
     },
     {
-      "id": "invented-human-biography-for-a-synthetic-speaker",
-      "term": "Invented human biography for a synthetic speaker",
-      "aliases": [
-        "Invented human biography for a synthetic speaker"
-      ],
-      "category": "Spoken-word tells",
-      "definition": "- an AI voice claiming a career (\"I ran engineering organizations for twenty years\"). Not a style problem, an honesty problem. Synthetic narrators disclose what they are, then may play a named role openly. First-person war stories get reframed as observations about the evidence.",
-      "url": "https://claudisms.ai/#invented-human-biography-for-a-synthetic-speaker",
-      "display": "Invented human biography for a synthetic speaker",
-      "level": 2
-    },
-    {
       "id": "crowned-superlatives-spoken-form",
       "term": "Crowned superlatives, spoken form",
       "aliases": [
@@ -1738,6 +1573,63 @@
       "definition": "- (as in \"what moved is the assembly,\" \"what actually moved is the timeline\") - a cleft that announces a summary verdict on a change, using a physical-motion verb for something that did not physically move. Two faults in one: it borrows weight from a movement image the sentence has not earned, and it compresses a many-part change into a single crowned item, which is almost always narrower than the truth. Name the change plainly and at its real size - \"you no longer start at a blank page, and it keeps you inside the method while you work\" - rather than crowning one part of it as the thing that moved. Same family as \"the shift is,\" \"the unlock is,\" and the crowned-superlative entries.",
       "url": "https://claudisms.ai/#what-moved",
       "display": "\"what moved is\" / \"what actually moved\" / \"what changed is the\"",
+      "level": 2
+    },
+    {
+      "id": "the-thing-nobody",
+      "term": "the thing nobody",
+      "aliases": [
+        "the failure nobody",
+        "the thing nobody",
+        "the question nobody",
+        "the part nobody",
+        "the one thing nobody",
+        "what nobody tells you",
+        "everyone does and nobody",
+        "everybody does and nobody"
+      ],
+      "category": "Structural / framing tics",
+      "definition": "- the false-consensus flourish. Asserts a universal in order to manufacture insight: if nobody plans for it, then pointing it out makes the writer the one who sees. The everyone/nobody pair is the loudest form (\"the thing everyone does and nobody writes down\"). Same engine as the false-singularity entries, aimed at people rather than at a ranking, and a cousin of \"nobody handed.\" Plain factual use is fine and is not this - \"nobody reacts,\" \"a wiki page nobody opens\" - the test is whether the universal is doing reporting or flattering the writer. If cutting \"nobody\" leaves the sentence true and only duller, it was the tic. Say the finding: \"The failure happens at a boring moment.\"",
+      "url": "https://claudisms.ai/#the-thing-nobody",
+      "display": "\"the failure nobody plans for\" / \"the question nobody asks\" / \"what everyone does and nobody says\"",
+      "level": 2
+    },
+    {
+      "id": "nobody-absolute",
+      "term": "nobody (as an unearned absolute)",
+      "aliases": [
+        "and nobody has",
+        "nobody has revisited",
+        "nobody has figured",
+        "nobody has looked",
+        "nobody is doing",
+        "nobody does this",
+        "and no one has",
+        "no one has revisited"
+      ],
+      "category": "Structural / framing tics",
+      "definition": "- an absolute the reader can falsify from their own experience, which costs more credibility than the emphasis buys. \"That assumption is no longer true, and nobody has revisited it\" is simply untrue: some organizations have revisited it and fixed it. The honest version is also the stronger one, because it names the split - \"a few have rebuilt those rules deliberately, most have not looked at them since.\" Reach for the absolute only when the universal IS the finding and you can defend it. Separately, watch the density: even where each use is defensible the word piles up, and one page of eight uses in 570 words reads as a tic rather than a claim. One per page is a good ceiling.",
+      "url": "https://claudisms.ai/#nobody-absolute",
+      "display": "\"nobody has revisited it\" / \"nobody is doing this\" / \"and no one has\"",
+      "level": 2
+    },
+    {
+      "id": "pointed-at",
+      "term": "pointed at",
+      "aliases": [
+        "pointed at",
+        "point it at",
+        "pointing at",
+        "points it at",
+        "gets pointed at",
+        "aimed at",
+        "aim it at",
+        "aiming it at"
+      ],
+      "category": "Structural / framing tics",
+      "definition": "- the aim-the-weapon reflex. Treats a tool as something you sight and fire at a target, and then stops. It names the aiming and skips the doing: \"pointed at decisions with consequences\" never says what the tool does to the decision, so it reads vivid and lands vague. That vagueness is why it is easy to reach for - it gestures at a relationship between tool and subject without committing to one. \"Aimed at\" is the same tic in a different coat, so swapping one for the other fixes nothing. Say the action: used on, run against, given, turned loose on, sold into, or the plain verb for whatever is actually happening. Note that this phrase is currently in the published corpus about a dozen times; those are a backlog to fix, not a precedent, and an entry is never calibrated against how often a tic already got through.",
+      "url": "https://claudisms.ai/#pointed-at",
+      "display": "\"pointed at\" / \"point it at\" / \"aimed at\"",
       "level": 2
     }
   ]
