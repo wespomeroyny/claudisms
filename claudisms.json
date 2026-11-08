@@ -4,7 +4,7 @@
   "url": "https://claudisms.ai/",
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "updated": "2026-11-08",
-  "count": 117,
+  "count": 119,
   "terms": [
     {
       "id": "sit-with",
@@ -1536,6 +1536,32 @@
       "definition": "- dismissal-by-gesture metaphor, and it hides the work. Saying someone hand-waves an objection, or gets past it \"with a wave of the hand,\" borrows a physical gesture instead of saying what was skipped and why skipping it was wrong. Every form is the same tic: \"hand-waving,\" \"hand-waved it,\" \"a wave of the hand,\" \"waves the question away.\" State what went unanswered - \"they never say how,\" \"the strongest argument against it goes unanswered,\" \"the number is asserted and never sourced.\" Same borrowed-gesture family as \"points\" and \"names,\" and it breaks drama-from-facts, since the image stands in for the consequence. Note: a person literally waving is fine.",
       "url": "https://claudisms.ai/#hand-waving",
       "display": "\"hand-waving\" / \"hand-wave it\" / \"a wave of the hand\" / \"waves it away\"",
+      "level": 2
+    },
+    {
+      "id": "earns-its-keep",
+      "term": "earns its keep",
+      "aliases": [
+        "earns its keep",
+        "earn its keep",
+        "earning its keep"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- hired-hand idiom. Treats a tool, a feature or a price as a worker who has to justify its wages, which gives a plain point an air of tough judgment. Say what the thing does: \"Claude checks each number and tells you when one is wrong,\" not \"this is where Claude earns its keep.\" Same family as \"doing the work.\"",
+      "url": "https://claudisms.ai/#earns-its-keep",
+      "display": "\"earns its keep\" / \"earn its keep\" / \"earning its keep\"",
+      "level": 2
+    },
+    {
+      "id": "substrate",
+      "term": "substrate",
+      "aliases": [
+        "substrate"
+      ],
+      "category": "Confirmed Claudisms",
+      "definition": "- borrowed science noun for \"the base layer\" or \"what everything else builds on.\" Sounds precise and says little. Name what it is: the notes, the files, the meeting history. Same borrowed-domain family as \"physics\" and \"the engine.\"",
+      "url": "https://claudisms.ai/#substrate",
+      "display": "\"substrate\"",
       "level": 2
     },
     {
